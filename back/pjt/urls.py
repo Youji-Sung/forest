@@ -21,6 +21,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/v1/community/', include('community.urls')),
     path('api/v1/forests/', include('forests.urls')),
     path('api/v1/accounts/', include('accounts.urls')),
     path('api/v1/accounts/', include('dj_rest_auth.urls')),
