@@ -39,21 +39,24 @@ INSTALLED_APPS = [
     'django_extensions',
 
     'rest_framework',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+
     'dj_rest_auth',
-    'corsheaders',
+    'dj_rest_auth.registration',
+    
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'dj_rest_auth.registration'
 
-    'django.contrib.sites',
+    'corsheaders',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
 ]
 
 SITE_ID = 1
@@ -74,7 +77,7 @@ ROOT_URLCONF = 'pjt.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/'templates'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -158,3 +161,9 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+REST_AUTH_REGISTER_SERIALIZERS = {
+    'REGISTER_SERIALIZER': 'accounts.serializers.UserSerializer',
+}
+
+ACCOUNT_ADAPTER = 'accounts.adapters.CustomAccountAdapter'

@@ -3,17 +3,17 @@ from django.conf import settings
 
 # Create your models here.
 class Forest(models.Model):
-    name = models.CharField()
-    possession = models.CharField()
-    facility = models.CharField(null=True)
-    address = models.CharField(null=True)
-    phone = models.CharField(null=True)
+    name = models.CharField(max_length=250)
+    possession = models.CharField(max_length=250)
+    facility = models.CharField(max_length=250,null=True)
+    address = models.CharField(max_length=250,null=True)
+    phone = models.CharField(max_length=250,null=True)
     image = models.ImageField(null=True)
     overview = models.TextField(null=True)
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_forests')
 
 class Review(models.Model):
-    title = models.CharField()
+    title = models.CharField(max_length=250)
     content = models.TextField()
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
