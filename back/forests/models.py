@@ -31,7 +31,7 @@ class Review(models.Model):
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_reviews')
 
 class Community(models.Model):
-    title = models.CharField()
+    title = models.CharField(max_length=250)
     content = models.TextField()
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)

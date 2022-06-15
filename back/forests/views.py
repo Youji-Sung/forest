@@ -3,7 +3,7 @@ from requests import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
 from .models import Forest, Review
-from .serializers import ForestListSerializer, ForestSerializier, ReviewSerializer, CommunitySerializer
+from .serializers import ForestListSerializer, ForestSerializer, ReviewSerializer, CommunitySerializer
 
 # Create your views here.
 @api_view(['GET'])
@@ -15,7 +15,7 @@ def forests_list(request):
 @api_view(['GET'])
 def forest_detail(request, forest_id):
     forest = get_object_or_404(Forest, pk=forest_id)
-    serializer = ForestSerializier(forest)
+    serializer = ForestSerializer(forest)
     return Response(serializer.data)
 
 @api_view(['POST'])
@@ -24,11 +24,11 @@ def like_forest(request, forest_id):
     user = request.user
     if forest.like.filter(pk=user.pk).exists():
         forest.like.remove(user)
-        serializer = ForestSerializier(forest)
+        serializer = ForestSerializer(forest)
         return Response(serializer.data)
     else:
         forest.like.add(user)
-        serializer = ForestSerializier(forest)
+        serializer = ForestSerializer(forest)
         return Response(serializer.data)
 
 @api_view(['POST'])
@@ -37,11 +37,11 @@ def stamp_forest(request, forest_id):
     user = request.user
     if forest.stamp.filter(pk=user.pk).exists():
         forest.stamp.remove(user)
-        serializer = ForestSerializier(forest)
+        serializer = ForestSerializer(forest)
         return Response(serializer.data)
     else:
         forest.stamp.add(user)
-        serializer = ForestSerializier(forest)
+        serializer = ForestSerializer(forest)
         return Response(serializer.data)    
 
 @api_view(['POST'])
