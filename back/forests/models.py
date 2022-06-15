@@ -11,6 +11,7 @@ class Forest(models.Model):
     image = models.ImageField(null=True)
     overview = models.TextField(null=True)
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_forests')
+    stamp = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='stamp_forests')
 
 class Review(models.Model):
     title = models.CharField()
@@ -26,8 +27,13 @@ class Review(models.Model):
     )
     rates = models.IntegerField(choices=RATES_CHOICES)
     username = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    forest = models.ForeignKey(Forest, on_delete=models.CASCADE)
+    forest = models.ForeignKey(Forest, on_delete=models.CASCADE, related_name='reviews')
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_reviews')
 
-
-
+class Community(models.Model):
+    title = models.CharField()
+    content = models.TextField()
+    created_at = models.DateField(auto_now_add=True)
+    updated_at = models.DateField(auto_now=True)
+    username = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    forest = models.ForeignKey(Forest, on_delete=models.CASCADE, related_name='communitys')       
