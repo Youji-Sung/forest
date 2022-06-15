@@ -16,7 +16,7 @@ class Article(models.Model):
 
 
 class Comment(models.Model):
-    content = models.CharField()
+    content = models.CharField(max_length=250)
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='comments')
