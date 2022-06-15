@@ -5,11 +5,11 @@ from django.conf import settings
 class Forest(models.Model):
     name = models.CharField(max_length=250)
     possession = models.CharField(max_length=250)
-    facility = models.CharField(max_length=250,null=True)
-    address = models.CharField(max_length=250,null=True)
-    phone = models.CharField(max_length=250,null=True)
-    image = models.ImageField(null=True)
-    overview = models.TextField(null=True)
+    facility = models.CharField(max_length=250)
+    address = models.CharField(max_length=250)
+    phone = models.CharField(max_length=250)
+    image = models.ImageField(blank=True, null=True)
+    overview = models.TextField(blank=True)
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_forests')
 
 class Review(models.Model):
@@ -28,6 +28,3 @@ class Review(models.Model):
     username = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     forest = models.ForeignKey(Forest, on_delete=models.CASCADE)
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_reviews')
-
-
-

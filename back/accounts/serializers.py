@@ -11,18 +11,20 @@ from dj_rest_auth.registration.serializers import RegisterSerializer
 from rest_framework import serializers
 
 
-# 새로 생성(5/24)
 class UserSerializer(RegisterSerializer):
 
     nickname = serializers.CharField(max_length=20)
-    profile_image = serializers.ImageField(use_url=True)
+    profile_image = serializers.ImageField(use_url=True, required=False)
     date_of_birth = serializers.DateField()
 
-    # def get_cleaned_data(self):
-    #     data = super().get_cleaned_data()
-    #     data['nickname'] = self.validated_data.get('nickname', '')
-    #     # data['profile_image'] = self.validated_data.get('profile_image', '')
-    #     return data
+    def get_cleaned_data(self):
+        data = super().get_cleaned_data()
+        data['nickname'] = self.validated_data.get('nickname', '')
+        data['profile_image'] = self.validated_data.get('profile_image', '')
+        data['date_of_birth'] = self.validated_data.get('date_of_birth', '')
+        return data
+
+    
 
 class ProfileSerializer(serializers.ModelSerializer):
     
