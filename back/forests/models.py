@@ -27,10 +27,6 @@ class Review(models.Model):
     )
     rates = models.IntegerField(choices=RATES_CHOICES)
     username = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-<<<<<<< HEAD
-    forest = models.ForeignKey(Forest, on_delete=models.CASCADE)
-    like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_reviews')
-=======
     forest = models.ForeignKey(Forest, on_delete=models.CASCADE, related_name='reviews')
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_reviews')
 
@@ -41,4 +37,3 @@ class Community(models.Model):
     updated_at = models.DateField(auto_now=True)
     username = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     forest = models.ForeignKey(Forest, on_delete=models.CASCADE, related_name='communitys')       
->>>>>>> 1565844d52424643ed65a3ca234fe9abce97662e
