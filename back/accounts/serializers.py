@@ -34,8 +34,8 @@ class ProfileSerializer(serializers.ModelSerializer):
             model = Forest
             fields = ('pk', 'name')
 
-    like_forests = ForestSerializer(many=True)
-    stamp_forest = ForestSerializer(many=True)
+    like_forests = ForestSerializer(many=True, read_only=True)
+    stamp_forest = ForestSerializer(many=True, read_only=True)
     
     class Meta :
         model = get_user_model()
