@@ -11,7 +11,7 @@ class Article(models.Model):
     updated_at = models.DateField(auto_now=True)
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     # forest = models.ForeignKey(Forest, on_delete=models.CASCADE)
-    article_image = models.ImageField(upload_to='article/', null=True)
+    article_image = models.ImageField(upload_to='article/', blank=True)
 
 
 
