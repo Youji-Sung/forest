@@ -1,9 +1,9 @@
 from django.contrib import admin
-
-# Register your models here.
-from django.contrib import admin
-from django.contrib.auth.admin import UserAdmin
 from .models import Article, Comment
 
-admin.site.register(Article)
+# Register your models here.
+class ArticleAdmin(admin.ModelAdmin):
+    list_display = ('pk', 'title', 'content', 'created_at', 'updated_at')
+
+admin.site.register(Article, ArticleAdmin)
 admin.site.register(Comment)
