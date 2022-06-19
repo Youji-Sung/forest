@@ -10,6 +10,7 @@ from .serializers import ForestListSerializer, ForestSerializer, ReviewSerialize
 def forests_list(request):
     forests = get_list_or_404(Forest)
     serializer = ForestListSerializer(forests, many=True)
+    print(serializer.data)
     return Response(serializer.data)
 
 @api_view(['GET'])

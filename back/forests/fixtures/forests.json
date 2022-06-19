@@ -1,0 +1,55 @@
+[
+  {
+    "model": "forests.forest",
+    "pk": 1,
+    "fields" : {
+        "name":"고산자연휴양림",
+        "possession":"공유림",
+        "facility":"숲속의집, 휴양관, 돔하우스, 가족휴양관",
+        "address":"전라북도 완주군 고산면 고산휴양림로 246",
+        "phone":"063-263-8680",
+        "image":"https://image.foresttrip.go.kr/frip/af7d7756-78bc-4dc8-9014-0f012cd52566.JPG",
+        "overview":"고산면에 위치한 고산자연휴양림이다"
+      }
+  },
+  {
+    "model": "forests.forest",
+    "pk": 2,
+    "fields" : {
+        "name":"박달재자연휴양림",
+        "possession":"공유림",
+        "facility":"숲속의집, 산책로등",
+        "address":"충청북도 제천시 백운면 금봉로 228",
+        "phone":"043-652-0910",
+        "image":"https://image.foresttrip.go.kr/frip/d04240b7-c276-4836-90e6-175558dc76a2.jpg",
+        "overview":"제천에 위치한 박달재휴양림이다"
+      }
+  },
+  {
+    "model":"forests.forest",
+    "pk" : 3,
+    "fields" : {
+        "name":"함평자연생태공원",
+        "possession":"국유림",
+        "facility":"과학관, 나비곤충표본전시관, 캠핑트레일러, 반달가슴곰관찰원",
+        "address":"전라남도 함평군 대동면 학동로 1398-77",
+        "phone":"061-320-2855",
+        "image":"https://www.hampyeong.go.kr/home/ecopark/images/sub/c17_01.jpg",
+        "overview":"함평자연생태공원 방문을 진심으로 환영합니다."
+      }
+
+  },
+  {
+    "model":"forests.forest",
+    "pk" : 4,
+    "fields" : {
+        "name":"동두천자연휴양림",
+        "possession":"공유림",
+        "facility":"숲속의집, 야외데크, 잔디광장, 유아숲체험원,",
+        "address":"경기도 동두천시 탑동가산로 1",
+        "phone":"031-860-3258",
+        "image":"https://www.ddc.go.kr/site/tour/images/contents/cnt_581_img_11.jpg",
+        "overview":"동두천자연휴양림입니다"
+      }
+  }
+]
