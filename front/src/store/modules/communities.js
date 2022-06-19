@@ -1,6 +1,17 @@
 
 
-export default new Vuex.Store({
+// export default new Vuex.Store({
+//   state: {
+//   },
+//   getters: {
+//   },
+//   mutations: {
+//   },
+//   actions: {
+//   },
+// })
+
+export default({
   state: {
   },
   getters: {
