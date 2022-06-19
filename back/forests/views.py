@@ -1,8 +1,8 @@
 from django.shortcuts import get_list_or_404, get_object_or_404, render
-from requests import Response
+from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
-from .models import Forest, Review
+from .models import Forest, Review, Community
 from .serializers import ForestListSerializer, ForestSerializer, ReviewSerializer, CommunitySerializer
 
 # Create your views here.
@@ -10,7 +10,6 @@ from .serializers import ForestListSerializer, ForestSerializer, ReviewSerialize
 def forests_list(request):
     forests = get_list_or_404(Forest)
     serializer = ForestListSerializer(forests, many=True)
-    print(serializer.data)
     return Response(serializer.data)
 
 @api_view(['GET'])
@@ -96,7 +95,7 @@ def community_create(request, forest_id):
 @api_view(['PUT', 'DELETE'])
 def community_update_or_delete(request, forest_id, community_pk):
     forest = get_object_or_404(Forest, pk=forest_id)
-    community = get_object_or_404(Review, pk=community_pk)
+    community = get_object_or_404(Community, pk=community_pk)
 
     def update_community():
         if request.user == community.user:
@@ -104,14 +103,14 @@ def community_update_or_delete(request, forest_id, community_pk):
             if serializer.is_valid(raise_exception=True):
                 serializer.save()
                 communitys = forest.communitys.all()
-                serializer = ReviewSerializer(communitys, many=True)
+                serializer = CommunitySerializer(communitys, many=True)
                 return Response(serializer.data)
 
     def delete_community():
         if request.user == community.user:
             community.delete()
             communitys = forest.communitys.all()
-            serializer = ReviewSerializer(communitys, many=True)
+            serializer = CommunitySerializer(communitys, many=True)
             return Response(serializer.data)
     
     if request.method == 'PUT':
