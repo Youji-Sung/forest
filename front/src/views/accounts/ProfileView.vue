@@ -33,7 +33,7 @@ export default {
     ...mapGetters(['profile']),
     imgUrl(){
       // return 값 앞에 장고 서버를 붙여줘야 함/그리고 사이즈 조정
-      return `http://127.0.0.1:8000${this.profile.user_profile}`
+      return `http://127.0.0.1:8000${this.profile.profile_image}`
     }
   },
   methods: {
