@@ -2,13 +2,14 @@ import router from '@/router'
 import axios from 'axios'
 import drf from '@/api/drf'
 
-export default new Vuex.Store({
+export default {
   state: {
-    token: localStorage.getItem('token') || '' ,
-    currentUser: {},
-    profile: {},
+    token: localStorage.getItem('token') || '' , //로그인했을 때 주어지는 token값
+    currentUser: {}, // token값을 기반으로 현재 user를 저장
+    profile: {}, // 현재 user의 프로필 정보를 저장
     authError: null,
   },
+  // getters: state에 접근하는 통로
   getters: {
     isLoggedIn: state => !!state.token,
     currentUser: state => state.currentUser,
@@ -17,7 +18,10 @@ export default new Vuex.Store({
     authHeader: state => ({ Authorization: `Token ${state.token}`})
   },
   mutations: {
+    // state별로 바꾸는 함수 하나씩 만들기
+    // mutation의 첫번째 인자는 무조건 stste
     SET_TOKEN: (state, token) => state.token = token,
+    // token을 받아서 state의 token을 받은 token으로 바꿀 거야.
     SET_CURRENT_USER: (state, user) => state.currentUser = user,
     SET_PROFILE: (state, profile) => state.profile = profile,
     SET_AUTH_ERROR: (state, error) => state.authError = error
@@ -107,4 +111,4 @@ export default new Vuex.Store({
         })
     },
   },
-})
+}
