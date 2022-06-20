@@ -1,17 +1,6 @@
 
 
-// export default new Vuex.Store({
-//   state: {
-//   },
-//   getters: {
-//   },
-//   mutations: {
-//   },
-//   actions: {
-//   },
-// })
-
-export default({
+export default new Vuex.Store({
   state: {
   },
   getters: {
