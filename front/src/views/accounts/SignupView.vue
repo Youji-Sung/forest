@@ -21,6 +21,10 @@
             <input v-model="credentials.password2" type="password" id="password2" required />
           </div>
           <div>
+            <label for="nickname" class="d-flex justify-content-center mt-3" style="color: rgb(0, 117, 149);">닉네임 </label>
+            <input  v-model="credentials.nickname" type="text" id="nickname" required/>
+          </div>
+          <div>
             <label for="first_name" class="d-flex justify-content-center mt-3" style="color: rgb(0, 117, 149);">이름</label>
             <input v-model="credentials.first_name" type="text" id="first_name" required />
           </div>
