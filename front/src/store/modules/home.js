@@ -1,6 +1,6 @@
 
 
-export default {
+export default({
   state: {
   },
   getters: {
@@ -9,4 +9,4 @@ export default {
   },
   actions: {
   },
-}
+})
