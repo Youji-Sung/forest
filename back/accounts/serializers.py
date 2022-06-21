@@ -1,14 +1,9 @@
-from rest_framework import serializers
-from django.contrib.auth import get_user_model
 from forests.models import Forest
 from forests.serializers import ForestSerializer
-
-
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
 from dj_rest_auth.registration.serializers import RegisterSerializer
 
-from rest_framework import serializers
 
 class UserSerializer(RegisterSerializer):
 
@@ -22,6 +17,11 @@ class UserSerializer(RegisterSerializer):
         data['profile_image'] = self.validated_data.get('profile_image', '')
         data['date_of_birth'] = self.validated_data.get('date_of_birth', '')
         return data
+
+    class Meta:
+        model = get_user_model()
+        fields = ('username','email','password1','password2','nickname','profile_image','date_of_birth')
+
 
     
 
