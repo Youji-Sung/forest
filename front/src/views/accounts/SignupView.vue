@@ -37,12 +37,12 @@
             <input v-model="credentials.email" type="email" id="email" required />
           </div>
           <div>
-            <label for="file">profile image: </label>
-            <input  ref="serveyImage" type="file" id="profile_image" />
+            <label for="profile_image">profile image: </label>
+            <input ref="profile_image" @change="uploadImg()" type="file" id="profile_image" name="profile_image" />
           </div>
           <div>
             <label for="date">date_of_birth: </label>
-            <input  ref="serveyImage" type="date" id="date_of_birth" />
+            <input  v-model="credentials.date_of_birth" type="date" id="date_of_birth" />
           </div>
           <div class="d-flex justify-content-center mt-3">
             <button class="btn btn-outline-info" style="color: rgb(0, 117, 149);">Signup</button>
@@ -75,15 +75,24 @@
           last_name: '',
           date_of_birth: '',
           email: '',
-          profile_image: '',
-        }
+        },
+        profile_image: '',
       }
     },
     computed: {
       ...mapGetters(['authError'])
     },
     methods: {
-      ...mapActions(['signup'])
+      ...mapActions(['signup']),
+      uploadImg() {
+        console.log('이미지 처리중')
+        const profile_image = this.$refs['profile_image'].files[0]
+
+        const url = URL.createObjectURL(profile_image)
+        this.profile_image = url
+        console.log(url)
+        console.log(this.profile_image)
+      }
     },
   }
 </script>

@@ -14,6 +14,7 @@
 
     <div class="d-flex justify-content-center mx-5 mb-5">
       <button type="button" class="btn btn-outline-info" style="color: rgb(0, 117, 149);">수정하기</button>
+      <p>수정하기 만들고 이 버튼에 연결시키자</p>
     </div>
 
     <div class="d-flex justify-content-center mx-5 mb-5">
