@@ -10,7 +10,6 @@ from dj_rest_auth.registration.serializers import RegisterSerializer
 
 from rest_framework import serializers
 
-
 class UserSerializer(RegisterSerializer):
 
     nickname = serializers.CharField(max_length=20)
