@@ -1,7 +1,6 @@
 [
   {
     "model": "forests.forest",
-    "pk": 1,
     "fields" : {
         "name":"고산자연휴양림",
         "possession":"공유림",
@@ -14,7 +13,6 @@
   },
   {
     "model": "forests.forest",
-    "pk": 2,
     "fields" : {
         "name":"박달재자연휴양림",
         "possession":"공유림",
@@ -27,7 +25,6 @@
   },
   {
     "model":"forests.forest",
-    "pk" : 3,
     "fields" : {
         "name":"함평자연생태공원",
         "possession":"국유림",
@@ -41,7 +38,6 @@
   },
   {
     "model":"forests.forest",
-    "pk" : 4,
     "fields" : {
         "name":"동두천자연휴양림",
         "possession":"공유림",

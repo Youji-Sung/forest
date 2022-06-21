@@ -1,5 +1,5 @@
 from django.shortcuts import get_list_or_404, get_object_or_404, render
-from requests import Response
+from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
 from .models import Forest, Review
@@ -10,7 +10,6 @@ from .serializers import ForestListSerializer, ForestSerializer, ReviewSerialize
 def forests_list(request):
     forests = get_list_or_404(Forest)
     serializer = ForestListSerializer(forests, many=True)
-    print(serializer.data)
     return Response(serializer.data)
 
 @api_view(['GET'])
