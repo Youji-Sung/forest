@@ -1,11 +1,37 @@
+// import Vue from 'vue'
+// import Vuex from 'vuex'
+// import axios from 'axios'
 
-export default({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-})
+// // import accounts from './modules/accounts'
+// // import communities from './modules/communities'
+// // import home from './modules/home'
+// import accounts from '/modules/accounts'
+// import communities from '/modules/communities'
+
+// Vue.use(Vuex)
+
+// export default new Vuex.Store({
+//   state: {
+//     forests: [],
+//   },
+//   getters: {
+//   },
+//   mutations: {
+//     FETCH_FORESTS (state, forests) {
+//       state.forests = forests
+//       }
+//     },
+//   actions: {
+//     fetchForests ({ commit }) {
+//       axios({
+//         method: 'get',
+//       })
+//       .then(res => {
+//         commit('FETCH_FORESTS', res.data.results)
+//       })
+//       .catch(err => console.log(err))
+//     }
+//   },
+//   modules: { accounts, communities
+//   }
+// })
