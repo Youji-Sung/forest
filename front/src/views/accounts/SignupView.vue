@@ -36,10 +36,10 @@
             <label for="email">email:</label>
             <input v-model="credentials.email" type="email" id="email" required />
           </div>
-          <div>
+          <!-- <div>
             <label for="profile_image">profile image: </label>
             <input ref="profile_image" @change="uploadImg()" type="file" id="profile_image" name="profile_image" />
-          </div>
+          </div> -->
           <div>
             <label for="date">date_of_birth: </label>
             <input  v-model="credentials.date_of_birth" type="date" id="date_of_birth" />
@@ -76,7 +76,7 @@
           date_of_birth: '',
           email: '',
         },
-        profile_image: '',
+        // profile_image: '',
       }
     },
     computed: {
@@ -92,7 +92,7 @@
         this.profile_image = url
         console.log(url)
         console.log(this.profile_image)
-      }
+      },
     },
   }
 </script>
