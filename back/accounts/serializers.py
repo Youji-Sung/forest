@@ -8,7 +8,7 @@ from dj_rest_auth.registration.serializers import RegisterSerializer
 class UserSerializer(RegisterSerializer):
 
     nickname = serializers.CharField(max_length=20)
-    profile_image = serializers.ImageField(use_url=True, required=False)
+    profile_image = serializers.ImageField(use_url=True, required=False, default='/profile/None.png')
     date_of_birth = serializers.DateField()
 
     def get_cleaned_data(self):
