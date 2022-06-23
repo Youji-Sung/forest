@@ -24,21 +24,21 @@
             <label for="nickname" class="d-flex justify-content-center mt-3" style="color: rgb(0, 117, 149);">닉네임 </label>
             <input  v-model="credentials.nickname" type="text" id="nickname" required/>
           </div>
-          <div>
+          <!-- <div>
             <label for="first_name" class="d-flex justify-content-center mt-3" style="color: rgb(0, 117, 149);">이름</label>
             <input v-model="credentials.first_name" type="text" id="first_name" required />
           </div>
           <div>
             <label for="last_name" class="d-flex justify-content-center mt-3" style="color: rgb(0, 117, 149);">성</label>
             <input v-model="credentials.last_name" type="text" id="last_name" required />
-          </div>
+          </div> -->
           <div>
             <label for="email">email:</label>
             <input v-model="credentials.email" type="email" id="email" required />
           </div>
           <!-- <div>
             <label for="profile_image">profile image: </label>
-            <input ref="profile_image" @change="uploadImg()" type="file" id="profile_image" name="profile_image" />
+            <input ref="profile_image" @change="uploadImg()" type="file" accept="image/*" id="profile_image" name="profile_image" />
           </div> -->
           <div>
             <label for="date">date_of_birth: </label>
@@ -71,12 +71,9 @@
           nickname: '',
           password1: '',
           password2: '',
-          first_name: '',
-          last_name: '',
-          date_of_birth: '',
           email: '',
+          date_of_birth: '',
         },
-        // profile_image: '',
       }
     },
     computed: {
@@ -84,15 +81,41 @@
     },
     methods: {
       ...mapActions(['signup']),
-      uploadImg() {
-        console.log('이미지 처리중')
-        const profile_image = this.$refs['profile_image'].files[0]
+      // uploadImg() {
+      //   console.log('이미지 처리중')
+      //   // console.log(file)
+      //   // this.profile_image = file
+      //   // const profile_image = document.querySelector("#profile_image").files[0]
+      //   this.credentials.profile_image = profile_image
 
-        const url = URL.createObjectURL(profile_image)
-        this.profile_image = url
-        console.log(url)
-        console.log(this.profile_image)
-      },
+      //   const profile_image = this.$refs.selectFile.files[0]
+      //   let fileExt = this.selectFile.name.substring(
+      //     this.selectFile.name.lastIndexOf(".") + 1
+      //   )
+      //   fileExt = fileExt.toLowerCase()
+
+      //   if (
+      //       ["jpeg", "png", "gif", "bmp"].includes(fileExt) &&
+      //       this.selectFile.size <= 1048576
+      //     ) {
+      //       const reader = new FileReader()
+      //   reader.onload = e => {
+      //     this.credentials.profile_image = e.target.result
+      //   }
+      //   reader.readAsDataURL(this.selectFile)
+      //   }
+
+        
+
+      //   // console.log(this.$refs['profile_image'].files[0])
+      //   // const profile_image = this.$refs['profile_image'].files[0]
+
+      //   // const url = URL.createObjectURL(profile_image)
+      //   // this.profile_image = url
+      //   // console.log(url)
+      //   // console.log(this.profile_image)
+      //   // console.log('된건가?')
+      // },
     },
   }
 </script>
