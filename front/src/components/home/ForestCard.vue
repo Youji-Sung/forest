@@ -9,7 +9,7 @@
 export default {
   name: 'ForestCard',
   props: {
-    forest: Object,
+    forest: Array,
   },
   // computed: {
   //   cardContext: function() {
