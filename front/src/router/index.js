@@ -16,6 +16,11 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/forests',
+    name: 'forests',
+    component: HomeView
+  },
   // accounts 시작
   {
     path: '/login',

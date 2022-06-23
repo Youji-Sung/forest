@@ -1,9 +1,13 @@
 const HOST = 'http://localhost:8000/api/v1/'
 
+const FORESTS = 'forests/'
 const ACCOUNTS = 'accounts/'
 const COMMUNITY = 'community/'
 
 export default {
+  forests: {
+    forestsList: () => HOST + FORESTS,
+  },
   accounts: {
     login: () => HOST + ACCOUNTS + 'login/',
     logout: () => HOST + ACCOUNTS + 'logout/',
