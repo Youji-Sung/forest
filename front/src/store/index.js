@@ -23,6 +23,7 @@ export default new Vuex.Store({
     fetchForests ({ commit }) {
       axios({
         method: 'get',
+        url: 
       })
       .then(res => {
         commit('FETCH_FORESTS', res.data.results)
