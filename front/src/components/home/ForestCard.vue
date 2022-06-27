@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h5>휴양림 정보</h5>
-    <p>{{ cardName }}</p>
+    <h5>{{ forest.name }}</h5>
+    <p>{{ forest.image }}</p>
   </div>
 </template>
 
@@ -9,16 +9,14 @@
 export default {
   name: 'ForestCard',
   props: {
-    card: {
-      type: Object
-    }
+    forest: Array,
   },
-  computed: {
-    cardContext: function() {
-      const context = this.card.fields
-      return context
-    },
-  }
+  // computed: {
+  //   cardContext: function() {
+  //     const context = this.card.fields
+  //     return context
+  //   },
+  // }
 }
 </script>
 

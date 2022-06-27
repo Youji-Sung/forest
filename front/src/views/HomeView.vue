@@ -2,9 +2,9 @@
   <div class="home">
     <div class="container">
       <forest-card
-        v-for="card in cards"
-        :key="card.pk"
-        :card="card"
+        v-for="forest in forests"
+        :key="forest.pk"
+        :forest="forest"
       ></forest-card>
     </div>
   </div>
@@ -12,7 +12,7 @@
 
 <script>
 // @ is an alias to /src
-import { mapState } from 'vuex'
+import { mapState, mapActions } from 'vuex'
 import ForestCard from '@/components/home/ForestCard.vue'
 
 export default {
@@ -20,23 +20,18 @@ export default {
   components: {
     ForestCard,
   },
-  props: {
-    cards: {
-      type: Array,
-    }
-  },
   methods: {
-    getForests: function() {
-      this.$store.dispatch('getForests')
-    }
-  },
-  created: function() {
-    this.getForests()
+   ...mapActions([
+    'fetchForests'
+   ])
   },
   computed: {
     ...mapState([
-      'cards'
+      'forests'
     ])
+  },
+  created() {
+    this.fetchForests()
   },
 }
 </script>
