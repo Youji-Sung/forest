@@ -9,7 +9,8 @@ class Forest(models.Model):
     address = models.CharField(max_length=250)
     phone = models.CharField(max_length=250)
     image = models.ImageField(blank=True, null=True)
-    overview = models.TextField(blank=True)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
     like = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='like_forests')
     stamp = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name='stamp_forests')
 
