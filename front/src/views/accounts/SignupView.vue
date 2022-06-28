@@ -107,14 +107,14 @@
 
         
 
-      //   // console.log(this.$refs['profile_image'].files[0])
-      //   // const profile_image = this.$refs['profile_image'].files[0]
+        // console.log(this.$refs['profile_image'].files[0])
+        // const profile_image = this.$refs['profile_image'].files[0]
 
-      //   // const url = URL.createObjectURL(profile_image)
-      //   // this.profile_image = url
-      //   // console.log(url)
-      //   // console.log(this.profile_image)
-      //   // console.log('된건가?')
+        // const url = URL.createObjectURL(profile_image)
+        // this.profile_image = url
+        // console.log(url)
+        // console.log(this.profile_image)
+        // console.log('된건가?')
       // },
     },
   }
