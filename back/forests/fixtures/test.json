@@ -8,7 +8,8 @@
         "address":"전라북도 완주군 고산면 고산휴양림로 246",
         "phone":"063-263-8680",
         "image":"https://image.foresttrip.go.kr/frip/af7d7756-78bc-4dc8-9014-0f012cd52566.JPG",
-        "overview":"고산면에 위치한 고산자연휴양림이다"
+        "latitude" : 35.13500123,
+        "longitude" : 126.5056999542
       }
   },
   {
@@ -20,7 +21,8 @@
         "address":"충청북도 제천시 백운면 금봉로 228",
         "phone":"043-652-0910",
         "image":"https://image.foresttrip.go.kr/frip/d04240b7-c276-4836-90e6-175558dc76a2.jpg",
-        "overview":"제천에 위치한 박달재휴양림이다"
+        "latitude" : 36.95683951,
+        "longitude" : 127.6096488
       }
   },
   {
@@ -32,7 +34,8 @@
         "address":"전라남도 함평군 대동면 학동로 1398-77",
         "phone":"061-320-2855",
         "image":"https://www.hampyeong.go.kr/home/ecopark/images/sub/c17_01.jpg",
-        "overview":"함평자연생태공원 방문을 진심으로 환영합니다."
+        "latitude" : 36.02333243,
+        "longitude" : 128.4416406
       }
 
   },
@@ -45,7 +48,8 @@
         "address":"경기도 동두천시 탑동가산로 1",
         "phone":"031-860-3258",
         "image":"https://www.ddc.go.kr/site/tour/images/contents/cnt_581_img_11.jpg",
-        "overview":"동두천자연휴양림입니다"
+        "latitude" : 36.41012056,
+        "longitude" : 128.9465131
       }
   }
 ]
