@@ -1,7 +1,7 @@
 <template>
   <div>
     <h5>{{ forest.name }}</h5>
-    <p>{{ forest.image }}</p>
+    <p>{{ forest.id }}</p>
   </div>
 </template>
 

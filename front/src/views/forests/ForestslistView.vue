@@ -1,20 +1,22 @@
 <template>
   <div>
-    <h5>휴양림리스트</h5>
-    <forest-card
-      v-for="forest in forests"
-      :key="forest.id"
-      :forest="forest"
-    >나와라</forest-card>
+    <div class="row">
+      <h5>휴~</h5>
+      <forest-card
+        v-for="forest in forests"
+        :key="forest.id"
+        :forest="forest"
+      ></forest-card>
+    </div>
   </div>
 </template>
 
 <script>
 import { mapState, mapActions } from 'vuex'
-import ForestCard from '@/components/home/ForestCard/vue'
+import ForestCard from '@/components/home/ForestCard.vue'
 
 export default {
-  name: 'ForestsListView',
+  name: 'ForestslistView',
   components: {
     ForestCard,
   },
@@ -28,6 +30,9 @@ export default {
       'forests'
     ]),
   },
+  created() {
+    this.fetchForests()
+  }
 }
 </script>
 
