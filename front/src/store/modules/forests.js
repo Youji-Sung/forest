@@ -1,14 +1,7 @@
-
 import axios from 'axios'
 import drf from '@/api/drf'
 
-// import accounts from './modules/accounts'
-// import communities from './modules/communities'
-// import home from './modules/home'
-
-
-
-export default {
+export default ({
   state: {
     forests: [],
   },
@@ -33,6 +26,5 @@ export default {
       .catch(err => console.log(err))
     }
   },
-  // modules: { accounts, communities
-  // }
-}
+  modules: {},
+})
