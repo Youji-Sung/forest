@@ -1,17 +1,38 @@
 <template>
   <div>
-    <h5>휴양림리스트</h5>
+    <div class="row">
+      <h4>휴~</h4>
+      <forest-card
+        v-for="forest in forests"
+        :key="forest.id"
+        :forest="forest"
+      ></forest-card>
+    </div>
   </div>
 </template>
 
 <script>
-import { mapActions } from 'vuex'
+import { mapState, mapActions } from 'vuex'
+import ForestCard from '@/components/home/ForestCard.vue'
 
 export default {
-  name: 'ForestsListView',
-  methods: {
-    ...mapActions(['fetchForests'])
+  name: 'ForestslistView',
+  components: {
+    ForestCard,
   },
+  methods: {
+    ...mapActions([
+      'fetchForests'
+      ])
+  },
+  computed: {
+    ...mapState([
+      'forests'
+    ]),
+  },
+  created() {
+    this.fetchForests()
+  }
 }
 </script>
 

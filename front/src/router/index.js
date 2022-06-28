@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import HomeView from '@/views/HomeView.vue'
+import ForestslistView from '@/views/forests/ForestslistView.vue'
 
 import LoginView from '@/views/accounts/LoginView.vue'
 import LogoutView from '@/views/accounts/LogoutView.vue'
@@ -20,7 +21,7 @@ const routes = [
   {
     path: '/forests',
     name: 'forests',
-    component: HomeView
+    component: ForestslistView
   },
   // accounts 시작
   {
