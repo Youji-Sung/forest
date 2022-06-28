@@ -1,6 +1,7 @@
 import router from '@/router'
 import axios from 'axios'
 import drf from '@/api/drf'
+import _ from 'lodash'
 
 export default {
   state: {
@@ -15,7 +16,8 @@ export default {
     currentUser: state => state.currentUser,
     profile: state => state.profile,
     authError: state => state.authError,
-    authHeader: state => ({ Authorization: `Token ${state.token}`})
+    authHeader: state => ({ Authorization: `Token ${state.token}`}),
+    isProfile: state => !_.isEmpty(state.profile)
   },
   mutations: {
     // state별로 바꾸는 함수 하나씩 만들기
@@ -107,9 +109,26 @@ export default {
         headers: getters.authHeader,
       })
         .then(res => {
+          console.log(2)
           commit('SET_PROFILE', res.data)
         })
     },
+    updateProfile({ commit, getters }, { username, profile_image, nickname, date_of_birth }) {
+      axios({
+        url: drf.accounts.profile(username),
+        method: 'put',
+        data: { profile_image, nickname, date_of_birth },
+        headers: getters.authHeader,
+      })
+        .then(res => {
+          console.log(this.profile_image)
+          commit('SET_PROFILE', res.data)
+          router.push({
+            name: 'profile',
+            params: { username: getters.profile.username }
+          })
+        })
+    }
   },
 }
 
