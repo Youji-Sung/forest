@@ -3,7 +3,7 @@
     <div class="container">
       <forest-card
         v-for="forest in forests"
-        :key="forest.pk"
+        :key="forest.id"
         :forest="forest"
       ></forest-card>
     </div>

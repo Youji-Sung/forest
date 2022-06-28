@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <h5>휴~</h5>
+      <h4>휴~</h4>
       <forest-card
         v-for="forest in forests"
         :key="forest.id"
