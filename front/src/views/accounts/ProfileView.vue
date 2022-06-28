@@ -2,8 +2,13 @@
   <div>
     <div class="row text-center" style="width: 101%">
       <h1 class="my-3 mb-4" >{{ profile.username }}님의 프로필</h1>
-      <h5 class="my-3" style="color: rgb(0, 117, 149);">Email address</h5>
+      <h5 class="my-3" style="color: rgb(0, 117, 149);">이메일</h5>
       <span class="mb-5">{{ profile.email }}</span>
+    </div>
+
+    <div class="row text-center" style="width: 101%">
+        <h5 class="my-3" style="color: rgb(0, 117, 149);">생년월일</h5>
+        <span class="mb-5">{{ profile.date_of_birth }}</span>
     </div>
 
     <div class="d-flex justify-content-center mx-5 mb-5">
