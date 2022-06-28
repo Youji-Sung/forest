@@ -7,6 +7,7 @@ import LogoutView from '@/views/accounts/LogoutView.vue'
 import NotFound404 from '@/views/accounts/NotFound404.vue'
 import ProfileView from '@/views/accounts/ProfileView.vue'
 import SignupView from '@/views/accounts/SignupView.vue'
+import ProfileEditView from '@/views/accounts/ProfileEditView.vue'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,11 @@ const routes = [
     path: '/profile/:username',
     name: 'profile',
     component: ProfileView
+  },
+  {
+    path: '/profile/:username/edit',
+    name: 'profileEdit',
+    component: ProfileEditView
   },
   {
     path: '/signup',
