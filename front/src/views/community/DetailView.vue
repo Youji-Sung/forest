@@ -14,7 +14,7 @@ import DetailBoard from './DetailBoard.vue'
 import DetailSummary from './DetailSummary.vue'
 
 export default {
-  name: 'Detail',
+  name: 'DetailView',
   components:{
     DetailBoard,
     DetailSummary,

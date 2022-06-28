@@ -1,13 +1,29 @@
 <template>
   <div>
-    <h1>휴양림 게시판</h1>
-    <h3>그리드 형식으로 꾸밀 예정</h3>
+    <h3>휴양림 개요</h3>
+    <div>
+      <!-- 휴양림 이미지 -->
+    </div>
+    <div>
+      <weather-inf></weather-inf>
+    </div>
+    <div>
+      <map-inf></map-inf>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
 
+import MapInf from './MapInf.vue'
+import WeatherInf from './WeatherInf.vue'
+
+export default {
+  name: 'DetailSummary',
+  components:{
+    MapInf,
+    WeatherInf,
+  },
 }
 </script>
 
