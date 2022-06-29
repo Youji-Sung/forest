@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row text-center" style="width: 101%">
-      <h1 class="my-3 mb-4" >{{ profile.username }}님의 프로필</h1>
+      <h1 class="my-3 mb-4" >{{ profile.nickname }}님의 프로필</h1>
       <h5 class="my-3" style="color: rgb(0, 117, 149);">이메일</h5>
       <span class="mb-5">{{ profile.email }}</span>
     </div>
@@ -17,10 +17,10 @@
       </div>
     </div>
 
-    <div class="d-flex justify-content-center mx-5 mb-5">
+    <!-- <div class="d-flex justify-content-center mx-5 mb-5">
       <button type="button" class="btn btn-outline-info" style="color: rgb(0, 117, 149);">수정하기</button>
       <p>수정하기 만들고 이 버튼에 연결시키자</p>
-    </div>
+    </div> -->
 
     <div class="d-flex justify-content-center mx-5 mb-5">
       <div class="d-flex box justify-content-center">
