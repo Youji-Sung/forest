@@ -28,6 +28,7 @@
 
           <label for="chooseFile" class="mt-4 mb-2" style="color: rgb(0, 117, 149);">프로필 이미지</label> <br>
           <input ref="serveyImage" type="file" id="profile_image" class="mb-5">
+          <!-- <img :src="imgUrl(newProfile.profile_image)" /> -->
           
           <br>
           <br>
@@ -44,6 +45,12 @@ import { mapActions } from 'vuex'
 
 export default {
   name: 'ProfileForm',
+  // computed: {
+  //   imgUrl(){
+  //     // return 값 앞에 장고 서버를 붙여줘야 함/그리고 사이즈 조정
+  //     return `http://127.0.0.1:8000${this.profile.profile_image}`
+  //   }
+  // },
   props: {
     profile: Object,
     action: String,
@@ -72,7 +79,10 @@ export default {
 
       // this.updateProfile(payload)
       console.log(this.newProfile)
-      this. updateProfile(this.newProfile)
+      if (this.action === 'create') {
+        this. updateProfile(this.newProfile)
+      }
+      
 
       // this.updateProfile({ username: this.profile.username, 
       // profile_image: this.newProfile.profile_image, 
