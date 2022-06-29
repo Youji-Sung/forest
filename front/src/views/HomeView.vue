@@ -2,7 +2,7 @@
   <div class="home">
     <div class="container">
       <forest-card
-        v-for="forest in forests"
+        v-for="forest in forests.forests"
         :key="forest.id"
         :forest="forest"
       ></forest-card>

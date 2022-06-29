@@ -3,7 +3,7 @@
     <div class="row">
       <h4>휴~</h4>
       <forest-card
-        v-for="forest in forests"
+        v-for="forest in forests.forests"
         :key="forest.id"
         :forest="forest"
       ></forest-card>
