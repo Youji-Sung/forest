@@ -1,179 +1,3110 @@
-[{"name":"고산자연휴양림","possession":"공유림","facility":"숲속의집, 휴양관, 돔하우스, 가족휴양관","address":"전라북도 완주군 고산면 고산휴양림로 246","phone":"063-263-8680","latitude":35.96224205,"longitude":127.2328719,"image":null},
-  {"name":"박달재자연휴양림","possession":"공유림","facility":"숲속의집, 산책로등","address":"충청북도 제천시 백운면 금봉로 228","phone":"043-652-0910","latitude":37.14706386,"longitude":128.0457749,"image":null},
-  {"name":"함평자연생태공원","possession":"국유림","facility":"과학관, 나비곤충표본전시관, 캠핑트레일러, 반달가슴곰관찰원","address":"전라남도 함평군 대동면 학동로 1398-77","phone":"061-320-2855","latitude":35.13500123,"longitude":126.5056999542,"image":null},
-  {"name":"동두천자연휴양림","possession":"공유림","facility":"숲속의집, 야외데크, 잔디광장, 유아숲체험원,","address":"경기도 동두천시 탑동가산로 1","phone":"031-860-3258","latitude":37.88988548,"longitude":127.1371472,"image":null},
-  {"name":"수레의산자연휴양림","possession":"공유림","facility":"숙박시설+캠핑장+산책로+화장실 등","address":"충청북도 음성군 생극면 차생로 310-108","phone":"043-878-2013","latitude":37.03888889,"longitude":127.6513842,"image":null},
-  {"name":"백야자연휴양림","possession":"공유림","facility":"숙박시설+캠핑장+물놀이장+산책로+화장실 등","address":"충청북도 음성군 금왕읍 백야로 461-97","phone":"043-878-2556","latitude":36.95683951,"longitude":127.6096488,"image":null},
-  {"name":"동강전망자연휴양림","possession":"공유림","facility":"오토캠핑장","address":"강원도 정선군 신동읍 동강로 916-212","phone":"070-4225-2336","latitude":37.25962318,"longitude":128.6079002,"image":null},
-  {"name":"하추자연휴양림","possession":"공유림","facility":"숲속의집,야영장","address":"강원도 인제군 인제읍 하추로686","phone":"033-461-0056","latitude":38.03534186,"longitude":128.319867,"image":null},
-  {"name":"거제자연휴양림","possession":"국유림","facility":"숲속의집 산림문화 휴양관 야영데크 숲속수련장","address":"경상남도 거제시 동부면 거제중앙로 325","phone":"055-639-8115","latitude":34.7856966,"longitude":128.625968,"image":null},
-  {"name":"아세안자연휴양림","possession":"공유림","facility":"숲속의집14동, 안내센터, 다목적광장 등","address":"경기도 양주시 백석읍 기산로 472","phone":"031-871-2796","latitude":37.77382293,"longitude":126.9421758,"image":null},
-  {"name":"장흥 자연휴양림","possession":"사유림","facility":"물놀이장, 썰매장","address":"경기도 양주시 장흥면 권율로 594","phone":"080-233-7766","latitude":37.75816692,"longitude":126.9685293,"image":null},
-  {"name":"좌구산자연휴양림","possession":"공유림","facility":"숲속의 집 황토방 별무리하우스 병영하우스 좌구산 숲 명상의 집 줄타기 썰매장 숲속모험시설 천문대 등","address":"충청북도 증평군 증평읍 솟점말길 107","phone":"043-835-4552","latitude":36.70556821,"longitude":127.6511216,"image":null},
-  {"name":"생거진천자연휴양림","possession":"공유림","facility":"산림문화휴양관 숲속의집 연립동 야영센터 관리사무소","address":"충청북도 진천군 백곡면 명암길 435-135","phone":"043-539-3551","latitude":36.92399609,"longitude":127.3902346,"image":null},
-  {"name":"성불산자연휴양림","possession":"공유림","facility":"숲속의집.산림문화휴양관.숲관광메가시티.생태체험관.한옥체험관.생태공원.미선향테마파크 유아숲체험원","address":"충청북도 괴산군 괴산읍 충민로기곡길 78","phone":"043-830-2679","latitude":36.80804701,"longitude":127.8467688,"image":null},
-  {"name":"수레의산자연휴양림","possession":"공유림","facility":"숙박시설 캠핑장 물놀이장 산책로 화장실 등","address":"충청북도 음성군 생극면 차생로 310-108","phone":"043-878-2013","latitude":37.03888915,"longitude":127.6513855,"image":null},
-  {"name":"송정자연휴양림","possession":"공유림","facility":"숲속의집, 산림휴양관, 야영장, 바비큐장, 숲만남의광장 등","address":"경상북도 칠곡군 석적읍 반계3길 88","phone":"054-979-6600","latitude":36.02333243,"longitude":128.4416406,"image":null},
-  {"name":"계명산자연휴양림","possession":"공유림","facility":"숲속의 집, 황토방, 산림휴양관, 복합산림휴양관, 산막, 야영장 등","address":"경상북도 안동시 길안면 고란길 207-99","phone":"054-850-4700","latitude":36.41012056,"longitude":128.9465131,"image":null},
-  {"name":"백운산자연휴양림","possession":"공유림","facility":"숙박동 목재문화체험장 황토길 산책로 야영장 운동장 등","address":"전라남도 광양시 옥룡면 백계로 337","phone":"061-797-2655","latitude":35.05164287,"longitude":127.5985311,"image":null},
-  {"name":"생거진천자연휴양림","possession":"공유림","facility":"산림문화휴양관, 숲속의집12동, 연립동, 야영센터, 관리사무소","address":"충청북도 진천군 백곡면 명암길 435-135","phone":"043-539-3552","latitude":36.923988,"longitude":127.3902017,"image":null},
-  {"name":"불정자연휴양림","possession":"공유림","facility":"숲속의집, 카라반, 야영장, 물놀이장, 야영데크","address":"경상북도 문경시 불정길 180","phone":"054-553-9443","latitude":36.62128207,"longitude":128.1365074,"image":null},
-  {"name":"대야산자연휴양림","possession":"국유림","facility":"산림문화휴양관, 연립동, 야영시설","address":"경상북도 문경시 가은읍 용추길 31-35","phone":"054-571-7181","latitude":36.67090364,"longitude":127.9619774,"image":null},
-  {"name":"남원자연휴양림","possession":"사유림","facility":"야영장 등","address":"전라북도 남원시 보산로 228","phone":"063-633-5333","latitude":35.458117,"longitude":127.415508,"image":null},
-  {"name":"데미샘자연휴양림","possession":"공유림","facility":"휴양관,숲속의집, 숲문화마당, 명상의숲 등","address":"전라북도 진안군 백운면 데미샘 1길 172","phone":"063-290-6993","latitude":35.6569937975,"longitude":127.4610401599,"image":null},
-  {"name":"운장산자연휴양림","possession":"국유림","facility":"숲속의집,연립동, 산림문화휴양관, 숲속수련관","address":"전라북도 진안군 정천면 휴양림길 77","phone":"063-432-1193","latitude":35.8992460670,"longitude":127.4211095994,"image":null},
-  {"name":"평창자연휴양림","possession":"공유림","facility":"숙박동+세미나실+운동장+산책로","address":"강원도 평창군 봉평면 팔송로 285","phone":"033-339-9028","latitude":37.609548,"longitude":128.303521,"image":null},
-  {"name":"거창 항노화 힐링랜드","possession":"공유림","facility":"출렁다리+산림휴양관+숲속의집+산림치유센터+자생식물원","address":"경상남도 거창군 가조면 의상봉길 834","phone":"055-940-7930","latitude":35.73662049,"longitude":128.0408983,"image":null},
-  {"name":"문수산자연휴양림","possession":"국유림","facility":"산림휴양관, 묵상의집, 숲속의집, 야영데크 등","address":"경상북도 봉화군 봉성면 시거리길 378","phone":"054-674-3700","latitude":36.950851,"longitude":128.834816,"image":null},
-  {"name":"학가산우래자연휴양림","possession":"사유림","facility":"숲속의 집, 산림휴양관 등","address":"경상북도 예천군 보문면 휴양림길 210","phone":"054-652-0114","latitude":36.677929,"longitude":128.592876,"image":null},
-  {"name":"양촌자연휴양림","possession":"공유림","facility":"글램핑장(4동)+숲속의집(10동)+휴양관(7실)","address":"충청남도 논산시 양촌면 매죽헌로1723번길 176-23","phone":"041-746-6481","latitude":36.15726044,"longitude":127.2464846,"image":null},
-  {"name":"소선암자연휴양림","possession":"공유림","facility":"통나무집, 숲속의집, 산림문화휴양관, 산림복합휴양관, 백두대간 문화휴양관","address":"충청북도 단양군 단성면 대잠2길15","phone":"043-422-7839","latitude":36.9192214181,"longitude":128.3123126642,"image":null},
-  {"name":"소백산자연휴양림","possession":"공유림","facility":"숲속의집, 산림문화휴양관, 정감록명당체험마을, 화전민촌","address":"충청북도 단양군 영춘면 하리방터길 180","phone":"043-423-3117","latitude":37.0606929648,"longitude":128.4673083785,"image":null},
-  {"name":"데미샘자연휴양림","possession":"공유림","facility":"휴양관, 숲속의집, 숲문화마당, 명상의숲 등","address":"전라북도 진안군 백운면 데미샘 1길 172","phone":"063-290-6992","latitude":35.656988,"longitude":127.461036,"image":null},
-  {"name":"안면도자연휴양림","possession":"국유림","facility":"전시관, 수목원, 숲속의집 등","address":"충청남도 태안군 안면읍 안면대로3195-6","phone":"041-674-5019","latitude":36.49670127,"longitude":126.3588291,"image":null},
-  {"name":"국립희리산해송자연휴양림","possession":"국유림","facility":"숲속의집,야영장,숲속수련장","address":"충청남도 서천군 종천면 희리산길 206","phone":"041-953-2230","latitude":36.11262716,"longitude":126.664181,"image":null},
-  {"name":"금봉자연휴양림","possession":"공유림","facility":"산림휴양관외","address":"경상북도 의성군 옥산면 휴양림길 114","phone":"054-833-0123","latitude":36.3360183,"longitude":128.8807891,"image":null},
-  {"name":"용봉산자연휴양림","possession":"공유림","facility":"산림휴양관 숲속의집 산림전시관","address":"충청남도 홍성군 홍북읍 용봉산2길 87","phone":"041-630-1785","latitude":36.64528712,"longitude":126.6566318,"image":null},
-  {"name":"춘천숲자연휴양림","possession":"공유림","facility":"숲속의 집 산림휴양관 글램핑장","address":"강원도 춘천시 동산면 종자리로 224-104","phone":"033-264-1156","latitude":37.747732,"longitude":127.742503,"image":null},
-  {"name":"망경대산자연휴양림","possession":"국유림","facility":"숲속의집","address":"강원도 영월군 중동면 선도우길 177","phone":"033-375-8765","latitude":37.1838677681,"longitude":128.5934844980,"image":null},
-  {"name":"구재봉자연휴양림","possession":"공유림","facility":"휴양관,숲속의집,트리하우스","address":"경상남도 하동군 적량면 중서길 60-81","phone":"070-8855-8010","latitude":35.1289579366,"longitude":127.7440937074,"image":null},
-  {"name":"편백자연휴양림","possession":"공유림","facility":"숲속의집","address":"경상남도 하동군 옥종면 위태리 산281-3","phone":"070-8994-0717","latitude":35.1858764,"longitude":127.8484386,"image":null},
-  {"name":"비학산자연휴양림","possession":"공유림","facility":"산림휴양관, 숲속의 집, 테라스하우스, 카라반, 야외데크, 생태숲 등","address":"경상북도 포항시 북구 기북면 비학산길 302","phone":"054-252-3275","latitude":36.14703337,"longitude":129.2111071,"image":null},
-  {"name":"백아산자연휴양림","possession":"공유림","facility":"족구장,정자,계곡데크","address":"전라남도 화순군 백아면 수양로 353","phone":"061-379-3738","latitude":35.15137582,"longitude":127.1671251,"image":null},
-  {"name":"한천자연휴양림","possession":"공유림","facility":"캠핑장,데크,잔디광장, 정자, 물썰매장","address":"전라남도 화순군 한천면 죽헌로 719","phone":"061-379-3734","latitude":34.98834125,"longitude":127.0454803,"image":null},
-  {"name":"회문산자연휴양림","possession":"국유림","facility":"숲속의 집+산림문화 휴양관+야영시설","address":"전라북도 순창군 구림면 안심길 295","phone":"063-653-4779","latitude":35.50195867,"longitude":127.1148251,"image":null},
-  {"name":"공주산림휴양마을","possession":"공유림","facility":"숲속의집/휴양관/야영장/목재문화체험장","address":"충청남도 공주시 수원지공원길 222","phone":"041-855-0855","latitude":36.42442578,"longitude":127.1193201,"image":null},
-  {"name":"숲체원","possession":"국유림","facility":"탐방로, 숙박동, 강의실","address":"강원도 횡성군 둔내면 청태산로 777","phone":"033-340-6300","latitude":37.53722046,"longitude":128.2866886,"image":null},
-  {"name":"청태산휴양림","possession":"국유림","facility":"제1산림문화휴양관, 제2산림문화휴양관, 숲속의집, 숲속수련장(중형, 소형), 대형숲속수영장(회의실), 야영장, 인도네시아 전통 전시관, 숲생태체험실, BIY목공교실","address":"강원도 횡성군 둔내면 청태산로 610","phone":"033-343-9707","latitude":37.52907993,"longitude":128.2968658,"image":null},
-  {"name":"문수산 산림욕장","possession":"공유림","facility":"숲길,산림욕장","address":"경기도 김포시 월곶면 문수산로 102-38","phone":"031-988-2965","latitude":37.737829,"longitude":126.5308885,"image":null},
-  {"name":"충북알프스자연휴양림","possession":"공유림","facility":"숲속의집,세미나실,목공예체험장 등","address":"충청북도 보은군 산외면 속리산로 1880","phone":"043-540-3712","latitude":36.57316547,"longitude":127.7858442,"image":null},
-  {"name":"속리산 숲체험휴양마을","possession":"공유림","facility":"한옥마을 ,황토마을, 통나무마을 등","address":"충청북도 보은군 속리산면 속리산로 596","phone":"043-540-3220","latitude":36.49245442,"longitude":127.792472,"image":null},
-  {"name":"치악산자연휴양림","possession":"공유림","facility":"숲속의집,주차장,야영장","address":"강원도 원주시 판부면 휴양림길 66","phone":"033-762-8288","latitude":37.255878,"longitude":128.031372,"image":null},
-  {"name":"순천자연휴양림","possession":"사유림","facility":"관리사무실 1동, 숙박시설 14동 23실, 캐빈하우스 6동 텐트19면","address":"전라남도 순천시 서면 청소년수련원길 170","phone":"061-749-8948","latitude":35.04388083,"longitude":127.4744949,"image":null},
-  {"name":"봉수산자연휴양림","possession":"공유림","facility":"숲속의집,산림문화휴양관","address":"충청남도 예산군 대흥면 임존성길 153","phone":"041-339-8936","latitude":36.59844872,"longitude":126.7808937,"image":null},
-  {"name":"화왕산자연휴양림","possession":"공유림","facility":"휴양관+야영데크+바비큐장+숲길","address":"경상남도 창녕군 고암면 청간길 128-126","phone":"055-533-2332","latitude":35.54697823,"longitude":128.5673185,"image":null},
-  {"name":"용추자연휴양림","possession":"공유림","facility":"산림문화휴양관, 숲속의집, 취사장, 화장실, 샤워장, 야영장, 관리사무실 등","address":"경상남도 함양군 안의면 용추휴양림길 166","phone":"055-963-8702","latitude":35.6961266,"longitude":127.7578596,"image":null},
-  {"name":"산삼자연휴양림","possession":"공유림","facility":"산림문화휴양관, 숲속의집 , 관리사무실 등","address":"경상남도 함양군 서상면 가르내길 202-1","phone":"055-964-9886","latitude":35.69762431,"longitude":127.6584311,"image":null},
-  {"name":"송이밸리자연휴양림","possession":"공유림","facility":"송이밸리자연휴양림","address":"강원도 양양군 양양읍 고노동길 98-50","phone":"033-670-2644","latitude":38.05400667,"longitude":128.6214924,"image":null},
-  {"name":"운주산승마자연휴양림","possession":"공유림","facility":"숲속의집+산림문화휴양관 등","address":"경상북도 영천시 임고면 승마휴양림길 105","phone":"054-330-6287","latitude":36.03510258,"longitude":128.996734,"image":null},
-  {"name":"보현산자연휴양림","possession":"공유림","facility":"숲속의집+산림문화휴양관 등","address":"경상북도 영천시 화북면 배나무정길 334","phone":"054-336-6618","latitude":36.14210706,"longitude":128.9781098,"image":null},
-  {"name":"사천 케이블카 자연휴양림","possession":"공유림","facility":"숲속의집+휴양관+야영장+야영센터+어린이 물놀이장+숲놀이터+숲속 산책로","address":"경상남도 사천시 실안길 242-45","phone":"055-835-9524","latitude":34.95016897,"longitude":128.0576108,"image":null},
-  {"name":"구수곡자연휴양림","possession":"공유림","facility":"숲속의 집","address":"경상북도 울진군 북면 십이령로 2721","phone":"054-783-2241","latitude":37.0621216154,"longitude":129.2929279338,"image":null},
-  {"name":"민주지산자연휴양림","possession":"공유림","facility":"버섯동,야생화동,국악동,식당, 황토방, 황토찝질방, 학습관, 너와집,산림문화휴양관1,2층 세미나실,치유숙소6개소,치유센터,진료동, 치유센터치유동,야외 치유시설, 야영장, 족구장 등","address":"충청북도 영동군 용화면 조동리 민주지산로 60","phone":"043-740-3438","latitude":36.0573434,"longitude":127.8251649,"image":null},
-  {"name":"운문산자연휴양림","possession":"국유림","facility":"숲속의집+산림문화휴양관+숲속수련장+야영시설","address":"경상북도 청도군 운문면 운문로 763","phone":"054-373-1327","latitude":35.6483467486,"longitude":129.0262079787,"image":null},
-  {"name":"흥림산자연휴양림","possession":"공유림","facility":"산림문화휴양관, 숲속의집","address":"경상북도 영양군 일월면 재일로 2394-70","phone":"054-680-5050","latitude":36.70182591,"longitude":129.1124232,"image":null},
-  {"name":"토함산자연휴양림","possession":"공유림","facility":"숲속의집, 화랑관, 야영장, 국학관(세미나실) 등","address":"경상북도 경주시 양북면 불국로 1208-45","phone":"054-750-8700","latitude":35.76191761,"longitude":129.3654772,"image":null},
-  {"name":"불갑사 관광휴양단지","possession":"사유림","facility":"관광지,힐링컨벤션센터","address":"전라남도 영광군 불갑면 자비길 51-38","phone":"061-353-4476","latitude":35.202988,"longitude":126.5367799663,"image":null},
-  {"name":"한방자연휴양림","possession":"공유림","facility":"숲속의집, 숲속휴양관, 세미나실","address":"경상남도 산청군 금서면 동의보감로555번길 186","phone":"055-970-6951","latitude":35.43403493,"longitude":127.8236813,"image":null},
-  {"name":"바라산자연휴양림","possession":"공유림","facility":"숲속의집,야영장,치유의숲,체험의숲,산림문화휴양관","address":"경기도 의왕시 바라산로 84","phone":"031-8086-7482","latitude":37.37310185,"longitude":127.0193147,"image":null},
-  {"name":"삼척활기자연휴양림","possession":"사유림","facility":"휴양관(송폭헌), 한옥(방우재), 한옥(세우재),숲속의집(구희당),숲속의집(삼락당)","address":"강원도 삼척시 미로면 준경길 651-43(지번활기리 403-1)","phone":"033-574-0032","latitude":37.38099374,"longitude":129.0601226,"image":null},
-  {"name":"간월산자연휴양림","possession":"사유림","facility":"관리실,수영장,연수원","address":"울산광역시 울주군 상북면 작괘로 607-15","phone":"052-263-6644","latitude":35.5670959,"longitude":129.0560416,"image":null},
-  {"name":"옥화자연휴양림","possession":"공유림","facility":"숲속의집 산림휴양관 캠핑장 산책로 등","address":"충청북도 청주시 상당구 미원면 운암옥화길 140","phone":"043-270-7381","latitude":36.59895012,"longitude":127.6943716,"image":null},
-  {"name":"문성자연휴양림","possession":"공유림","facility":"숲속의집 단체숙소 휴양관 유아숲체험원 목재문화체험장 짚라인 오토캠핑장 산책로 등","address":"충청북도 충주시 노은면 우성1길 191","phone":"043-850-7346","latitude":37.02832602,"longitude":127.7525217,"image":null},
-  {"name":"봉황자연휴양림","possession":"공유림","facility":"숲속의집 단체숙소 산책로 등","address":"충청북도 충주시 중앙탑면 수룡봉황길 540","phone":"043-850-7315","latitude":37.05652228,"longitude":127.8297465,"image":null},
-  {"name":"대운산자연휴양림","possession":"공유림","facility":"숲속의집, 산림휴양관, 야영데크 등","address":"경상남도 양산시 탑골길 208-124","phone":"055-379-8670","latitude":35.4164113,"longitude":129.2105343,"image":null},
-  {"name":"유치자연휴양림","possession":"공유림","facility":"숲속의집, 야영데크, 물놀이장","address":"전라남도 장흥군 유치면 휴양림길 154","phone":"061-863-6350","latitude":34.76806521,"longitude":126.8323492,"image":null},
-  {"name":"오도산 자연휴양림","possession":"공유림","facility":"숲속의집+청소년수련관+야영데크+취사장+관리사무소+물놀이장 등","address":"경상남도 합천군 봉산면 오도산휴양로 398","phone":"055-930-3733","latitude":35.66904355,"longitude":128.0538747,"image":null},
-  {"name":"장령산자연휴양림","possession":"공유림","facility":"숲속의집,산림문화휴양관,휴-포레스트,야영장,야외물놀이장,치유의 숲 등","address":"충청북도 옥천군 군서면 장령산로 519","phone":"043-730-3491","latitude":36.24486737,"longitude":127.5547497,"image":null},
-  {"name":"주작산자연휴양림","possession":"공유림","facility":"휴양관+숲속의집+세미나실 등","address":"전라남도 강진군 신전면 주작산길 262","phone":"061-430-3306","latitude":34.5172932,"longitude":126.6989685,"image":null},
-  {"name":"옥성자연휴양림","possession":"공유림","facility":"숲속의집, 산림문화휴양관, 물놀이장, 산책로, 유아숲체험원","address":"경상북도 구미시 옥성면 휴양림길 150","phone":"054-480-2082","latitude":36.27907203,"longitude":128.2844292,"image":null},
-  {"name":"서귀포자연휴양림","possession":"국유림","facility":"숲속의집+산림휴양관+세미나실+야영장+생태탐방코스","address":"제주특별자치도 서귀포시 1100로 882 (대포동)","phone":"064-738-4544","latitude":33.31150025,"longitude":126.458761,"image":null},
-  {"name":"붉은오름자연휴양림","possession":"공유림","facility":"숲속의집+산림문화휴양관+세미나실+오름등반로+야외공연장","address":"제주특별자치도 서귀포시 표선면 남조로 1487-73","phone":"064-782-9171","latitude":33.40142958,"longitude":126.6756716,"image":null},
-  {"name":"서귀포 치유의 숲","possession":"공유림","facility":"치유숲길","address":"제주특별자치도 서귀포시 산록남로 2271","phone":"064-760-3067","latitude":33.29194197,"longitude":126.5279022642,"image":null},
-  {"name":"세심자연휴양림","possession":"국유림","facility":"숲속의집","address":"전라북도 임실군 삼계면 임삼로 485","phone":"063-644-4611","latitude":35.514241,"longitude":127.240066,"image":null},
-  {"name":"구름산산림욕장","possession":"국유림","facility":"피크닉장, 황토길, 세족장, 야외소공연장, 놀이시설","address":"경기도 광명시 하안동 산141-7","phone":"02-2680-2377","latitude":37.454013,"longitude":126.876365,"image":null},
-  {"name":"여수봉황산자연휴양림","possession":"공유림","facility":"숲속의집,야영장 등","address":"전라남도 여수시 돌산읍 대복길160","phone":"061-643-9180","latitude":34.6147023710,"longitude":127.7617998912,"image":null},
-  {"name":"용인자연휴양림","possession":"공유림","facility":"숲속의집, 숲속체험관, 목조주택, 생태습지, 야영장, 잔디광장, 짚라인, 목재문화체험관 등","address":"경기도 용인시 처인구 모현면 초부로 220","phone":"031-336-0040","latitude":37.314713,"longitude":127.265315,"image":null},
-  {"name":"광치자연휴양림","possession":"공유림","facility":"휴양관, 숲속의집, 숲속카페, 트리하우스,","address":"강원도 양구군 남면 광치령로 1794번길 265","phone":"033-482-3115","latitude":38.143507,"longitude":128.071262,"image":null},
-  {"name":"천보산자연휴양림","possession":"공유림","facility":"숲속의집, 휴양관, 야영장 등","address":"경기도 포천시 원동교길 309","phone":"031-538-3554","latitude":37.85576406,"longitude":127.1190897,"image":null},
-  {"name":"국망봉자연휴양림","possession":"사유림","facility":"통나무 집, 캠핑장 등","address":"경기도 포천시 이동면 늠바위길 207-28","phone":"031-532-0014","latitude":38.02891868,"longitude":127.3962681,"image":null},
-  {"name":"태학산자연휴양림","possession":"공유림","facility":"숲속의집,잔디광장,숲속공연장 등","address":"충청남도 천안시 동남구 풍세면 휴양림길 127","phone":"041-529-5108","latitude":36.72734819,"longitude":127.0903273,"image":null},
-  {"name":"고대산자연휴양림","possession":"국유림","facility":"숲속의집 14동14실산림휴양관 1동2층6실숲속수련원 1동1실방문자센터 1동2층야영장데크 20개소","address":"경기도 연천군 신서면 고대산길 84-79","phone":"031-834-2200","latitude":38.21125391,"longitude":127.1507058,"image":null},
-  {"name":"미숭산자연휴양림","possession":"공유림","facility":"숲속의집, 산림문화휴양관","address":"경상북도 고령군 대가야읍 낫질로 672-99","phone":"054-950-7407","latitude":35.75077545,"longitude":128.2028394,"image":null},
-  {"name":"제암산자연휴양림","possession":"공유림","facility":"숙박,야영장,물놀이터,더늠길,숲속교육관,몽골텐트,족구장데크,모험시설","address":"전라남도 보성군 웅치면 대산길 330","phone":"061-850-8708","latitude":34.70050454,"longitude":126.9855053,"image":null},
-  {"name":"금산산림문화타운","possession":"공유림","facility":"숲속의집, 생태체험학습장, 야영장, 캠핑장 등","address":"충청남도 금산군 남이면 느티골길 200","phone":"041-753-5706","latitude":36.06776064,"longitude":127.3690934,"image":null},
-  {"name":"진산자연휴양림","possession":"사유림","facility":"숲속의집, 산책로, 캠핑장, 글램핑장, 짚핑","address":"충청남도 금산군 진산면 대둔산로 6","phone":"041-753-4242","latitude":36.12303243,"longitude":127.3441498,"image":null},
-  {"name":"서대산약용자연휴양림","possession":"사유림","facility":"산야초체험장, 산약초음식점,숲속의집","address":"충청남도 금산군 추부면 홍골1길 132","phone":"041-753-2222","latitude":36.22268671,"longitude":127.5258197,"image":null},
-  {"name":"심천치유자연휴양림","possession":"사유림","facility":"숲속의집, 야영장, 캠핑장 등","address":"충청남도 금산군 남일면 신동길 239","phone":"041-752-8300","latitude":35.99504733,"longitude":127.4849511,"image":null},
-  {"name":"태백고원자연휴양림","possession":"국유림","facility":"산림문화휴양관, 숲속의 집 , 야영장","address":"강원도 태백시 머리골길153","phone":"033-550-2849","latitude":37.12357654,"longitude":129.0603832,"image":null},
-  {"name":"성주봉자연휴양림","possession":"공유림","facility":"숲속의집산림휴양관산림수련관야영장","address":"경상북도 상주시 은척면 성주봉로 3","phone":"054-541-6512","latitude":36.5335984395,"longitude":128.0407595461,"image":null},
-  {"name":"독용산성 자연휴양림","possession":"공유림","facility":"숲속휴양관, 휴양관, 숲속의집, 관리사무소, 야외화장실 등","address":"경상북도 성주군 금수면 사더래길 144","phone":"054-930-8401","latitude":35.9063679487,"longitude":128.1344114728,"image":null},
-  {"name":"가리산자연휴양림","possession":"공유림","facility":"관리동사무소 1동, 매표소 1동방갈로 10동(2.5평형) 산림문화휴양관 1동(9실)풋살장 1면다목적 광장 1개소매점(휴게소) 1동  화장실 7동공동취사장 1개소 주차장 1개소(95면)샤워장 1개소 야영데크 38면(28/8㎡,10/13㎡)","address":"강원도 홍천군 두촌면 가리산길 426","phone":"033-435-6035","latitude":37.865235,"longitude":127.9824687,"image":null},
-  {"name":"초록산산림욕장","possession":"공유림","facility":"산림욕장, 등산로, 유아숲체험장","address":"경기도 화성시 양감면 사창리 810-9","phone":"031-5189-2344","latitude":37.09236517,"longitude":126.9562449,"image":null},
-  {"name":"서봉산산림욕장","possession":"사유림","facility":"산림욕장, 등산로, 유아숲체험장","address":"경기도 화성시 정남면 문학리 산120-1","phone":"031-5189-2344","latitude":37.1581905169,"longitude":126.9557910745,"image":null},
-  {"name":"구례산수유자연휴양림","possession":"공유림","facility":"산림휴양관, 숲속의 집","address":"전라남도 구례군 산동면 정산길 251","phone":"061-780-2897","latitude":35.30090353,"longitude":127.4626987,"image":null},
-  {"name":"팔영산자연휴양림","possession":"공유림","facility":"숲속의집 12동, 산림문화휴양관 1동","address":"전라남도 고흥군 영남면 팔영로 1347-418","phone":"061-830-5386","latitude":34.62133127,"longitude":127.4401371,"image":null},
-  {"name":"두루웰자연휴양림","possession":"공유림","facility":"숲속의집, 트리하우스, 캠핑장","address":"강원도 철원군 갈말읍 지경1길 69","phone":"033-450-5198","latitude":38.227936,"longitude":127.353297,"image":null},
-  {"name":"신어산 산림욕장","possession":"사유림","facility":"산림욕로, 등산로 등","address":"경상남도 김해시 신어산길 169","phone":"","latitude":35.26938553,"longitude":128.91010150,"image":null},
-  {"name":"성불산자연휴양림","possession":"공유림","facility":"숲속의집A, 숲속의집B, 산림문화휴양관,숲관광메가시티,생태숲학습관,한옥체험관,생태공원,미선향테마파크무인카페, 수석전시관 등","address":"충청북도 괴산군 괴산읍 충민로기곡길 78","phone":"043-830-2679","latitude":36.8080470124,"longitude":127.8467687642,"image":null},
-  {"name":"양을산산림욕장","possession":"공유림","facility":"유아숲체험원, 화장실, 생태학습장, 실내교육장","address":"전라남도 목포시 상동 산34-3","phone":"061-270-8178","latitude":34.8213604,"longitude":126.4075568,"image":null},
-  {"name":"좌구산자연휴양림","possession":"공유림","facility":"숲속의 집/ 황토집/ 별무리하우스/ 병영하우스/ 줄타기/ 썰매장/ 숲속모험시설/ 좌구산 숲 명상의 집/ 명상구름다리/ 좌구산천문대 등","address":"충청북도 증평군 증평읍 솟점말길 107","phone":"043-835-4551","latitude":36.7055680385,"longitude":127.6511206314,"image":null},
-  {"name":"비슬산자연휴양림","possession":"공유림","facility":"숲속의집,통나무집,야영장,반딧불이전기차등","address":"대구광역시 달성군 유가읍 일연선사길 99","phone":"053-659-4400","latitude":35.69001083,"longitude":128.5129017,"image":null},
-  {"name":"화원자연휴양림","possession":"공유림","facility":"숲속의집,산림문화휴양관,산림욕장,전망데크등","address":"대구광역시 달성군 화원읍 화원휴양림길 126","phone":"053-659-4455","latitude":35.77179173,"longitude":128.5367385,"image":null},
-  {"name":"만수산자연휴양림","possession":"공유림","facility":"숲속의집","address":"충청남도 부여군 외산면 휴양로 107","phone":"041-832-6561","latitude":36.33854208,"longitude":126.7119325,"image":null},
-  {"name":"서운산자연휴양림","possession":"공유림","facility":"숲속의집, 오토캠핑장, 야영장, 카라반","address":"경기도 안성시 금광면 배티로 185-39","phone":"031-678-2913","latitude":36.94238317,"longitude":127.313722,"image":null},
-  {"name":"영인산자연휴양림","possession":"공유림","facility":"숲속의집, 야영장,어드벤쳐시설","address":"충청남도 아산시 영인면 아산온천로 16-26","phone":"041-538-1958","latitude":36.84059456,"longitude":126.9500195,"image":null},
-  {"name":"만인산자연휴양림","possession":"공유림","facility":"숲속교실,야외무대,목공체험장","address":"대전광역시 동구 산내로 106","phone":"042-270-8655","latitude":36.2021806,"longitude":127.4551104,"image":null},
-  {"name":"장태산자연휴양림","possession":"공유림","facility":"생태연못,교과서식물원,산림문화휴양관","address":"대전광역시 서구 장안로 461","phone":"042-270-7883","latitude":36.21596742,"longitude":127.3412777,"image":null},
-  {"name":"계명산자연휴양림","possession":"공유림","facility":"숲속의집 단체숙소 연립동 치유센터 산책로 등","address":"충청북도 충주시 충주호수로 1170","phone":"043-850-7313","latitude":36.97931793,"longitude":127.9950865,"image":null},
-  {"name":"박달재자연휴양림","possession":"공유림","facility":"숲속의집 산책로등","address":"충청북도 제천시 백운면 금봉로 223","phone":"043-641-6527","latitude":37.14806356,"longitude":128.045293,"image":null},
-  {"name":"옥전자연휴양림","possession":"공유림","facility":"숲속의 집 농산물판매장 등","address":"충청북도 제천시 봉양읍 옥전길 195","phone":"043-641-6527","latitude":37.174689,"longitude":128.089444,"image":null},
-  {"name":"충북알프스자연휴양림","possession":"공유림","facility":"숲속의집세미나실목공예체험장 등","address":"충청북도 보은군 산외면 속리산로 1880","phone":"043-543-1472","latitude":36.57319259,"longitude":127.7858718,"image":null},
-  {"name":"속리산숲체험휴양마을","possession":"공유림","facility":"숲속의집 방문자종합센터 수영장 찜질방 식당 산책로 등","address":"충청북도 보은군 속리산면 속리산로 596","phone":"043-540-3220","latitude":36.49245548,"longitude":127.7924743,"image":null},
-  {"name":"장령산자연휴양림","possession":"공유림","facility":"숲속의집산림문화휴양관야영장야외물놀이장 등","address":"충청북도 옥천군 군서면 장령산로 519","phone":"043-730-3491","latitude":36.24486737,"longitude":127.5547497,"image":null},
-  {"name":"민주지산자연휴양림","possession":"공유림","facility":"숲속의집 식당 황토찜질방 학습관 산림문화휴양관 치유센터 야영장 족구장 등","address":"충청북도 영동군 용화면 휴양림길 60","phone":"043-740-3437","latitude":36.05313182,"longitude":127.8243888,"image":null},
-  {"name":"남해편백자연휴양림","possession":"국유림","facility":"생태숲,숲속의집 등","address":"경상남도 남해군 삼동면 금암로 658","phone":"055-867-7881","latitude":34.75216391,"longitude":128.0201316,"image":null},
-  {"name":"칼봉산자연휴양림","possession":"공유림","facility":"숲속의집, 산림휴양관, 생태숲, 생태체험학습장, 야영장 등","address":"경기도 가평군 가평읍 경반안로 454","phone":"031-8078-8061","latitude":37.83611811,"longitude":127.4653871,"image":null},
-  {"name":"변산자연휴양림","possession":"국유림","facility":"숲속의집, 휴양관, 체험교실, 물놀이장(현재 미운영)","address":"전라북도 부안군 변산면 변산로 3768","phone":"063-581-9977","latitude":35.58287781,"longitude":126.523728,"image":null},
-  {"name":"청송자연휴양림","possession":"공유림","facility":"숲속의 집, 연수의집","address":"경상북도 청송군 부남면 청송로 3478-96","phone":"054-872-3163","latitude":36.3179023,"longitude":129.0537598,"image":null},
-  {"name":"신안자연휴양림","possession":"국유림","facility":"산림문화휴양관, 캠핑장, 관리동, 취사장, 샤워장, 테마공원","address":"전라남도 신안군 자은면 자은서부2길 508-77","phone":"061-240-3265","latitude":34.8793261192,"longitude":125.9961150082,"image":null},
-  {"name":"군위장곡자연휴양림","possession":"공유림","facility":"숲속의집, 종합산막, 산림문화휴양관, 산림생태험학습관, 자생식물원, 물놀이장","address":"경상북도 군위군 고로면 장곡휴양림길 195","phone":"054-380-6317","latitude":36.1305922660,"longitude":128.8376371675,"image":null},
-  {"name":"거제자연휴양림","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 거제시 동부면 거제중앙로 325","phone":"055-639-8115","latitude":34.78569918,"longitude":128.6259431,"image":null},
-  {"name":"대운산자연휴양림(양산)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 양산시 탑골길 208-124","phone":"055-379-8670","latitude":35.4136954,"longitude":129.2117158,"image":null},
-  {"name":"화왕산자연휴양림(창녕)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 창녕군 고암면 청간길 128-126","phone":"055-533-2332","latitude":35.54693079,"longitude":128.5673145,"image":null},
-  {"name":"구재봉자연휴양림(하동)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도하동군 적량면 중서길 60-81","phone":"070-8855-8011","latitude":35.12895794,"longitude":127.7440937,"image":null},
-  {"name":"하동편백자연휴양림","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 하동군 옥종면 돌고지로 1088-51","phone":"070-8994-0717","latitude":35.18675022,"longitude":127.8421218,"image":null},
-  {"name":"한방자연휴양림(산청)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 산청군 금서면 동의보감로 555번길 186","phone":"055-970-6951","latitude":35.43403584,"longitude":127.8236808,"image":null},
-  {"name":"용추자연휴양림(함양)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 함양군 안의면 상원리 1155-1","phone":"055-963-8702","latitude":35.70378274,"longitude":127.7539398,"image":null},
-  {"name":"대봉산자연휴양림(함양)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 함양군 병곡면 병곡지곡로 333","phone":"055-964-1090","latitude":35.57794015,"longitude":127.7150289,"image":null},
-  {"name":"산삼자연휴양림(함양)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 함양군 서상면 가르내길 202-1","phone":"055-964-9886","latitude":35.69762459,"longitude":127.6584297,"image":null},
-  {"name":"금원산자연휴양림(거창)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 거창군 위천면 금원산길 471-27","phone":"055-254-3971","latitude":35.72617571,"longitude":127.795727,"image":null},
-  {"name":"오도산자연휴양림(합천)","possession":"공유림","facility":"숲속의집,휴양관","address":"경상남도 합천군 봉산면 오도산휴양로 398","phone":"055-930-3733","latitude":35.66904518,"longitude":128.0538745,"image":null},
-  {"name":"남해편백자연휴양림","possession":"국유림","facility":"숲속의집,휴양관","address":"경상남도 남해군 삼동면 금암로 658","phone":"055-867-7881","latitude":34.75216391,"longitude":128.0201321,"image":null},
-  {"name":"지리산자연휴양림(함양)","possession":"국유림","facility":"숲속의집,휴양관","address":"경상남도 함양군 마천면 음정길 152","phone":"055-963-8133","latitude":35.34644465,"longitude":127.6430043,"image":null},
-  {"name":"원동자연휴양림(양산)","possession":"사유림","facility":"오토캠핑장","address":"경상남도 양산시 원동면 늘밭로 64","phone":"0507-1401-583","latitude":35.39881801,"longitude":128.9348445,"image":null},
-  {"name":"덕원자연휴양림(하동)","possession":"사유림","facility":"숲속의집,휴양관","address":"경상남도 하동군 옥종면 옥단로 1443-327","phone":"055-884-0650","latitude":35.22915471,"longitude":127.8552761,"image":null},
-  {"name":"지리산마더힐자연휴양림(산청)","possession":"사유림","facility":"숲속의집,휴양관","address":"경상남도 산청군 시천면 지리산대로 496-101","phone":"055-974-2757","latitude":35.2886177,"longitude":127.7507425,"image":null},
-  {"name":"반딧불 자연휴양림","possession":"공유림","facility":"통나무집+목교+평상+평의자","address":"전라북도 무주군 설천면 청량리 산 77","phone":"063-320-5666","latitude":36.01035711,"longitude":127.7581607,"image":null},
-  {"name":"강릉임해자연휴양림","possession":"공유림","facility":"숙박동(하늘동+구름동+바다동+숲속동)+숲속의집","address":"강원도 강릉시 강동면 율곡로 1715-85","phone":"033-644-9483","latitude":37.71856556,"longitude":128.9985453,"image":null},
-  {"name":"천천와룡자연휴양림","possession":"국유림","facility":"숲속의집, 야영장, 물놀이장, 산림욕장 등","address":"전라북도 장수군 천천면 비룡로 632","phone":"063-350-2477","latitude":35.67621776,"longitude":127.4772192,"image":null},
-  {"name":"방화동자연휴양림","possession":"국유림","facility":"숲속의집, 산림욕장, 인공폭포 등","address":"전라북도 장수군 번암면 방화동로 778","phone":"063-350-2475","latitude":35.59064179,"longitude":127.5268761,"image":null},
-  {"name":"팔공산금화자연휴양림","possession":"공유림","facility":"숲속의집, 카라반, 교육관, 휴양관, 야영데크","address":"경상북도 칠곡군 가산면 가산로 323","phone":"054-971-1551","latitude":36.05171899,"longitude":128.5553512,"image":null},
-  {"name":"안동호반자연휴양림","possession":"공유림","facility":"호반하우스,산림휴양관,숲속의집,전통가옥","address":"경상북도 안동시 도산면 월천길 100-7","phone":"054-855-3371","latitude":36.70343807,"longitude":128.8288547,"image":null},
-  {"name":"수도산 자연휴양림","possession":"공유림","facility":"숲속의집, 힐하우스. 숲속휴양관, 숲속수련관","address":"경상북도 김천시 대덕면 증산로 326-71","phone":"054-435-5128","latitude":35.8918024,"longitude":127.9838463,"image":null},
-  {"name":"입화산 자연휴양림","possession":"공유림","facility":"오토캠핑장, 이동식주택(카라반), 산림욕장, 숲속도서관, 네이처스포츠, 모노레일","address":"울산광역시 중구 다운동 산47-1번지","phone":"052-290-4410","latitude":35.578739,"longitude":129.279479,"image":null},
-  {"name":"흥부골자연휴양림","possession":"공유림","facility":"숲속의집, 야영장 등","address":"전라북도 남원시 인월면 구인원길 125","phone":"063-636-4032","latitude":35.450932,"longitude":127.590258,"image":null},
-  {"name":"금강자연휴양림","possession":"공유림","facility":"숲속의 집,휴양관","address":"세종특별자치시 금남면 산림박물관길110","phone":"041-635-7400","latitude":36.43769938,"longitude":127.2327429,"image":null},
-  {"name":"절물자연휴양림","possession":"국유림","facility":"휴양림.수련장.숙박등","address":"제주특별자치도 제주시 명림로 584","phone":"064-728-1510","latitude":33.44004881,"longitude":126.6252034,"image":null},
-  {"name":"교래자연휴양림","possession":"공유림","facility":"휴양림.숙박.공연장등","address":"제주특별자치도 제주시 조천읍 남조로 2023","phone":"064-783-7482","latitude":33.45136376,"longitude":126.6567109,"image":null},
-  {"name":"흑석산자연휴양림","possession":"공유림","facility":"숲속의집(객식), 유아숲체험원, 족욕장, 수변쉼터 등","address":"전라남도 해남군 계곡면 산골길 306","phone":"061-530-5738","latitude":34.6709346791,"longitude":126.6169966726,"image":null},
-  {"name":"백야자연휴양림","possession":"공유림","facility":"숙박시설 캠핑장 물놀이장 산책로 화장실 등","address":"충청북도 음성군 금왕읍 백야로 461-97","phone":"043-878-2556","latitude":36.95683852,"longitude":127.6096498,"image":null},
-  {"name":"소선암자연휴양림","possession":"공유림","facility":"통나무집 숲속의집 산림문화휴양관 산림복합휴양관","address":"충청북도 단양군 단성면 대잠2길 15","phone":"043-422-7839","latitude":36.91922142,"longitude":128.3123127,"image":null},
-  {"name":"소백산자연휴양림","possession":"공유림","facility":"화전민촌 정감록 명당체험마을 숲속의집 산림문화휴양관 세미나실 네트어드벤쳐 승마장 전망대 전시실 그라운드골프장 북카페 산책로","address":"충청북도 단양군 영춘면 하리방터길 180","phone":"043-423-3117","latitude":37.06069296,"longitude":128.4673084,"image":null},
-  {"name":"조령산자연휴양림","possession":"공유림","facility":"숲속의집 복합휴양관 백두대간 생태교육장 옛길 물놀이장 숲속놀이터 산책로 등","address":"충청북도 괴산군 연풍면 새재로 1795","phone":"043-833-7994","latitude":36.81234006,"longitude":128.0462438,"image":null},
-  {"name":"용문산자연휴양림","possession":"공유림","facility":"행복마루, 솔마루, 하늘마루, 산림휴양관,숲속의집,생태행복관,야영데크 등","address":"경기도 양평군 양평읍 약수사길 78-14","phone":"031-775-4005","latitude":37.516048,"longitude":127.519421,"image":null},
-  {"name":"양평쉬자파크","possession":"공유림","facility":"치유의숲,치유의집,초가원,산림교육센터, 치유센터,공원관리소, 유아숲체험원,까페동 등","address":"경기도 양평군 양평읍 쉬자파크길 193","phone":"031-770-1009","latitude":37.511222,"longitude":127.533196,"image":null},
-  {"name":"설매재자연휴양림","possession":"사유림","facility":"숲속의집,산림휴양관,이벤트홀, 데크야영 등","address":"경기도 양평군 옥천면 용천로 510","phone":"031-772-5955","latitude":37.556802,"longitude":127.509356,"image":null},
-  {"name":"축령산","possession":"국유림","facility":"치유의숲 안내센터, 전망대 등","address":"전라남도 장성군 북이면 추암로 555","phone":"061-393-1777","latitude":35.360934,"longitude":126.728553,"image":null},
-  {"name":"방장산자연휴양림","possession":"국유림","facility":"숲속의 집, 산림문화휴양관, 세미나실, 숲속공예마을(체험) 등","address":"전라남도 장성군 북이면 방장로 353","phone":"061-394-5523","latitude":35.44405218,"longitude":126.7514053,"image":null},
-  {"name":"성주산자연휴양림","possession":"공유림","facility":"성주산자연휴양림","address":"충청남도 보령시 성주면 화장골길 57-228","phone":"041-934-7133","latitude":36.33256882,"longitude":126.6639659,"image":null},
-  {"name":"횡성자연휴양림","possession":"사유림","facility":"숲속의집, 산림문화휴양관","address":"강원도 횡성군 갑천면 정포로 430번길 113","phone":"033-343-3392","latitude":37.53904383,"longitude":128.1118525,"image":null},
-  {"name":"주천강자연휴양림","possession":"사유림","facility":"숲속마을, 산골마을, 강변마을, 숲속학교, 황토별장","address":"강원도 횡성군 둔내면 강변로 영랑6길 115","phone":"033-345-7575","latitude":37.4606019,"longitude":128.2034233,"image":null},
-  {"name":"대봉산자연휴양림","possession":"공유림","facility":"산림문화휴양관, 숲속의집, 관리사무실, 해피쿠킹장 등","address":"경상남도 함양군 병곡면 병곡지곡로 333","phone":"055-964-1090","latitude":35.57794141,"longitude":127.7150294,"image":null},
-  {"name":"문성자연휴양림","possession":"공유림","facility":"숲속의집, 단체숙소","address":"충청북도 충주시 노은면 우성1길 191","phone":"043-870-7910","latitude":37.02832486,"longitude":127.7525206,"image":null},
-  {"name":"봉황자연휴양림","possession":"공유림","facility":"숲속의집, 단체숙소","address":"충청북도 충주시 중앙탑면 수룡봉황길540","phone":"043-870-7920","latitude":37.05652102,"longitude":127.8297473,"image":null},
-  {"name":"계명산자연휴양림","possession":"공유림","facility":"숲속의집, 단체숙소","address":"충청북도 충주시 충주호수로 1170","phone":"043-840-7930","latitude":36.9793629,"longitude":127.9950872,"image":null},
-  {"name":"강화군 석모도자연휴양림","possession":"공유림","facility":"숲속의 집, 산림문화휴양관, 족구장 등","address":"인천광역시 강화군 삼산면 삼산서로 39-75","phone":"032-932-1100","latitude":37.69963904,"longitude":126.3154373,"image":null},
-  {"name":"강화군 티앤림 자연휴양림","possession":"사유림","facility":"숲속의집, 집라인, 어드벤쳐","address":"인천광역시 강화군 불은면 중앙로 546-34","phone":"032-937-7481","latitude":37.71482742,"longitude":126.453839,"image":null},
-  {"name":"칠갑산자연휴양림","possession":"공유림","facility":"숲속의 집+산림문화 휴양관+원두막+기타시설 등","address":"충청남도 청양군 대치면 칠갑산로 668-103","phone":"041-940-2429","latitude":36.431589,"longitude":126.8438227,"image":null},
-  {"name":"거제자연휴양림","possession":"공유림","facility":"숲속의집+ 산림문화휴양관","address":"경상남도 거제시 동부면 거제중앙로 325","phone":"055-639-8115","latitude":34.78569918,"longitude":128.6259431,"image":null}]
+[
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "고산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 휴양관, 돔하우스, 가족휴양관",
+            "address": "전라북도 완주군 고산면 고산휴양림로 246",
+            "phone": "063-263-8680",
+            "latitude": 35.96224205,
+            "longitude": 127.2328719,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/05015f97-b430-4af5-ba7a-8dfa96c50842.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "박달재자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 산책로등",
+            "address": "충청북도 제천시 백운면 금봉로 228",
+            "phone": "043-652-0910",
+            "latitude": 37.14706386,
+            "longitude": 128.0457749,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/5fa9427f-f71f-4da1-923d-27cdb9670ffb.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "함평자연생태공원",
+            "possession": "국유림",
+            "facility": "과학관, 나비곤충표본전시관, 캠핑트레일러, 반달가슴곰관찰원",
+            "address": "전라남도 함평군 대동면 학동로 1398-77",
+            "phone": "061-320-2855",
+            "latitude": 35.13500123,
+            "longitude": 126.5056999542,
+            "image": [
+                "https://t1.daumcdn.net/cfile/blog/2136594154DDA45911"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "동두천자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 야외데크, 잔디광장, 유아숲체험원,",
+            "address": "경기도 동두천시 탑동가산로 1",
+            "phone": "031-860-3258",
+            "latitude": 37.88988548,
+            "longitude": 127.1371472,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202109/0de62442-c47b-44b6-be73-15737a5cf3ee.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/08183c7a-f034-4f86-9049-abac1000eedf.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/fdb5b0c1-0fe7-4d69-ade9-281bc568f5d4.JPG",
+                "https://image.foresttrip.go.kr/bb/202109/4358fa2c-70b4-4a05-80a2-574f8579f372.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/c0bc26d0-5112-4476-b7c0-564410375d83.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/986483c7-8436-4e89-acc5-85e0a8439712.JPG",
+                "https://image.foresttrip.go.kr/bb/202109/c1c4357c-2644-4386-9d79-35818c28dcb6.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/bd1b831b-3689-4c24-b7ca-ee86228fa81d.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "수레의산자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박시설+캠핑장+산책로+화장실 등",
+            "address": "충청북도 음성군 생극면 차생로 310-108",
+            "phone": "043-878-2013",
+            "latitude": 37.03888889,
+            "longitude": 127.6513842,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/a7412297-bb52-48f6-ae99-e090809b2e53.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "백야자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박시설+캠핑장+물놀이장+산책로+화장실 등",
+            "address": "충청북도 음성군 금왕읍 백야로 461-97",
+            "phone": "043-878-2556",
+            "latitude": 36.95683951,
+            "longitude": 127.6096488,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/0eff7add-0131-4a9a-bc3f-e9e062e9d4a7.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "동강전망자연휴양림",
+            "possession": "공유림",
+            "facility": "오토캠핑장",
+            "address": "강원도 정선군 신동읍 동강로 916-212",
+            "phone": "070-4225-2336",
+            "latitude": 37.25962318,
+            "longitude": 128.6079002,
+            "image": [
+                "https://www.jeongseon.go.kr/upload/contentsmanage/AT_20210309_35.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "하추자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,야영장",
+            "address": "강원도 인제군 인제읍 하추로686",
+            "phone": "033-461-0056",
+            "latitude": 38.03534186,
+            "longitude": 128.319867,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/76168e24-4b9a-4e54-80a6-d83901d1b54c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "거제자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집 산림문화 휴양관 야영데크 숲속수련장",
+            "address": "경상남도 거제시 동부면 거제중앙로 325",
+            "phone": "055-639-8115",
+            "latitude": 34.7856966,
+            "longitude": 128.625968,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202205/148e74b4-80cb-4eeb-b7b8-290570fa1c93.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/6f6a8e3c-a7ba-42d5-b3dd-18f61bfc0cfc.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/5b8d1c35-e394-455d-afd6-197f0dae1ff2.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/72df50fb-b700-4567-85da-092a2d549823.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/3a4f404d-2659-4fd7-9db0-aaf57f784925.jpg",
+                "https://image.foresttrip.go.kr/bb/202110/5ae5a353-ded6-446e-8fa1-0ae975351160.jpg",
+                "https://image.foresttrip.go.kr/bb/202110/af12c787-2d22-416f-94c7-4e6541e5cf4e.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/2cad3ff0-970c-4d26-b81a-e1de07686d22.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "아세안자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집14동, 안내센터, 다목적광장 등",
+            "address": "경기도 양주시 백석읍 기산로 472",
+            "phone": "031-871-2796",
+            "latitude": 37.77382293,
+            "longitude": 126.9421758,
+            "image": [
+                "https://image.foresttrip.go.kr/scene/2017_01_13_16_06_380.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_13_12_16_450.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_13_12_07_210.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_13_11_55_110.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_13_11_52_400.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_12_14_39_180.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_12_13_30_290.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_06_19_43_070.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "장흥 자연휴양림",
+            "possession": "사유림",
+            "facility": "물놀이장, 썰매장",
+            "address": "경기도 양주시 장흥면 권율로 594",
+            "phone": "080-233-7766",
+            "latitude": 37.75816692,
+            "longitude": 126.9685293,
+            "image": [
+                "https://www.jangheung.go.kr/build/images/1512/15125465/1512546507.jpg/666x1x70/666x1_1512546507.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "좌구산휴양랜드",
+            "possession": "공유림",
+            "facility": "숲속의 집 황토방 별무리하우스 병영하우스 좌구산 숲 명상의 집 줄타기 썰매장 숲속모험시설 천문대 등",
+            "address": "충청북도 증평군 증평읍 솟점말길 107",
+            "phone": "043-835-4552",
+            "latitude": 36.70556821,
+            "longitude": 127.6511216,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/54e0ed5a-a843-4b17-b41d-282eb83f5efc.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "생거진천자연휴양림",
+            "possession": "공유림",
+            "facility": "산림문화휴양관 숲속의집 연립동 야영센터 관리사무소",
+            "address": "충청북도 진천군 백곡면 명암길 435-135",
+            "phone": "043-539-3551",
+            "latitude": 36.92399609,
+            "longitude": 127.3902346,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/228db059-31ca-4647-8e90-c5489abeba0f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "성불산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집.산림문화휴양관.숲관광메가시티.생태체험관.한옥체험관.생태공원.미선향테마파크 유아숲체험원",
+            "address": "충청북도 괴산군 괴산읍 충민로기곡길 78",
+            "phone": "043-830-2679",
+            "latitude": 36.80804701,
+            "longitude": 127.8467688,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/35cec449-3773-4802-8472-897893cffeb1.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "수레의산자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박시설 캠핑장 물놀이장 산책로 화장실 등",
+            "address": "충청북도 음성군 생극면 차생로 310-108",
+            "phone": "043-878-2013",
+            "latitude": 37.03888915,
+            "longitude": 127.6513855,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/a7412297-bb52-48f6-ae99-e090809b2e53.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "송정자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 산림휴양관, 야영장, 바비큐장, 숲만남의광장 등",
+            "address": "경상북도 칠곡군 석적읍 반계3길 88",
+            "phone": "054-979-6600",
+            "latitude": 36.02333243,
+            "longitude": 128.4416406,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/97448445-7a19-4cb9-baf5-76f368c38c92.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "계명산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집, 황토방, 산림휴양관, 복합산림휴양관, 산막, 야영장 등",
+            "address": "경상북도 안동시 길안면 고란길 207-99",
+            "phone": "054-850-4700",
+            "latitude": 36.41012056,
+            "longitude": 128.9465131,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202104/3a0056ce-0468-4fd1-b08e-a826e8586bea.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/e8cc6d24-0dd0-4c62-8c27-c8b3128205c7.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/fbd555bc-48f3-4f9d-9ae2-b21625bbb3e5.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/23383e46-062b-4e41-a9b5-046bd771d46f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "백운산자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박동 목재문화체험장 황토길 산책로 야영장 운동장 등",
+            "address": "전라남도 광양시 옥룡면 백계로 337",
+            "phone": "061-797-2655",
+            "latitude": 35.05164287,
+            "longitude": 127.5985311,
+            "image": [
+                "https://image.foresttrip.go.kr/scene/2017_01_04_05_36_180.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_04_05_26_080.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_04_05_26_460.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_04_05_27_190.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_04_05_27_470.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_12_04_17_44_240.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_12_04_17_43_230.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_12_04_17_42_300.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "생거진천자연휴양림",
+            "possession": "공유림",
+            "facility": "산림문화휴양관, 숲속의집12동, 연립동, 야영센터, 관리사무소",
+            "address": "충청북도 진천군 백곡면 명암길 435-135",
+            "phone": "043-539-3552",
+            "latitude": 36.923988,
+            "longitude": 127.3902017,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/228db059-31ca-4647-8e90-c5489abeba0f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "불정자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 카라반, 야영장, 물놀이장, 야영데크",
+            "address": "경상북도 문경시 불정길 180",
+            "phone": "054-553-9443",
+            "latitude": 36.62128207,
+            "longitude": 128.1365074,
+            "image": [
+                "http://www.gocamping.or.kr/upload/camp/1427/thumb/thumb_720_7125hfhonKPcATq0AxQSMq1k.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "대야산자연휴양림",
+            "possession": "국유림",
+            "facility": "산림문화휴양관, 연립동, 야영시설",
+            "address": "경상북도 문경시 가은읍 용추길 31-35",
+            "phone": "054-571-7181",
+            "latitude": 36.67090364,
+            "longitude": 127.9619774,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201907/e09bc2c9-7015-436f-bf6d-16abd60ac0ae.jpg",
+                "https://image.foresttrip.go.kr/bb/201907/3612f8e4-2e15-4e0e-a783-0cb13f15b959.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_17_04_390.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_17_01_100.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_16_59_520.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_16_58_340.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_16_53_350.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_16_52_310.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "남원자연휴양림",
+            "possession": "사유림",
+            "facility": "야영장 등",
+            "address": "전라북도 남원시 보산로 228",
+            "phone": "063-633-5333",
+            "latitude": 35.458117,
+            "longitude": 127.415508,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202003/d5aff61d-834c-41fa-8c91-d26f0a6a6a78.jpg",
+                "https://image.foresttrip.go.kr/bb/202003/b4854299-dea7-461d-a25f-7f85ee371a08.jpg",
+                "https://image.foresttrip.go.kr/bb/202003/4ca04623-ee98-45c2-8b19-01ea4e70bf14.jpg",
+                "https://image.foresttrip.go.kr/bb/202003/33074d37-a60c-4b13-876c-440ffe335d5a.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "데미샘자연휴양림",
+            "possession": "공유림",
+            "facility": "휴양관,숲속의집, 숲문화마당, 명상의숲 등",
+            "address": "전라북도 진안군 백운면 데미샘 1길 172",
+            "phone": "063-290-6993",
+            "latitude": 35.6569937975,
+            "longitude": 127.4610401599,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202206/a9c858ce-e150-40e8-afa9-43cb79283dae.jpeg",
+                "https://image.foresttrip.go.kr/bb/202206/af4d693d-3810-4bca-8b9b-207f19e3bc9e.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/7b6b6110-e782-4ace-ba68-6103ffda6904.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/bdd7f3c3-c270-4cb2-a097-9ceb2eb636b1.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/cebb0a10-83fc-42dc-8382-c71b05e4a622.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/a0fb29ff-4b76-46f5-868c-e1808344bf5a.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/f56597f0-a8d1-43ee-a6ed-9b0c2ea6206c.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/314c68ed-6e99-4880-8a17-91cee114092f.jpeg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "운장산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집,연립동, 산림문화휴양관, 숲속수련관",
+            "address": "전라북도 진안군 정천면 휴양림길 77",
+            "phone": "063-432-1193",
+            "latitude": 35.899246067,
+            "longitude": 127.4211095994,
+            "image": [
+                "https://image.foresttrip.go.kr/scene/2017_01_20_09_46_580.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_20_09_25_320.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_06_15_48_080.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_10_23_11_50_580.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_10_23_11_47_030.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_10_23_11_46_280.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_10_23_11_45_540.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_10_23_11_45_200.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "평창자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박동+세미나실+운동장+산책로",
+            "address": "강원도 평창군 봉평면 팔송로 285",
+            "phone": "033-339-9028",
+            "latitude": 37.609548,
+            "longitude": 128.303521,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/da221b28-5af4-4ef9-8f92-ae2fde96559b.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/a43e3a8e-3cca-4f1c-9ea6-611fea49b88f.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/f46cccd7-7661-4265-a48d-765cada668c1.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/91e6222c-21f0-414e-acb0-40bf505c7312.jpg",
+                "https://image.foresttrip.go.kr/bb/1995256a-c30a-4622-9764-7e0e44cc1be2.jpg",
+                "https://image.foresttrip.go.kr/bb/fc32f9d7-7a1b-4d51-8b8d-101608a0e00f.jpg",
+                "https://image.foresttrip.go.kr/bb/b6fcfbf1-b9aa-48ed-be78-36d425a9d2b9.jpg",
+                "https://image.foresttrip.go.kr/bb/9037435c-7652-4a68-9a65-7dd5a14340d2.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "거창 항노화 힐링랜드",
+            "possession": "공유림",
+            "facility": "출렁다리+산림휴양관+숲속의집+산림치유센터+자생식물원",
+            "address": "경상남도 거창군 가조면 의상봉길 834",
+            "phone": "055-940-7930",
+            "latitude": 35.73662049,
+            "longitude": 128.0408983,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202105/981f4990-79ab-4736-ac4d-568ba34977f4.png",
+                "https://image.foresttrip.go.kr/bb/202104/9df6dbe5-eb4a-448e-8a43-795bcc08e67e.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/f9e60b5a-54da-49bd-bf6e-301c13b62f54.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/e8302ebc-51bc-4be9-b721-0111bb896b23.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/8a36688f-fd9d-4007-a572-8d1c9e8972bc.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/a4c2707e-29d3-4ad2-9560-8ba60ae7c398.JPG",
+                "https://image.foresttrip.go.kr/bb/202104/47d9b5a9-ab25-49c4-8fe5-042b6eac5f0b.png",
+                "https://image.foresttrip.go.kr/bb/202104/793179b7-61de-4674-a4bb-1011c3dcf123.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "문수산자연휴양림",
+            "possession": "국유림",
+            "facility": "산림휴양관, 묵상의집, 숲속의집, 야영데크 등",
+            "address": "경상북도 봉화군 봉성면 시거리길 378",
+            "phone": "054-674-3700",
+            "latitude": 36.950851,
+            "longitude": 128.834816,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202005/93a630b4-6567-4cda-a03a-8cb1cecc8203.jpg",
+                "https://image.foresttrip.go.kr/bb/202005/1fec9e14-cbba-4b0c-8111-49fb5605cddb.jpg",
+                "https://image.foresttrip.go.kr/bb/202005/5b5fa7c3-d99e-4296-a507-48405f376268.jpg",
+                "https://image.foresttrip.go.kr/bb/202005/8baee13e-c41b-4dce-ba02-055f9d08458e.jpg",
+                "https://image.foresttrip.go.kr/bb/202005/1744e9a4-3cf3-4f9a-8513-f2b68d6e0c31.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "학가산우래자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의 집, 산림휴양관 등",
+            "address": "경상북도 예천군 보문면 휴양림길 210",
+            "phone": "054-652-0114",
+            "latitude": 36.677929,
+            "longitude": 128.592876,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/0f217667-be7c-4cd4-bbd4-290d53b09940.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "양촌자연휴양림",
+            "possession": "공유림",
+            "facility": "글램핑장(4동)+숲속의집(10동)+휴양관(7실)",
+            "address": "충청남도 논산시 양촌면 매죽헌로1723번길 176-23",
+            "phone": "041-746-6481",
+            "latitude": 36.15726044,
+            "longitude": 127.2464846,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/ef28f1e9-595d-46ec-9d71-5208072af7e7.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "소선암자연휴양림",
+            "possession": "공유림",
+            "facility": "통나무집, 숲속의집, 산림문화휴양관, 산림복합휴양관, 백두대간 문화휴양관",
+            "address": "충청북도 단양군 단성면 대잠2길15",
+            "phone": "043-422-7839",
+            "latitude": 36.9192214181,
+            "longitude": 128.3123126642,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/55eaae48-ebe1-4fe9-8cf0-c78ec2d03de4.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "소백산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 산림문화휴양관, 정감록명당체험마을, 화전민촌",
+            "address": "충청북도 단양군 영춘면 하리방터길 180",
+            "phone": "043-423-3117",
+            "latitude": 37.0606929648,
+            "longitude": 128.4673083785,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/508f5f1d-f8f6-43da-a42f-cb843b2b84da.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/290a85cc-7029-42e7-bdcd-d5f6a33e8407.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/ecd9e526-0bbb-4299-ab82-9ac2c927d92d.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/cc0d3f11-d62a-4c1a-b1be-994f7e46073c.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/bc5c636a-7c91-4919-acc9-c1ce32e11890.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/21989037-cab8-44ac-8be9-ab254099553e.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/98900e2e-d866-4be8-ae2c-0a627fcc7e95.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/413419e6-8135-4875-a1bf-8e527ac5cb7c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "데미샘자연휴양림",
+            "possession": "공유림",
+            "facility": "휴양관, 숲속의집, 숲문화마당, 명상의숲 등",
+            "address": "전라북도 진안군 백운면 데미샘 1길 172",
+            "phone": "063-290-6992",
+            "latitude": 35.656988,
+            "longitude": 127.461036,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202206/a9c858ce-e150-40e8-afa9-43cb79283dae.jpeg",
+                "https://image.foresttrip.go.kr/bb/202206/af4d693d-3810-4bca-8b9b-207f19e3bc9e.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/7b6b6110-e782-4ace-ba68-6103ffda6904.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/bdd7f3c3-c270-4cb2-a097-9ceb2eb636b1.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/cebb0a10-83fc-42dc-8382-c71b05e4a622.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/a0fb29ff-4b76-46f5-868c-e1808344bf5a.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/f56597f0-a8d1-43ee-a6ed-9b0c2ea6206c.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/314c68ed-6e99-4880-8a17-91cee114092f.jpeg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "안면도자연휴양림",
+            "possession": "국유림",
+            "facility": "전시관, 수목원, 숲속의집 등",
+            "address": "충청남도 태안군 안면읍 안면대로3195-6",
+            "phone": "041-674-5019",
+            "latitude": 36.49670127,
+            "longitude": 126.3588291,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/150a5896-166c-4a2c-ab38-e200d23b7535.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "희리산 자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집,야영장,숲속수련장",
+            "address": "충청남도 서천군 종천면 희리산길 206",
+            "phone": "041-953-2230",
+            "latitude": 36.11262716,
+            "longitude": 126.664181,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/94eb9df7-c282-4528-973e-7e2462bc7461.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "금봉자연휴양림",
+            "possession": "공유림",
+            "facility": "산림휴양관외",
+            "address": "경상북도 의성군 옥산면 휴양림길 114",
+            "phone": "054-833-0123",
+            "latitude": 36.3360183,
+            "longitude": 128.8807891,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/9462da0e-6043-4984-9b8b-0e77dce43602.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "용봉산자연휴양림",
+            "possession": "공유림",
+            "facility": "산림휴양관 숲속의집 산림전시관",
+            "address": "충청남도 홍성군 홍북읍 용봉산2길 87",
+            "phone": "041-630-1785",
+            "latitude": 36.64528712,
+            "longitude": 126.6566318,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/aa29a18a-19d4-466a-ad4d-0d3842eb376b.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "춘천숲자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집 산림휴양관 글램핑장",
+            "address": "강원도 춘천시 동산면 종자리로 224-104",
+            "phone": "033-264-1156",
+            "latitude": 37.747732,
+            "longitude": 127.742503,
+            "image": [
+                "https://www.shouse.garden/data/photo/s210601_183710608.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "망경대산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집",
+            "address": "강원도 영월군 중동면 선도우길 177",
+            "phone": "033-375-8765",
+            "latitude": 37.1838677681,
+            "longitude": 128.593484498,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202105/b4504c8c-0507-4058-8cb3-d7026a531f52.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/521fc777-2b83-4186-a093-9ed96ed5ae04.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/c7be04a2-6ce9-4835-b38e-dd386376dd81.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/d3a872e9-8902-45d0-b4cb-88eeb861b907.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/4d290ee0-b3d1-4870-977c-0bb42df23577.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/f39279b5-cd32-48f5-ba96-c4caab6f4d65.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/ffce9305-579d-4464-a465-628d37938cb9.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/a4e82e93-da76-4629-8ab8-6ac37f6d1d21.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "구재봉자연휴양림",
+            "possession": "공유림",
+            "facility": "휴양관,숲속의집,트리하우스",
+            "address": "경상남도 하동군 적량면 중서길 60-81",
+            "phone": "070-8855-8010",
+            "latitude": 35.1289579366,
+            "longitude": 127.7440937074,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/c77552c7-2dad-45e9-842f-dd5095fde08f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "하동편백자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집",
+            "address": "경상남도 하동군 옥종면 위태리 산281-3",
+            "phone": "070-8994-0717",
+            "latitude": 35.1858764,
+            "longitude": 127.8484386,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/fbfddea7-6322-4aaa-8d1f-14e59ee00772.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "비학산자연휴양림",
+            "possession": "공유림",
+            "facility": "산림휴양관, 숲속의 집, 테라스하우스, 카라반, 야외데크, 생태숲 등",
+            "address": "경상북도 포항시 북구 기북면 비학산길 302",
+            "phone": "054-252-3275",
+            "latitude": 36.14703337,
+            "longitude": 129.2111071,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/be4ff188-37a2-4adf-8596-bb9ca6e5b8e3.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "백아산자연휴양림",
+            "possession": "공유림",
+            "facility": "족구장,정자,계곡데크",
+            "address": "전라남도 화순군 백아면 수양로 353",
+            "phone": "061-379-3738",
+            "latitude": 35.15137582,
+            "longitude": 127.1671251,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201912/c3fce1ab-3113-45a8-9a51-b2b9ea8fcbf2.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/bf0734d1-f8ce-426a-b749-1911054ca837.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/a7fae36f-282e-4373-8649-3e9dfb08d66e.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/9926fbb9-cb39-4433-a575-b0d6a42631e6.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "한천자연휴양림",
+            "possession": "공유림",
+            "facility": "캠핑장,데크,잔디광장, 정자, 물썰매장",
+            "address": "전라남도 화순군 한천면 죽헌로 719",
+            "phone": "061-379-3734",
+            "latitude": 34.98834125,
+            "longitude": 127.0454803,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/31b0060c-709f-4bb8-a529-025e9ebfb9d8.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "회문산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의 집+산림문화 휴양관+야영시설",
+            "address": "전라북도 순창군 구림면 안심길 295",
+            "phone": "063-653-4779",
+            "latitude": 35.50195867,
+            "longitude": 127.1148251,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202010/c21361ea-6561-4e96-bf24-66398e4a2188.JPG",
+                "https://image.foresttrip.go.kr/bb/202010/7aa925bc-fc22-4616-8e57-69da84536242.JPG",
+                "https://image.foresttrip.go.kr/bb/202010/b861f482-160f-4c59-8426-05545f607f15.JPG",
+                "https://image.foresttrip.go.kr/bb/202010/4cedcb8c-a053-4303-8e42-d2d91ff589bc.jpg",
+                "https://image.foresttrip.go.kr/bb/202010/19bfd1ee-9091-4d0f-ba51-2d77e84d235a.JPG",
+                "https://image.foresttrip.go.kr/bb/202010/4d0e56f3-37ba-4e75-abea-88a26e4a1f43.JPG",
+                "https://image.foresttrip.go.kr/bb/202010/f60a85fa-f2ce-4e2e-9ba5-593984e0752a.jpg",
+                "https://image.foresttrip.go.kr/bb/202010/e26ea6fa-b99f-4962-9f08-5e9c1adf3664.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "공주산림휴양마을",
+            "possession": "공유림",
+            "facility": "숲속의집/휴양관/야영장/목재문화체험장",
+            "address": "충청남도 공주시 수원지공원길 222",
+            "phone": "041-855-0855",
+            "latitude": 36.42442578,
+            "longitude": 127.1193201,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/81a91115-b797-408f-9143-6ae5fcfbaf96.jpg",
+                "https://image.foresttrip.go.kr/bb/a9068da3-ac63-4758-9202-83b45138ed54.jpg",
+                "https://image.foresttrip.go.kr/bb/d68c11bd-cc1c-4e85-b193-98e733984995.jpg",
+                "https://image.foresttrip.go.kr/bb/8bd130e1-7e23-4343-95d4-217a898c01a7.jpg",
+                "https://image.foresttrip.go.kr/bb/372259b2-c4bf-488e-9444-d492f0c3640e.jpg",
+                "https://image.foresttrip.go.kr/bb/81028850-b223-4206-860c-77ccae100606.jpg",
+                "https://image.foresttrip.go.kr/bb/2c7e7e7d-963e-4454-8295-aa2bd20b96e4.jpg",
+                "https://image.foresttrip.go.kr/bb/1d60b3b6-c6f3-413f-988e-4939dbe67570.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "숲체원",
+            "possession": "국유림",
+            "facility": "탐방로, 숙박동, 강의실",
+            "address": "강원도 횡성군 둔내면 청태산로 777",
+            "phone": "033-340-6300",
+            "latitude": 37.53722046,
+            "longitude": 128.2866886,
+            "image": [
+                "https://image.여기유.com/content_travel/2020021417281915816688990847.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "청태산 자연휴양림",
+            "possession": "국유림",
+            "facility": "제1산림문화휴양관, 제2산림문화휴양관, 숲속의집, 숲속수련장(중형, 소형), 대형숲속수영장(회의실), 야영장, 인도네시아 전통 전시관, 숲생태체험실, BIY목공교실",
+            "address": "강원도 횡성군 둔내면 청태산로 610",
+            "phone": "033-343-9707",
+            "latitude": 37.52907993,
+            "longitude": 128.2968658,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/48d26b42-f9f4-4b5b-a21e-faae27e9ba74.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "문수산 산림욕장",
+            "possession": "공유림",
+            "facility": "숲길,산림욕장",
+            "address": "경기도 김포시 월곶면 문수산로 102-38",
+            "phone": "031-988-2965",
+            "latitude": 37.737829,
+            "longitude": 126.5308885,
+            "image": [
+                "https://image.여기유.com/content_travel/2020021410194915816431896991.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "충북알프스자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,세미나실,목공예체험장 등",
+            "address": "충청북도 보은군 산외면 속리산로 1880",
+            "phone": "043-540-3712",
+            "latitude": 36.57316547,
+            "longitude": 127.7858442,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/712ec836-1034-4d2a-abf8-afcb78215313.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "속리산 숲체험휴양마을",
+            "possession": "공유림",
+            "facility": "한옥마을 ,황토마을, 통나무마을 등",
+            "address": "충청북도 보은군 속리산면 속리산로 596",
+            "phone": "043-540-3220",
+            "latitude": 36.49245442,
+            "longitude": 127.792472,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201912/7466d7a9-5297-4782-a89a-5f0a2a0adb22.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/3461106b-6a79-45e0-bbbc-873ccb9ab6c0.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/f85409a9-d77d-4303-83c7-cb7e8da3d8e9.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/643dd04a-fedc-408d-8024-70ecb20505d5.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/a60726d1-112a-47bf-b393-898fadaa010d.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/8d2a64ea-76be-4cd8-ab3f-12e6bbd20c4f.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/a63fb75a-1d94-4cae-8072-25424cc88be1.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/e3e65906-96d4-4e74-a438-4c2773c94eb6.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "치악산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,주차장,야영장",
+            "address": "강원도 원주시 판부면 휴양림길 66",
+            "phone": "033-762-8288",
+            "latitude": 37.255878,
+            "longitude": 128.031372,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/6eb2a553-8b2f-42d0-8f51-03fff224663d.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/78ec2c9a-9295-40ed-a32e-849e337bb07f.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/cd6c5628-9a6c-4a58-b7c8-d1391e6961cc.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/7c05942a-dc5a-4754-87d3-191c42e6b4f2.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/3e62c689-bddc-46f7-8ee8-3acbdf049ed1.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/a817a414-6118-4d44-a6b1-3433de0bd015.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/3f49bca6-f441-4a66-a66d-e12b32e3e020.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/d62345a0-9c44-4058-997e-536dd3ca1c78.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "순천자연휴양림",
+            "possession": "사유림",
+            "facility": "관리사무실 1동, 숙박시설 14동 23실, 캐빈하우스 6동 텐트19면",
+            "address": "전라남도 순천시 서면 청소년수련원길 170",
+            "phone": "061-749-8948",
+            "latitude": 35.04388083,
+            "longitude": 127.4744949,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202107/38da96f4-1fa9-4d90-9007-c2ac8a981c39.jpg",
+                "https://image.foresttrip.go.kr/bb/202106/c98b040e-d22b-4593-b43d-63aaa56a569c.jpg",
+                "https://image.foresttrip.go.kr/bb/202106/d679d8e3-a504-4209-9393-c85e87c5af29.jpg",
+                "https://image.foresttrip.go.kr/bb/202106/f72aa95f-6966-4925-b056-80e293013beb.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "봉수산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,산림문화휴양관",
+            "address": "충청남도 예산군 대흥면 임존성길 153",
+            "phone": "041-339-8936",
+            "latitude": 36.59844872,
+            "longitude": 126.7808937,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/7cc7cfc7-ce8f-40cd-b994-4f9287276c35.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/e509915d-d4d5-4c92-b111-55ab851e6b22.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/3509c619-d14f-4227-ba33-4049cb457d56.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/6ef75f9d-98b6-40aa-8899-47c3e88c4974.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/77ba15b3-0f29-40fc-9d9b-63d71195723c.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/4ebf1913-df48-4365-891f-61e2f57b3744.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/11df9414-51b7-4644-88e1-5d368557b127.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/255b675b-a3e5-454f-b04a-984be7048e09.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "화왕산자연휴양림",
+            "possession": "공유림",
+            "facility": "휴양관+야영데크+바비큐장+숲길",
+            "address": "경상남도 창녕군 고암면 청간길 128-126",
+            "phone": "055-533-2332",
+            "latitude": 35.54697823,
+            "longitude": 128.5673185,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/d0f0f048-dfb1-4698-99d3-7454bd6912e2.jpg",
+                "https://image.foresttrip.go.kr/bb/82196c68-45d4-4487-813b-36f632174cee.jpg",
+                "https://image.foresttrip.go.kr/bb/47d7e19b-c59a-47c2-8cd4-9a26af8d3553.jpg",
+                "https://image.foresttrip.go.kr/bb/e8543a7e-89dc-4b7f-ab32-aa80597caa8f.jpg",
+                "https://image.foresttrip.go.kr/bb/0112c2fd-787a-4493-9405-44aba0f2fc63.jpg",
+                "https://image.foresttrip.go.kr/bb/74e0c2d8-8a56-48b3-92e3-f8c0bf82f15c.jpg",
+                "https://image.foresttrip.go.kr/bb/02d71dde-0731-42c6-a76f-1afb7b6bf588.jpg",
+                "https://image.foresttrip.go.kr/bb/0dcfadfb-5416-4c60-91e1-84a0ba463817.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "용추자연휴양림",
+            "possession": "공유림",
+            "facility": "산림문화휴양관, 숲속의집, 취사장, 화장실, 샤워장, 야영장, 관리사무실 등",
+            "address": "경상남도 함양군 안의면 용추휴양림길 166",
+            "phone": "055-963-8702",
+            "latitude": 35.6961266,
+            "longitude": 127.7578596,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/df32fda8-d779-44be-b3f7-f1e8ace64ac6.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "산삼자연휴양림",
+            "possession": "공유림",
+            "facility": "산림문화휴양관, 숲속의집 , 관리사무실 등",
+            "address": "경상남도 함양군 서상면 가르내길 202-1",
+            "phone": "055-964-9886",
+            "latitude": 35.69762431,
+            "longitude": 127.6584311,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202002/8c10f094-3013-4e27-9e0f-32084356d664.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/222b5c43-90de-4c39-a7a5-750ba788d5df.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/dc7f6197-e797-4f3c-9ddc-e4113b169b9f.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/404f93b6-122f-43dc-8280-bee05552fb26.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/800face2-9739-461c-929e-cd5d05f0d075.jpg",
+                "https://image.foresttrip.go.kr/bb/202001/c333de9d-e183-4b3d-b390-2fb966ddcc20.jpg",
+                "https://image.foresttrip.go.kr/bb/202001/d0f58e20-27f9-4d0a-ae86-5c9cb3556227.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "송이밸리자연휴양림",
+            "possession": "공유림",
+            "facility": "송이밸리자연휴양림",
+            "address": "강원도 양양군 양양읍 고노동길 98-50",
+            "phone": "033-670-2644",
+            "latitude": 38.05400667,
+            "longitude": 128.6214924,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/eb287fba-f53f-47cd-b961-98480924a198.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "운주산승마자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집+산림문화휴양관 등",
+            "address": "경상북도 영천시 임고면 승마휴양림길 105",
+            "phone": "054-330-6287",
+            "latitude": 36.03510258,
+            "longitude": 128.996734,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202106/605728e2-60f7-4249-94b1-fd4466068610.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/74cbb2d9-8637-4973-beef-df17b4db14ed.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/25ef972f-3eee-4a02-9c01-3fcf9a28fabe.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/78f30c57-e05b-4087-a75a-6a5f7aa88fff.jpg",
+                "https://image.foresttrip.go.kr/bb/202102/c0415231-859e-4c11-91f3-abe97356676a.jpg",
+                "https://image.foresttrip.go.kr/bb/202101/b4401dd0-ed0b-48ca-a06c-e4e42a72096e.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "보현산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집+산림문화휴양관 등",
+            "address": "경상북도 영천시 화북면 배나무정길 334",
+            "phone": "054-336-6618",
+            "latitude": 36.14210706,
+            "longitude": 128.9781098,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202008/62909fc4-09c1-482f-bf2d-e24fe2278e37.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/19387209-6685-4f2e-9d9c-cc1eaf05d468.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/ec1dcb5d-8ca0-4db0-b606-8e4251ecc5c3.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/f5be09e7-cea4-4e2b-bbef-b0c80d27e683.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/cd82c221-6f2b-4428-a6bd-2416958d72d7.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/796d5b36-d6ae-4e7f-a338-043ef7aa58fe.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/c74a7a15-13ae-4e42-b60c-af9844a5b97b.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/7a7c7292-242a-44b2-ab90-9c800dc9177d.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "사천 케이블카 자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집+휴양관+야영장+야영센터+어린이 물놀이장+숲놀이터+숲속 산책로",
+            "address": "경상남도 사천시 실안길 242-45",
+            "phone": "055-835-9524",
+            "latitude": 34.95016897,
+            "longitude": 128.0576108,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202203/6303c15e-9433-418b-808f-e2bc9f4226ea.jpg",
+                "https://image.foresttrip.go.kr/bb/202108/648baf8e-d531-4022-81b0-90ed04dbd2db.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/c5a8b067-ecba-4406-86d0-d03fa7ca81bc.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/759942be-29cf-4797-9579-b3e525506c7c.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/0e6c1b37-8c18-4525-9c96-7d3db3d646d4.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/3186e002-6997-4322-b6b7-18b5b222b046.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/f53bc82f-69aa-43e5-a5bc-b01f41f25054.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/95434612-6903-451a-974d-bc3ca8114751.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "구수곡자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집",
+            "address": "경상북도 울진군 북면 십이령로 2721",
+            "phone": "054-783-2241",
+            "latitude": 37.0621216154,
+            "longitude": 129.2929279338,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201912/9cbe50c1-a0cb-4b86-b6c9-99ae670ec83b.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/90754d72-5a59-4c41-a830-e571cf89c013.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/48a53bd1-627c-40a8-8f65-03298b1ad2f5.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "민주지산자연휴양림",
+            "possession": "공유림",
+            "facility": "버섯동,야생화동,국악동,식당, 황토방, 황토찝질방, 학습관, 너와집,산림문화휴양관1,2층 세미나실,치유숙소6개소,치유센터,진료동, 치유센터치유동,야외 치유시설, 야영장, 족구장 등",
+            "address": "충청북도 영동군 용화면 조동리 민주지산로 60",
+            "phone": "043-740-3438",
+            "latitude": 36.0573434,
+            "longitude": 127.8251649,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202108/227e5f3f-4a17-4386-a4c5-cc38826e8f4e.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/226fc3b0-56ef-478d-927c-9580a3ac6f00.JPG",
+                "https://image.foresttrip.go.kr/bb/202012/eafe998b-9af0-4c5c-bdfd-ad968bc57dd0.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/66ac84a4-6573-4f0d-96ad-1cd0d07b99c8.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/9a1ce52c-fb8c-4965-a64d-ace4abfaa53c.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/e3376515-2a61-4559-9f69-b480ed81777b.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/9589ca37-f035-4fb0-a95a-5ad81bdfbf50.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/9cd6bae1-2517-4374-99af-a404fd32e7c5.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "운문산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집+산림문화휴양관+숲속수련장+야영시설",
+            "address": "경상북도 청도군 운문면 운문로 763",
+            "phone": "054-373-1327",
+            "latitude": 35.6483467486,
+            "longitude": 129.0262079787,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202002/bdddcb2d-32e1-46c5-a92c-6fce90e40f2b.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/d573ec67-b536-4809-8aec-faba076dafec.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_07_11_30_120.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_07_00_04_440.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_06_23_59_030.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_07_11_35_580.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_05_02_44_540.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_05_02_43_390.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "영양에코둥지",
+            "possession": "공유림",
+            "facility": "산림문화휴양관, 숲속의집",
+            "address": "경상북도 영양군 일월면 재일로 2394-70",
+            "phone": "054-680-5050",
+            "latitude": 36.70182591,
+            "longitude": 129.1124232,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/1d8d5419-e119-4f6e-a5e3-6f3f6eee5b3d.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "토함산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 화랑관, 야영장, 국학관(세미나실) 등",
+            "address": "경상북도 경주시 양북면 불국로 1208-45",
+            "phone": "054-750-8700",
+            "latitude": 35.76191761,
+            "longitude": 129.3654772,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202104/ea19bab1-fb58-40cf-a6ce-e6471334578e.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/55001950-1f32-43ba-b9c1-1d5ad33d88dc.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/b48cc043-f59c-44f9-85c4-de2e6ee23079.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/dde245de-78b9-4a6a-bb6a-6b9f2c4d7bf8.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/d20cc729-adbc-4b84-9827-d338330181ce.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/4f7ad0a8-0c5e-4406-9403-ee10ee439929.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/ad66f7fe-bea0-48cb-b779-e5430c5c1dec.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "산청한방자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 숲속휴양관, 세미나실",
+            "address": "경상남도 산청군 금서면 동의보감로555번길 186",
+            "phone": "055-970-6951",
+            "latitude": 35.43403493,
+            "longitude": 127.8236813,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/850d7464-981c-41ca-a8c8-ff308d5be6d4.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "의왕바라산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,야영장,치유의숲,체험의숲,산림문화휴양관",
+            "address": "경기도 의왕시 바라산로 84",
+            "phone": "031-8086-7482",
+            "latitude": 37.37310185,
+            "longitude": 127.0193147,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/104673eb-d2a6-4af0-b53a-fa080f8c4267.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "삼척활기자연휴양림",
+            "possession": "사유림",
+            "facility": "휴양관(송폭헌), 한옥(방우재), 한옥(세우재),숲속의집(구희당),숲속의집(삼락당)",
+            "address": "강원도 삼척시 미로면 준경길 651-43(지번활기리 403-1)",
+            "phone": "033-574-0032",
+            "latitude": 37.38099374,
+            "longitude": 129.0601226,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202007/6e5e4af5-f253-4fad-a572-3da1293b2e93.jpg",
+                "https://image.foresttrip.go.kr/bb/202007/9fffceaf-454f-4ca7-b408-19fc06696629.jpg",
+                "https://image.foresttrip.go.kr/bb/202007/4d9905a7-c05b-4c6f-9b8d-80eed70afeb6.jpg",
+                "https://image.foresttrip.go.kr/bb/202007/347b9957-fc73-431f-b70b-e8fea2353065.jpg",
+                "https://image.foresttrip.go.kr/bb/202007/18bb754f-d71f-4713-9836-e9f0ddb8bfc9.jpg",
+                "https://image.foresttrip.go.kr/bb/202007/93433e70-e715-4a35-8e1e-c22f954a23e0.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "간월산자연휴양림",
+            "possession": "사유림",
+            "facility": "관리실,수영장,연수원",
+            "address": "울산광역시 울주군 상북면 작괘로 607-15",
+            "phone": "052-263-6644",
+            "latitude": 35.5670959,
+            "longitude": 129.0560416,
+            "image": [
+                "https://tong.visitkorea.or.kr/cms/resource/99/609199_image2_1.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "옥화자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 산림휴양관 캠핑장 산책로 등",
+            "address": "충청북도 청주시 상당구 미원면 운암옥화길 140",
+            "phone": "043-270-7381",
+            "latitude": 36.59895012,
+            "longitude": 127.6943716,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201912/e27f54e7-3e55-4934-8928-7683df033807.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/796c0d17-1b65-479e-ab74-8b7f0d7ce46e.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/a3c8db64-ce01-4c14-8e1f-cfa50f54886c.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/e191e95c-3c63-4c33-ab5f-ac5604a9c3c3.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/d4a6e43f-97a8-4f51-bc81-08752bdd3ffa.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/a324ffb2-a086-484b-b7c6-e795049b5c68.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/377a1477-b660-49a7-bdad-83aa6fffd0ed.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/b67944b2-4ba5-4cc6-9b20-6c60b9456f5e.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "문성자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 단체숙소 휴양관 유아숲체험원 목재문화체험장 짚라인 오토캠핑장 산책로 등",
+            "address": "충청북도 충주시 노은면 우성1길 191",
+            "phone": "043-850-7346",
+            "latitude": 37.02832602,
+            "longitude": 127.7525217,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/bf816120-03c0-4cf0-92cf-30f039b19960.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "봉황자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 단체숙소 산책로 등",
+            "address": "충청북도 충주시 중앙탑면 수룡봉황길 540",
+            "phone": "043-850-7315",
+            "latitude": 37.05652228,
+            "longitude": 127.8297465,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/3f5efd5e-ebd5-482b-96f9-193631b867c3.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "대운산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 산림휴양관, 야영데크 등",
+            "address": "경상남도 양산시 탑골길 208-124",
+            "phone": "055-379-8670",
+            "latitude": 35.4164113,
+            "longitude": 129.2105343,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202102/17835909-d329-43eb-b720-187d96446d68.png",
+                "https://image.foresttrip.go.kr/bb/202102/58a85887-880b-4b8a-a6ec-f120eca4e6eb.png",
+                "https://image.foresttrip.go.kr/bb/201912/e9c07f9a-a732-4259-abaa-11024d9ce2fb.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "유치자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 야영데크, 물놀이장",
+            "address": "전라남도 장흥군 유치면 휴양림길 154",
+            "phone": "061-863-6350",
+            "latitude": 34.76806521,
+            "longitude": 126.8323492,
+            "image": [
+                "https://image.여기유.com/content_travel/2020021417291315816689533984.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "오도산 자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집+청소년수련관+야영데크+취사장+관리사무소+물놀이장 등",
+            "address": "경상남도 합천군 봉산면 오도산휴양로 398",
+            "phone": "055-930-3733",
+            "latitude": 35.66904355,
+            "longitude": 128.0538747,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202011/dcacdef8-8665-4e58-b73e-9457faeb182e.png",
+                "https://image.foresttrip.go.kr/bb/202011/cec2987c-393f-4a9b-9dd0-f06675561a02.png",
+                "https://image.foresttrip.go.kr/bb/202011/83eac2a6-55d0-44e9-bbce-28fc35a73b04.jpg",
+                "https://image.foresttrip.go.kr/bb/202011/6abeba56-d81f-4b37-9c1a-390206b17bb4.JPG",
+                "https://image.foresttrip.go.kr/bb/202011/17777bd3-f228-4197-bd4e-9b82357f34ff.JPG",
+                "https://image.foresttrip.go.kr/bb/202011/bed5cf7c-cfc8-4647-a747-ae3f3e292d51.jpg",
+                "https://image.foresttrip.go.kr/bb/202011/58c74a7b-d5f7-4d57-9927-34dbbd7a9602.jpg",
+                "https://image.foresttrip.go.kr/bb/202011/7392e2ea-d9c0-4112-bdb2-d5284e7c2bce.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "장령산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,산림문화휴양관,휴-포레스트,야영장,야외물놀이장,치유의 숲 등",
+            "address": "충청북도 옥천군 군서면 장령산로 519",
+            "phone": "043-730-3491",
+            "latitude": 36.24486737,
+            "longitude": 127.5547497,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/d5bbb1ef-ae6a-46e4-a4e7-6c423abb9205.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/bf2a7d21-90d4-4606-97b5-dbc2fb5d1bc0.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/a54aa3b2-9562-41b1-a0ab-8c1d32f65618.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/468ed9aa-e868-47f0-88be-9a441c90f1ac.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/971c81f0-483d-4875-9e62-9571d916c740.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/93f95654-02e3-4fa8-a69a-8bb32efa0c27.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/45c23527-6df0-48b1-9e52-19f66e6789c6.JPG",
+                "https://www.foresttrip.go.kr/images/common/no_img.gif"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "주작산자연휴양림",
+            "possession": "공유림",
+            "facility": "휴양관+숲속의집+세미나실 등",
+            "address": "전라남도 강진군 신전면 주작산길 262",
+            "phone": "061-430-3306",
+            "latitude": 34.5172932,
+            "longitude": 126.6989685,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201911/1a60cc17-9750-4609-99e1-ae69e6bbba3e.jpg",
+                "https://image.foresttrip.go.kr/bb/201911/593e7f1c-cea6-4d06-a9ad-844e805b406c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "옥성자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 산림문화휴양관, 물놀이장, 산책로, 유아숲체험원",
+            "address": "경상북도 구미시 옥성면 휴양림길 150",
+            "phone": "054-480-2082",
+            "latitude": 36.27907203,
+            "longitude": 128.2844292,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/09bd9299-38f7-4c44-b283-a681cc79d75d.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "서귀포자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집+산림휴양관+세미나실+야영장+생태탐방코스",
+            "address": "제주특별자치도 서귀포시 1100로 882 (대포동)",
+            "phone": "064-738-4544",
+            "latitude": 33.31150025,
+            "longitude": 126.458761,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201906/f11b85f7-0e31-4009-9565-cdabe061d884.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/54f7bdc0-298a-4607-a0be-1fa55d86654c.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/657fd1d0-cbbc-4acd-b0b0-d5d4162c1cb8.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/bc371ac7-206e-4187-8de6-fae3f3defc6a.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/3f5812b3-9a17-4d06-8fe9-c5f6c99ce72c.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/0864038e-54a7-4123-9b22-615baa0a6b84.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/ee95fcde-848f-49b8-a9aa-d9ec1a929dce.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/a6715e6a-2f3e-4264-b693-c2a658631a37.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "붉은오름자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집+산림문화휴양관+세미나실+오름등반로+야외공연장",
+            "address": "제주특별자치도 서귀포시 표선면 남조로 1487-73",
+            "phone": "064-782-9171",
+            "latitude": 33.40142958,
+            "longitude": 126.6756716,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201907/0c529b6f-bb18-436f-b869-a600c041a185.jpg",
+                "https://image.foresttrip.go.kr/bb/201907/0106b31a-a98a-4a71-bf7a-9ec571e65b79.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/64d7e82f-0687-4137-8101-7b9a5660bf18.jpeg",
+                "https://image.foresttrip.go.kr/bb/201906/bf900ee3-2d77-4707-81f8-2b5118de6dcc.jpeg",
+                "https://image.foresttrip.go.kr/bb/201906/d913f83e-7ab6-404e-a2d4-f203294bd59d.jpeg",
+                "https://image.foresttrip.go.kr/bb/201906/8a92c17c-8914-4e2a-9c61-9de25eabb27c.jpeg",
+                "https://image.foresttrip.go.kr/bb/201906/e95a6551-5b8f-4f43-8bb6-74024541f1a9.jpeg",
+                "https://image.foresttrip.go.kr/bb/201906/d4eb24ea-110f-4a19-bfd3-9c1890c8fe6e.jpeg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "서귀포 치유의 숲",
+            "possession": "공유림",
+            "facility": "치유숲길",
+            "address": "제주특별자치도 서귀포시 산록남로 2271",
+            "phone": "064-760-3067",
+            "latitude": 33.29194197,
+            "longitude": 126.5279022642,
+            "image": [
+                "https://img.etoday.co.kr/pto_db/2021/12/600/20211227110022_1701674_1200_780.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "세심자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집",
+            "address": "전라북도 임실군 삼계면 임삼로 485",
+            "phone": "063-644-4611",
+            "latitude": 35.514241,
+            "longitude": 127.240066,
+            "image": [
+                "http://tong.visitkorea.or.kr/cms/resource/96/2690196_image2_1.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "구름산산림욕장",
+            "possession": "국유림",
+            "facility": "피크닉장, 황토길, 세족장, 야외소공연장, 놀이시설",
+            "address": "경기도 광명시 하안동 산141-7",
+            "phone": "02-2680-2377",
+            "latitude": 37.454013,
+            "longitude": 126.876365,
+            "image": [
+                "https://tong.visitkorea.or.kr/cms/resource/14/2774014_image2_1.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "여수봉황산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,야영장 등",
+            "address": "전라남도 여수시 돌산읍 대복길160",
+            "phone": "061-643-9180",
+            "latitude": 34.614702371,
+            "longitude": 127.7617998912,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202205/15654a4e-f717-4fa4-abec-152a41ad89d3.jpeg",
+                "https://image.foresttrip.go.kr/bb/202112/a9581010-2d8a-4040-8f85-4bce1967cbc6.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/ec9e89c9-9108-4891-a9b9-294180a38812.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/1db194b6-08ae-42f9-b54c-b2c9f44ae027.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/70270d23-0623-414e-a277-9801a0b820fa.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/1b5e50ae-65a8-435e-bf72-b8bd81db9cab.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/765388f3-5ff7-4ccf-8058-ae32dd768eed.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/426da423-362e-4e5f-97d8-bd45031217d0.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "용인자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 숲속체험관, 목조주택, 생태습지, 야영장, 잔디광장, 짚라인, 목재문화체험관 등",
+            "address": "경기도 용인시 처인구 모현면 초부로 220",
+            "phone": "031-336-0040",
+            "latitude": 37.314713,
+            "longitude": 127.265315,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202206/3b3a4046-6582-4858-bac4-56a220d4fe5f.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/dd38f22b-6406-40e3-b772-a68f4d99d732.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/004e1212-f551-42a9-8541-fd555f690141.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/13d34687-fd5d-4d4a-8a23-a87add58c5cb.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/4aa03fa2-43ae-41a6-9c0f-4ecee4738576.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/4629532c-1741-4fd1-80ea-a3316a5b6246.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/67bf48a8-0f71-4f3c-a1ae-7a55b8f170e7.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/fcb1426d-6025-4bd5-b6ec-aac38de676d8.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "광치자연휴양림",
+            "possession": "공유림",
+            "facility": "휴양관, 숲속의집, 숲속카페, 트리하우스,",
+            "address": "강원도 양구군 남면 광치령로 1794번길 265",
+            "phone": "033-482-3115",
+            "latitude": 38.143507,
+            "longitude": 128.071262,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/53947634-f46f-4686-a3fb-2c37d5677ef1.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "천보산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 휴양관, 야영장 등",
+            "address": "경기도 포천시 원동교길 309",
+            "phone": "031-538-3554",
+            "latitude": 37.85576406,
+            "longitude": 127.1190897,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/20fc273f-74f8-467c-bf0e-5d0c83c95757.jpg",
+                "https://image.foresttrip.go.kr/bb/98adc304-9ab7-48a0-bc09-be421d9ec136.jpg",
+                "https://image.foresttrip.go.kr/bb/65f1bb1b-e9f7-475d-baef-b079f71ef03c.jpg",
+                "https://image.foresttrip.go.kr/bb/79ffe6be-e66b-40c4-8afb-39e0e7089790.jpg",
+                "https://image.foresttrip.go.kr/bb/cb8f34a3-c911-4272-8954-cf880f9cc8c5.jpg",
+                "https://image.foresttrip.go.kr/bb/abdc3cbf-de5b-4e8e-a5d9-f7fafee1f31d.jpg",
+                "https://image.foresttrip.go.kr/bb/97aa2a3e-26e9-4b61-b5c6-ec79a36e49c7.jpg",
+                "https://image.foresttrip.go.kr/bb/806e564c-6863-4057-bc38-7259f69f0d35.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "국망봉자연휴양림",
+            "possession": "사유림",
+            "facility": "통나무 집, 캠핑장 등",
+            "address": "경기도 포천시 이동면 늠바위길 207-28",
+            "phone": "031-532-0014",
+            "latitude": 38.02891868,
+            "longitude": 127.3962681,
+            "image": [
+                "https://mono3433.cdn2.cafe24.com/files/camping/2020/08/21/b82c1f1c0dffb7b439214af59085261e182221.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "태학산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,잔디광장,숲속공연장 등",
+            "address": "충청남도 천안시 동남구 풍세면 휴양림길 127",
+            "phone": "041-529-5108",
+            "latitude": 36.72734819,
+            "longitude": 127.0903273,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202002/6f6879dd-d731-4ff3-965e-94ed8eaf9a71.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/6c5335e2-1edd-4033-927d-c55fc25d525b.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/3ad609d4-da25-4cb1-8774-3b72b5613f97.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/caee2608-49f3-4074-bc32-77fda127a6c5.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/008dddca-1027-4bfc-8408-03052c8cb2df.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/df40832f-ffe7-4009-bc21-3c14e6d47c9b.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/4c5ecdc9-3c7d-4c03-a0c5-51dc2597a003.jpg",
+                "https://image.foresttrip.go.kr/bb/202002/8bb6f639-f479-4458-8267-ac4c916a5023.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "고대산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집 14동14실산림휴양관 1동2층6실숲속수련원 1동1실방문자센터 1동2층야영장데크 20개소",
+            "address": "경기도 연천군 신서면 고대산길 84-79",
+            "phone": "031-834-2200",
+            "latitude": 38.21125391,
+            "longitude": 127.1507058,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202104/2ee39e70-e458-4f84-a218-7607441dbd4d.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/0c5a50df-89c5-42e4-8017-ea58477360be.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/ce3fc1c0-5998-48f1-b837-4f6a285f3fbe.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/f218d2a9-1eed-437f-814d-344f2f8dd3a0.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/a27680ba-b6d6-4f05-8f63-516e2a0f3cda.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/9925ff26-2cd0-4e83-a1e6-951c965cbaed.jpg",
+                "https://image.foresttrip.go.kr/bb/202004/f737419b-cefb-4744-a6f7-1e64b60cff15.jpg",
+                "https://image.foresttrip.go.kr/bb/202004/4ee27f4a-a238-4bcd-a647-494d3acad468.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "미숭산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 산림문화휴양관",
+            "address": "경상북도 고령군 대가야읍 낫질로 672-99",
+            "phone": "054-950-7407",
+            "latitude": 35.75077545,
+            "longitude": 128.2028394,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/e826a6f2-abe1-4b68-983c-7893b2ca03a5.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "제암산자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박,야영장,물놀이터,더늠길,숲속교육관,몽골텐트,족구장데크,모험시설",
+            "address": "전라남도 보성군 웅치면 대산길 330",
+            "phone": "061-850-8708",
+            "latitude": 34.70050454,
+            "longitude": 126.9855053,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202104/1adc6fc0-d04c-46a6-b2ee-d233c4334017.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/e558e38d-537e-45e2-b1e6-61d8d39052f3.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/ccc5b9e5-31dc-485d-b505-59d5e80b3d01.jpg",
+                "https://image.foresttrip.go.kr/bb/202010/62c50d96-1fbb-46f5-8c75-98c553a7c5d2.jpg",
+                "https://image.foresttrip.go.kr/bb/202010/02c8da57-f03d-4174-8548-ff3d8d58a645.jpg",
+                "https://image.foresttrip.go.kr/bb/202010/e61a38cc-1902-4ecc-83fa-1bed1b0a2e71.JPG",
+                "https://image.foresttrip.go.kr/bb/202010/d9a8e9a4-8764-418b-a25f-b152779d0131.JPG",
+                "https://image.foresttrip.go.kr/bb/202010/c20d53c0-0386-40ec-b2d0-1587a81957d1.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "금산산림문화타운",
+            "possession": "공유림",
+            "facility": "숲속의집, 생태체험학습장, 야영장, 캠핑장 등",
+            "address": "충청남도 금산군 남이면 느티골길 200",
+            "phone": "041-753-5706",
+            "latitude": 36.06776064,
+            "longitude": 127.3690934,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/8544ae28-7858-48b0-a88a-1ece59183818.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "진산자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의집, 산책로, 캠핑장, 글램핑장, 짚핑",
+            "address": "충청남도 금산군 진산면 대둔산로 6",
+            "phone": "041-753-4242",
+            "latitude": 36.12303243,
+            "longitude": 127.3441498,
+            "image": [
+                "http://www.gocamping.or.kr/upload/camp/2831/thumb/thumb_720_0821CauMJAE1cqiPzLLqlQK6.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "서대산약용자연휴양림",
+            "possession": "사유림",
+            "facility": "산야초체험장, 산약초음식점,숲속의집",
+            "address": "충청남도 금산군 추부면 홍골1길 132",
+            "phone": "041-753-2222",
+            "latitude": 36.22268671,
+            "longitude": 127.5258197,
+            "image": [
+                "https://modo-phinf.pstatic.net/20160713_57/14683981168469Kd9e_JPEG/mosa8a7R8I.jpeg?type=a1100"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "심천치유자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의집, 야영장, 캠핑장 등",
+            "address": "충청남도 금산군 남일면 신동길 239",
+            "phone": "041-752-8300",
+            "latitude": 35.99504733,
+            "longitude": 127.4849511,
+            "image": [
+                "http://www.simcheon.kr/img/sub/sub4_2_img01.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "태백고원자연휴양림",
+            "possession": "국유림",
+            "facility": "산림문화휴양관, 숲속의 집 , 야영장",
+            "address": "강원도 태백시 머리골길153",
+            "phone": "033-550-2849",
+            "latitude": 37.12357654,
+            "longitude": 129.0603832,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/8cb4c611-0404-4d16-9d88-30d33469676e.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "성주봉자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집산림휴양관산림수련관야영장",
+            "address": "경상북도 상주시 은척면 성주봉로 3",
+            "phone": "054-541-6512",
+            "latitude": 36.5335984395,
+            "longitude": 128.0407595461,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/6c5c4f77-a0e5-4543-b25e-443a667f723e.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "독용산성 자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속휴양관, 휴양관, 숲속의집, 관리사무소, 야외화장실 등",
+            "address": "경상북도 성주군 금수면 사더래길 144",
+            "phone": "054-930-8401",
+            "latitude": 35.9063679487,
+            "longitude": 128.1344114728,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/cd62fc9e-7faf-4102-82f9-5e81def82b87.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "가리산자연휴양림",
+            "possession": "공유림",
+            "facility": "관리동사무소 1동, 매표소 1동방갈로 10동(2.5평형) 산림문화휴양관 1동(9실)풋살장 1면다목적 광장 1개소매점(휴게소) 1동  화장실 7동공동취사장 1개소 주차장 1개소(95면)샤워장 1개소 야영데크 38면(28/8㎡,10/13㎡)",
+            "address": "강원도 홍천군 두촌면 가리산길 426",
+            "phone": "033-435-6035",
+            "latitude": 37.865235,
+            "longitude": 127.9824687,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/ee5133e5-49d5-4ffa-b0d4-92515dc73fcd.jpg",
+                "https://image.foresttrip.go.kr/bb/33d827e1-7977-45d9-8aaa-0622e82d2c1f.jpg",
+                "https://image.foresttrip.go.kr/bb/555d469a-7a2b-4eed-9201-469ef0eac2a1.jpg",
+                "https://image.foresttrip.go.kr/bb/1be05d6f-12cc-4f4b-97a4-0e9fa6536e1e.jpg",
+                "https://image.foresttrip.go.kr/bb/a1680510-6832-42cd-aa09-7e59e60516f0.jpg",
+                "https://image.foresttrip.go.kr/bb/0b0aa9bc-d153-416d-abc2-d4133fc8c7c8.jpg",
+                "https://image.foresttrip.go.kr/bb/f86fc616-46c7-43d4-bad3-07959cd2ead4.jpg",
+                "https://image.foresttrip.go.kr/bb/2ee34bc6-84d0-4cd3-87e5-7c9e0a3e353c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "초록산산림욕장",
+            "possession": "공유림",
+            "facility": "산림욕장, 등산로, 유아숲체험장",
+            "address": "경기도 화성시 양감면 사창리 810-9",
+            "phone": "031-5189-2344",
+            "latitude": 37.09236517,
+            "longitude": 126.9562449,
+            "image": [
+                "https://mblogthumb-phinf.pstatic.net/MjAxODA2MjdfNTUg/MDAxNTMwMDY1NzMyMjI3.sxkoaeiJ9TpWglZlze0Bw_9d1qJjtnqlLg_qbJbXozUg.4SJ37mGAVT0u3msqIQV1pVjRlA26BO8yRJtB5CAqpy4g.JPEG.hsview/image_9965911901530065448898.jpg?type=w800"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "서봉산산림욕장",
+            "possession": "사유림",
+            "facility": "산림욕장, 등산로, 유아숲체험장",
+            "address": "경기도 화성시 정남면 문학리 산120-1",
+            "phone": "031-5189-2344",
+            "latitude": 37.1581905169,
+            "longitude": 126.9557910745,
+            "image": [
+                "https://lh5.googleusercontent.com/p/AF1QipP5LnTzoMZD1Ur3MBEu4-zPa51p4gXiF4h-TBbL=w500-h500-k-no"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "산수유자연휴양림",
+            "possession": "공유림",
+            "facility": "산림휴양관, 숲속의 집",
+            "address": "전라남도 구례군 산동면 정산길 251",
+            "phone": "061-780-2897",
+            "latitude": 35.30090353,
+            "longitude": 127.4626987,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/f4606257-5613-4ca7-acb4-b17d9f7a7a70.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "팔영산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 12동, 산림문화휴양관 1동",
+            "address": "전라남도 고흥군 영남면 팔영로 1347-418",
+            "phone": "061-830-5386",
+            "latitude": 34.62133127,
+            "longitude": 127.4401371,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/fba7d264-b036-4516-ac3a-266caa26a46c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "철원 두루웰 숲속문화촌",
+            "possession": "공유림",
+            "facility": "숲속의집, 트리하우스, 캠핑장",
+            "address": "강원도 철원군 갈말읍 지경1길 69",
+            "phone": "033-450-5198",
+            "latitude": 38.227936,
+            "longitude": 127.353297,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/70abb3d9-2ae0-4237-ab60-43ad08d6d6de.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "신어산 산림욕장",
+            "possession": "사유림",
+            "facility": "산림욕로, 등산로 등",
+            "address": "경상남도 김해시 신어산길 169",
+            "phone": "",
+            "latitude": 35.26938553,
+            "longitude": 128.9101015,
+            "image": [
+                "https://tour.gyeongnam.go.kr/upload_data/board_data/BBS_0000596/160586287067556.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "성불산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집A, 숲속의집B, 산림문화휴양관,숲관광메가시티,생태숲학습관,한옥체험관,생태공원,미선향테마파크무인카페, 수석전시관 등",
+            "address": "충청북도 괴산군 괴산읍 충민로기곡길 78",
+            "phone": "043-830-2679",
+            "latitude": 36.8080470124,
+            "longitude": 127.8467687642,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/35cec449-3773-4802-8472-897893cffeb1.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "양을산산림욕장",
+            "possession": "공유림",
+            "facility": "유아숲체험원, 화장실, 생태학습장, 실내교육장",
+            "address": "전라남도 목포시 상동 산34-3",
+            "phone": "061-270-8178",
+            "latitude": 34.8213604,
+            "longitude": 126.4075568,
+            "image": [
+                "https://www.mokpo.go.kr/build/images/1517/15173010/1517301011.jpg/666x1x85/666x1_1517301011.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "좌구산휴양랜드",
+            "possession": "공유림",
+            "facility": "숲속의 집/ 황토집/ 별무리하우스/ 병영하우스/ 줄타기/ 썰매장/ 숲속모험시설/ 좌구산 숲 명상의 집/ 명상구름다리/ 좌구산천문대 등",
+            "address": "충청북도 증평군 증평읍 솟점말길 107",
+            "phone": "043-835-4551",
+            "latitude": 36.7055680385,
+            "longitude": 127.6511206314,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/54e0ed5a-a843-4b17-b41d-282eb83f5efc.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "비슬산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,통나무집,야영장,반딧불이전기차등",
+            "address": "대구광역시 달성군 유가읍 일연선사길 99",
+            "phone": "053-659-4400",
+            "latitude": 35.69001083,
+            "longitude": 128.5129017,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202206/be742ecd-98ab-471e-890d-d474bb4f16ac.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "화원자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,산림문화휴양관,산림욕장,전망데크등",
+            "address": "대구광역시 달성군 화원읍 화원휴양림길 126",
+            "phone": "053-659-4455",
+            "latitude": 35.77179173,
+            "longitude": 128.5367385,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/c6317733-73e4-4a6c-850c-5a285e5143d3.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "만수산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집",
+            "address": "충청남도 부여군 외산면 휴양로 107",
+            "phone": "041-832-6561",
+            "latitude": 36.33854208,
+            "longitude": 126.7119325,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202206/1d3fe58d-6d7b-4549-b851-8184c612b3ca.jpg",
+                "https://image.foresttrip.go.kr/bb/202204/7e246e1c-af2b-4e47-80d2-8e9a4f110b0c.jpeg",
+                "https://image.foresttrip.go.kr/bb/202201/5ad0232f-0a0c-42ec-a7d0-e58edaaedea7.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/2916eae0-a209-43ad-bb24-91d148a92e88.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/67f08cfc-a651-4376-91cc-a355bf0616ed.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/e0c3a727-13e6-4a44-9f15-c319c0482f49.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/91ed1d9c-95bf-4199-aebb-735f2e86141f.jpg",
+                "https://image.foresttrip.go.kr/bb/202112/56818c91-b180-4793-8263-8f1fd0c8d5ad.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "서운산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 오토캠핑장, 야영장, 카라반",
+            "address": "경기도 안성시 금광면 배티로 185-39",
+            "phone": "031-678-2913",
+            "latitude": 36.94238317,
+            "longitude": 127.313722,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/8b2852a9-ebbb-4d87-afbb-f3f52a9a1d6a.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "영인산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 야영장,어드벤쳐시설",
+            "address": "충청남도 아산시 영인면 아산온천로 16-26",
+            "phone": "041-538-1958",
+            "latitude": 36.84059456,
+            "longitude": 126.9500195,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202003/917812b9-d002-4741-9cd9-31976cae7ad1.JPG",
+                "https://image.foresttrip.go.kr/bb/202003/97880c90-c1d6-4513-bae6-243da0f37c0b.png",
+                "https://image.foresttrip.go.kr/bb/202003/b5829b67-1735-4aea-84aa-2bcb3675b0cb.JPG",
+                "https://image.foresttrip.go.kr/bb/202003/83f41281-699c-4365-90f0-ac9ee0d6ed48.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/65b23611-13d0-4388-9b64-c71c90aaca5e.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/896318a7-65dd-49e2-9557-7953b79fdc3b.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/a7887594-af33-4a36-9dcc-8bf725a2d5c4.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/13bb1de6-68e9-4028-af54-5e5b01e7ac4c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "만인산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속교실,야외무대,목공체험장",
+            "address": "대전광역시 동구 산내로 106",
+            "phone": "042-270-8655",
+            "latitude": 36.2021806,
+            "longitude": 127.4551104,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202107/e79746ec-90c5-41ad-88d8-a263a20f4a53.png",
+                "https://image.foresttrip.go.kr/bb/202107/41822e31-a4ca-4409-a7b1-ddbdce1fa74f.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/2334e5ce-9000-49bb-9d97-865daec57258.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/b1b87a9f-18b9-4b6e-adf4-d6baa9a03789.png",
+                "https://image.foresttrip.go.kr/bb/202107/86d4710c-02e2-4574-b050-e0511ff35c9f.png",
+                "https://image.foresttrip.go.kr/bb/202107/7c596b6e-115c-4a6e-899c-97a143cb4632.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/7d34c6fe-28e0-41a0-b68f-74c7a5ee1c70.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "장태산자연휴양림",
+            "possession": "공유림",
+            "facility": "생태연못,교과서식물원,산림문화휴양관",
+            "address": "대전광역시 서구 장안로 461",
+            "phone": "042-270-7883",
+            "latitude": 36.21596742,
+            "longitude": 127.3412777,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202206/e1ee2fb1-adf1-43ce-b40d-5e16d34a90c1.JPG",
+                "https://image.foresttrip.go.kr/bb/202206/2604b5c8-aeeb-4c84-872b-72a6c7d6c005.jpg",
+                "https://image.foresttrip.go.kr/bb/202204/d77d9cc5-e008-4fe1-b3f9-6719000343f5.jpg",
+                "https://image.foresttrip.go.kr/bb/202204/4b35dfa1-b094-4a33-a194-a4fae257b66e.jpg",
+                "https://image.foresttrip.go.kr/bb/202204/645722f3-d653-4570-8fc6-b160d11ad137.jpg",
+                "https://image.foresttrip.go.kr/bb/202204/f611f6d5-53c7-40d7-ace2-c741a7036acd.jpg",
+                "https://image.foresttrip.go.kr/bb/202204/c50814a2-6d7d-4ca6-a901-e4d87df1926c.jpg",
+                "https://image.foresttrip.go.kr/bb/202204/92dd6bf8-6fe8-43c6-b0d6-fa2377f1e187.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "계명산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 단체숙소 연립동 치유센터 산책로 등",
+            "address": "충청북도 충주시 충주호수로 1170",
+            "phone": "043-850-7313",
+            "latitude": 36.97931793,
+            "longitude": 127.9950865,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202104/3a0056ce-0468-4fd1-b08e-a826e8586bea.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/e8cc6d24-0dd0-4c62-8c27-c8b3128205c7.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/fbd555bc-48f3-4f9d-9ae2-b21625bbb3e5.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/23383e46-062b-4e41-a9b5-046bd771d46f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "박달재자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 산책로등",
+            "address": "충청북도 제천시 백운면 금봉로 223",
+            "phone": "043-641-6527",
+            "latitude": 37.14806356,
+            "longitude": 128.045293,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/5fa9427f-f71f-4da1-923d-27cdb9670ffb.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "옥전자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집 농산물판매장 등",
+            "address": "충청북도 제천시 봉양읍 옥전길 195",
+            "phone": "043-641-6527",
+            "latitude": 37.174689,
+            "longitude": 128.089444,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/cccf45e6-d943-4500-afc4-6d86bca79aae.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "충북알프스자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집세미나실목공예체험장 등",
+            "address": "충청북도 보은군 산외면 속리산로 1880",
+            "phone": "043-543-1472",
+            "latitude": 36.57319259,
+            "longitude": 127.7858718,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/712ec836-1034-4d2a-abf8-afcb78215313.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "속리산숲체험휴양마을",
+            "possession": "공유림",
+            "facility": "숲속의집 방문자종합센터 수영장 찜질방 식당 산책로 등",
+            "address": "충청북도 보은군 속리산면 속리산로 596",
+            "phone": "043-540-3220",
+            "latitude": 36.49245548,
+            "longitude": 127.7924743,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201912/7466d7a9-5297-4782-a89a-5f0a2a0adb22.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/3461106b-6a79-45e0-bbbc-873ccb9ab6c0.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/f85409a9-d77d-4303-83c7-cb7e8da3d8e9.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/643dd04a-fedc-408d-8024-70ecb20505d5.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/a60726d1-112a-47bf-b393-898fadaa010d.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/8d2a64ea-76be-4cd8-ab3f-12e6bbd20c4f.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/a63fb75a-1d94-4cae-8072-25424cc88be1.jpg",
+                "https://image.foresttrip.go.kr/bb/201912/e3e65906-96d4-4e74-a438-4c2773c94eb6.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "장령산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집산림문화휴양관야영장야외물놀이장 등",
+            "address": "충청북도 옥천군 군서면 장령산로 519",
+            "phone": "043-730-3491",
+            "latitude": 36.24486737,
+            "longitude": 127.5547497,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/d5bbb1ef-ae6a-46e4-a4e7-6c423abb9205.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/bf2a7d21-90d4-4606-97b5-dbc2fb5d1bc0.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/a54aa3b2-9562-41b1-a0ab-8c1d32f65618.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/468ed9aa-e868-47f0-88be-9a441c90f1ac.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/971c81f0-483d-4875-9e62-9571d916c740.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/93f95654-02e3-4fa8-a69a-8bb32efa0c27.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/45c23527-6df0-48b1-9e52-19f66e6789c6.JPG",
+                "https://image.foresttrip.go.kr/bb/201910/868267d1-d471-48ac-9af3-fd38f4df7e73.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "민주지산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 식당 황토찜질방 학습관 산림문화휴양관 치유센터 야영장 족구장 등",
+            "address": "충청북도 영동군 용화면 휴양림길 60",
+            "phone": "043-740-3437",
+            "latitude": 36.05313182,
+            "longitude": 127.8243888,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202108/227e5f3f-4a17-4386-a4c5-cc38826e8f4e.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/226fc3b0-56ef-478d-927c-9580a3ac6f00.JPG",
+                "https://image.foresttrip.go.kr/bb/202012/eafe998b-9af0-4c5c-bdfd-ad968bc57dd0.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/66ac84a4-6573-4f0d-96ad-1cd0d07b99c8.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/9a1ce52c-fb8c-4965-a64d-ace4abfaa53c.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/e3376515-2a61-4559-9f69-b480ed81777b.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/9589ca37-f035-4fb0-a95a-5ad81bdfbf50.jpg",
+                "https://image.foresttrip.go.kr/bb/202012/9cd6bae1-2517-4374-99af-a404fd32e7c5.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "남해편백자연휴양림",
+            "possession": "국유림",
+            "facility": "생태숲,숲속의집 등",
+            "address": "경상남도 남해군 삼동면 금암로 658",
+            "phone": "055-867-7881",
+            "latitude": 34.75216391,
+            "longitude": 128.0201316,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202107/c4326399-ce9f-4f5b-978a-037001e16480.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/15c1618f-d629-44c6-98bd-614ea98eea9e.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/2599cfef-2a12-47a1-9d84-4efd9a6c42db.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/f0f8e4bd-3f53-4cc0-b0d8-f15367c24e6d.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_18_13_42_290.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_15_18_110.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_14_44_080.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_14_43_160.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "칼봉산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 산림휴양관, 생태숲, 생태체험학습장, 야영장 등",
+            "address": "경기도 가평군 가평읍 경반안로 454",
+            "phone": "031-8078-8061",
+            "latitude": 37.83611811,
+            "longitude": 127.4653871,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/10db271a-5d00-4255-8646-ace5dfb6f513.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "변산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집, 휴양관, 체험교실, 물놀이장(현재 미운영)",
+            "address": "전라북도 부안군 변산면 변산로 3768",
+            "phone": "063-581-9977",
+            "latitude": 35.58287781,
+            "longitude": 126.523728,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201908/37f954a1-8ae5-4c18-a490-bd5000f44305.JPG",
+                "https://image.foresttrip.go.kr/scene/2017_01_13_18_07_210.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_10_17_48_530.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_10_17_46_380.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_20_01_590.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_11_07_18_18_330.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_11_07_17_29_180.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_11_07_17_27_540.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "청송자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집, 연수의집",
+            "address": "경상북도 청송군 부남면 청송로 3478-96",
+            "phone": "054-872-3163",
+            "latitude": 36.3179023,
+            "longitude": 129.0537598,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202110/d48c4be6-375b-4342-b404-672a4acb41c3.JPG",
+                "https://image.foresttrip.go.kr/bb/202110/8b901d43-7c24-400c-9811-6939b59c35bf.JPG",
+                "https://image.foresttrip.go.kr/bb/202110/0d96ff68-34d4-4068-abdd-e71090b4b925.JPG",
+                "https://image.foresttrip.go.kr/bb/201908/bf1af294-1e34-464a-a679-20a4d14dd173.jpg",
+                "https://image.foresttrip.go.kr/bb/201908/3ad12a11-b9a7-4611-9ca5-026748e9b760.jpg",
+                "https://image.foresttrip.go.kr/bb/201908/77aeed2e-370d-4749-90b9-eb1a4128223c.jpg",
+                "https://image.foresttrip.go.kr/bb/201908/9535e3e9-be25-4c6b-bbd3-78ddf5db1ea3.jpg",
+                "https://image.foresttrip.go.kr/bb/201908/841f4779-7c4c-414d-964f-0b2fbffd2da0.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "신안자연휴양림",
+            "possession": "국유림",
+            "facility": "산림문화휴양관, 캠핑장, 관리동, 취사장, 샤워장, 테마공원",
+            "address": "전라남도 신안군 자은면 자은서부2길 508-77",
+            "phone": "061-240-3265",
+            "latitude": 34.8793261192,
+            "longitude": 125.9961150082,
+            "image": [
+                "https://file.mk.co.kr/meet/yonhap/2020/04/13/image_readtop_2020_384574_0_080211.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "군위장곡자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 종합산막, 산림문화휴양관, 산림생태험학습관, 자생식물원, 물놀이장",
+            "address": "경상북도 군위군 고로면 장곡휴양림길 195",
+            "phone": "054-380-6317",
+            "latitude": 36.130592266,
+            "longitude": 128.8376371675,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/878ee171-e9c9-4843-8fea-9f5102dee35b.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "거제자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 거제시 동부면 거제중앙로 325",
+            "phone": "055-639-8115",
+            "latitude": 34.78569918,
+            "longitude": 128.6259431,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202205/148e74b4-80cb-4eeb-b7b8-290570fa1c93.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/6f6a8e3c-a7ba-42d5-b3dd-18f61bfc0cfc.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/5b8d1c35-e394-455d-afd6-197f0dae1ff2.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/72df50fb-b700-4567-85da-092a2d549823.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/3a4f404d-2659-4fd7-9db0-aaf57f784925.jpg",
+                "https://image.foresttrip.go.kr/bb/202110/5ae5a353-ded6-446e-8fa1-0ae975351160.jpg",
+                "https://image.foresttrip.go.kr/bb/202110/af12c787-2d22-416f-94c7-4e6541e5cf4e.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/2cad3ff0-970c-4d26-b81a-e1de07686d22.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "대운산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 양산시 탑골길 208-124",
+            "phone": "055-379-8670",
+            "latitude": 35.4136954,
+            "longitude": 129.2117158,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/a7a6bc6d-b45a-48af-91c6-1341f9377891.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "화왕산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 창녕군 고암면 청간길 128-126",
+            "phone": "055-533-2332",
+            "latitude": 35.54693079,
+            "longitude": 128.5673145,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/2a471202-d1d2-472a-bf3e-eb126b98df5e.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "구재봉자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도하동군 적량면 중서길 60-81",
+            "phone": "070-8855-8011",
+            "latitude": 35.12895794,
+            "longitude": 127.7440937,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/c77552c7-2dad-45e9-842f-dd5095fde08f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "하동편백자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 하동군 옥종면 돌고지로 1088-51",
+            "phone": "070-8994-0717",
+            "latitude": 35.18675022,
+            "longitude": 127.8421218,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202105/03e345ef-2d20-4952-aea3-2a7a259492f1.jpg",
+                "https://image.foresttrip.go.kr/bb/202105/3b6c9138-6663-4c20-ac5b-f9428b4983b0.jpg",
+                "https://image.foresttrip.go.kr/bb/202009/5304c1d0-3c4f-4a3c-b0e3-2c1245ea05a4.JPG",
+                "https://image.foresttrip.go.kr/bb/202009/f5e7faa8-be3e-4c27-b5c7-44334a0fe313.JPG",
+                "https://image.foresttrip.go.kr/bb/202008/54677265-e251-4e23-82cd-04c3c623ce72.jpg",
+                "https://image.foresttrip.go.kr/bb/202008/935d06d5-7485-457f-a515-a21fd97c0177.jpg",
+                "https://image.foresttrip.go.kr/bb/202007/9cd50c85-f0eb-4ecb-99cc-777978508601.jpg",
+                "https://image.foresttrip.go.kr/bb/202007/599fdacd-d113-4e31-aa56-76a218347e00.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "산청한방자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 산청군 금서면 동의보감로 555번길 186",
+            "phone": "055-970-6951",
+            "latitude": 35.43403584,
+            "longitude": 127.8236808,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/850d7464-981c-41ca-a8c8-ff308d5be6d4.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "용추자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 함양군 안의면 상원리 1155-1",
+            "phone": "055-963-8702",
+            "latitude": 35.70378274,
+            "longitude": 127.7539398,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/df32fda8-d779-44be-b3f7-f1e8ace64ac6.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "대봉산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 함양군 병곡면 병곡지곡로 333",
+            "phone": "055-964-1090",
+            "latitude": 35.57794015,
+            "longitude": 127.7150289,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/b2b06568-6c9a-4a51-ba85-b4a6f8f5a2c8.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "산삼자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 함양군 서상면 가르내길 202-1",
+            "phone": "055-964-9886",
+            "latitude": 35.69762459,
+            "longitude": 127.6584297,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/21645cfe-6421-43b9-81d7-83a282a84840.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "금원산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 거창군 위천면 금원산길 471-27",
+            "phone": "055-254-3971",
+            "latitude": 35.72617571,
+            "longitude": 127.795727,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/78fe877f-4aa5-4fe9-b15a-f13238f80b6f.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "오도산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 합천군 봉산면 오도산휴양로 398",
+            "phone": "055-930-3733",
+            "latitude": 35.66904518,
+            "longitude": 128.0538745,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/11f42550-bdb6-4289-b66c-1c2aa66b78b2.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "남해편백자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 남해군 삼동면 금암로 658",
+            "phone": "055-867-7881",
+            "latitude": 34.75216391,
+            "longitude": 128.0201321,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202107/c4326399-ce9f-4f5b-978a-037001e16480.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/15c1618f-d629-44c6-98bd-614ea98eea9e.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/2599cfef-2a12-47a1-9d84-4efd9a6c42db.jpg",
+                "https://image.foresttrip.go.kr/bb/202107/f0f8e4bd-3f53-4cc0-b0d8-f15367c24e6d.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_18_13_42_290.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_15_18_110.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_14_44_080.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_14_43_160.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "지리산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 함양군 마천면 음정길 152",
+            "phone": "055-963-8133",
+            "latitude": 35.34644465,
+            "longitude": 127.6430043,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/8faabf70-cd01-4436-80b9-3285634d9ce3.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "원동자연휴양림",
+            "possession": "사유림",
+            "facility": "오토캠핑장",
+            "address": "경상남도 양산시 원동면 늘밭로 64",
+            "phone": "0507-1401-583",
+            "latitude": 35.39881801,
+            "longitude": 128.9348445,
+            "image": [
+                "https://modo-phinf.pstatic.net/20170421_70/1492762754125VEYFj_JPEG/mosapU52zx.jpeg?type=a1100"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "덕원자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 하동군 옥종면 옥단로 1443-327",
+            "phone": "055-884-0650",
+            "latitude": 35.22915471,
+            "longitude": 127.8552761,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/28827d70-4c03-49dd-8f19-1118b4e8b618.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "지리산마더힐자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의집,휴양관",
+            "address": "경상남도 산청군 시천면 지리산대로 496-101",
+            "phone": "055-974-2757",
+            "latitude": 35.2886177,
+            "longitude": 127.7507425,
+            "image": [
+                "https://www.gyeongnam.go.kr/upload_data/board_data/BBS_0000596/160428103295505.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "반딧불 자연휴양림",
+            "possession": "공유림",
+            "facility": "통나무집+목교+평상+평의자",
+            "address": "전라북도 무주군 설천면 청량리 산 77",
+            "phone": "063-320-5666",
+            "latitude": 36.01035711,
+            "longitude": 127.7581607,
+            "image": [
+                "https://mblogthumb-phinf.pstatic.net/MjAxOTA3MjZfMjQ4/MDAxNTY0MTE4Njc3MTE5.sVeOl47ZK5ksZ15Bf3qfglisbdtGBpkLVVo0iNHoXSog.lTX6RH5M7U0NN-q07Azvf-xPK8iL7sAaX3G9FxQRYz4g.JPEG.mujufirefly/%EC%88%98%EB%AA%A9%EC%9B%904.jpg?type=w800"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "임해자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박동(하늘동+구름동+바다동+숲속동)+숲속의집",
+            "address": "강원도 강릉시 강동면 율곡로 1715-85",
+            "phone": "033-644-9483",
+            "latitude": 37.71856556,
+            "longitude": 128.9985453,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/bc50aa7b-801a-4bf5-839f-20763f98baba.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "와룡자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집, 야영장, 물놀이장, 산림욕장 등",
+            "address": "전라북도 장수군 천천면 비룡로 632",
+            "phone": "063-350-2477",
+            "latitude": 35.67621776,
+            "longitude": 127.4772192,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/0183b888-6215-479a-bc99-1d262369006e.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "방화동자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의집, 산림욕장, 인공폭포 등",
+            "address": "전라북도 장수군 번암면 방화동로 778",
+            "phone": "063-350-2475",
+            "latitude": 35.59064179,
+            "longitude": 127.5268761,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202108/4b428ccd-a574-4fea-a78f-ab88ef0b6b8c.jpg",
+                "https://image.foresttrip.go.kr/bb/202108/ecaad032-d7c5-4d57-b7b1-d79593086907.jpg",
+                "https://image.foresttrip.go.kr/bb/202101/7234f57a-b8f4-4baf-adfa-48e8fea3bff8.jpg",
+                "https://image.foresttrip.go.kr/bb/202101/99d5a1c9-d3de-4042-b00a-6b7ea6f7f970.jpg",
+                "https://image.foresttrip.go.kr/bb/202101/cda2390d-8963-4269-b341-359886c021f4.jpg",
+                "https://image.foresttrip.go.kr/bb/202101/fc860dee-a266-48e0-a2de-9e6481c3282f.jpg",
+                "https://image.foresttrip.go.kr/bb/202101/ec4d8ca9-5e04-44bb-afc4-c47e4a123f1d.jpg",
+                "https://image.foresttrip.go.kr/bb/202101/119910c5-24fc-4e1b-97d3-033a69a89f22.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "팔공산금화자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 카라반, 교육관, 휴양관, 야영데크",
+            "address": "경상북도 칠곡군 가산면 가산로 323",
+            "phone": "054-971-1551",
+            "latitude": 36.05171899,
+            "longitude": 128.5553512,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201906/9108f29b-5a1e-46bf-8cfc-e64dfb6f1644.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/4f1ab56c-a26e-4757-8fed-d1e172e18f98.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/5b536e0b-b225-4117-9f77-0cd4f0db1af6.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/0db733df-99fb-454f-b79a-384a20ee50f6.jpg",
+                "https://image.foresttrip.go.kr/bb/201906/a11973d9-ff6d-44dd-9d19-bb4568a1bc1a.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "안동호반자연휴양림",
+            "possession": "공유림",
+            "facility": "호반하우스,산림휴양관,숲속의집,전통가옥",
+            "address": "경상북도 안동시 도산면 월천길 100-7",
+            "phone": "054-855-3371",
+            "latitude": 36.70343807,
+            "longitude": 128.8288547,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/89b2cf55-e1ad-45b3-95b8-f3453a108d64.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "수도산 자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 힐하우스. 숲속휴양관, 숲속수련관",
+            "address": "경상북도 김천시 대덕면 증산로 326-71",
+            "phone": "054-435-5128",
+            "latitude": 35.8918024,
+            "longitude": 127.9838463,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/f0ae3f35-b2f3-4375-bef0-a9baa0dbbaee.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "입화산 자연휴양림",
+            "possession": "공유림",
+            "facility": "오토캠핑장, 이동식주택(카라반), 산림욕장, 숲속도서관, 네이처스포츠, 모노레일",
+            "address": "울산광역시 중구 다운동 산47-1번지",
+            "phone": "052-290-4410",
+            "latitude": 35.578739,
+            "longitude": 129.279479,
+            "image": [
+                "https://image.news1.kr/system/photos/2021/10/27/5038758/article.jpg/dims/optimize"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "흥부골자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 야영장 등",
+            "address": "전라북도 남원시 인월면 구인원길 125",
+            "phone": "063-636-4032",
+            "latitude": 35.450932,
+            "longitude": 127.590258,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202005/3c011a54-3986-40d9-8306-988e5850be9a.JPG",
+                "https://image.foresttrip.go.kr/bb/202005/0311ba44-f485-484c-aa27-1b847f5fa573.JPG",
+                "https://image.foresttrip.go.kr/bb/202005/81d0106b-6660-4013-a320-3f66576e7f73.JPG",
+                "https://image.foresttrip.go.kr/bb/202005/c7004a89-ec37-43c1-b96f-ca1d85054dfe.JPG",
+                "https://image.foresttrip.go.kr/bb/202005/b6c45972-a2d5-42fb-920b-f53b3193c9bf.JPG",
+                "https://image.foresttrip.go.kr/bb/202005/fc6046b3-1638-4e30-bada-06ef216e50c8.JPG",
+                "https://image.foresttrip.go.kr/bb/202005/a8e5158e-d27d-4925-92dd-41963dec953d.JPG",
+                "https://image.foresttrip.go.kr/bb/202005/35c89199-db3e-4e8b-9239-4c4437eb9c18.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "금강자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집,휴양관",
+            "address": "세종특별자치시 금남면 산림박물관길110",
+            "phone": "041-635-7400",
+            "latitude": 36.43769938,
+            "longitude": 127.2327429,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/8d8209af-2e3b-4b65-b7d9-c6bd45cfc816.JPG"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "제주절물자연휴양림",
+            "possession": "국유림",
+            "facility": "휴양림.수련장.숙박등",
+            "address": "제주특별자치도 제주시 명림로 584",
+            "phone": "064-728-1510",
+            "latitude": 33.44004881,
+            "longitude": 126.6252034,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/381efa5b-9a65-4da7-aa5d-5f3b665d00b7.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "교래자연휴양림",
+            "possession": "공유림",
+            "facility": "휴양림.숙박.공연장등",
+            "address": "제주특별자치도 제주시 조천읍 남조로 2023",
+            "phone": "064-783-7482",
+            "latitude": 33.45136376,
+            "longitude": 126.6567109,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/6419891f-15f5-462d-bcbe-65e199e6880e.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "흑석산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집(객식), 유아숲체험원, 족욕장, 수변쉼터 등",
+            "address": "전라남도 해남군 계곡면 산골길 306",
+            "phone": "061-530-5738",
+            "latitude": 34.6709346791,
+            "longitude": 126.6169966726,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202203/ac625fa3-28e3-4bb3-9027-fa8cf3a5fa78.jpg",
+                "https://image.foresttrip.go.kr/bb/202203/19ca88f8-1f41-438e-a736-85f26d8b7e05.jpg",
+                "https://image.foresttrip.go.kr/bb/202203/b6d80914-3f71-4305-94da-ab28f69c39aa.jpg",
+                "https://image.foresttrip.go.kr/bb/202203/af31318f-fe71-481f-bc1f-4486d294b869.jpg",
+                "https://image.foresttrip.go.kr/bb/202203/1d6f36b8-b4b6-420b-9dfa-1b786c50ecd0.jpg",
+                "https://image.foresttrip.go.kr/bb/202203/10ac3d45-b636-4c06-9f45-cbae54767ff5.JPG",
+                "https://image.foresttrip.go.kr/bb/202203/b09cc07f-482e-4196-b4c0-cf5dec0c6dca.jpg",
+                "https://image.foresttrip.go.kr/bb/202203/dad552c8-8156-4233-a21a-49e4d86e4dbf.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "백야자연휴양림",
+            "possession": "공유림",
+            "facility": "숙박시설 캠핑장 물놀이장 산책로 화장실 등",
+            "address": "충청북도 음성군 금왕읍 백야로 461-97",
+            "phone": "043-878-2556",
+            "latitude": 36.95683852,
+            "longitude": 127.6096498,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/0eff7add-0131-4a9a-bc3f-e9e062e9d4a7.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "소선암자연휴양림",
+            "possession": "공유림",
+            "facility": "통나무집 숲속의집 산림문화휴양관 산림복합휴양관",
+            "address": "충청북도 단양군 단성면 대잠2길 15",
+            "phone": "043-422-7839",
+            "latitude": 36.91922142,
+            "longitude": 128.3123127,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/55eaae48-ebe1-4fe9-8cf0-c78ec2d03de4.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "소백산자연휴양림",
+            "possession": "공유림",
+            "facility": "화전민촌 정감록 명당체험마을 숲속의집 산림문화휴양관 세미나실 네트어드벤쳐 승마장 전망대 전시실 그라운드골프장 북카페 산책로",
+            "address": "충청북도 단양군 영춘면 하리방터길 180",
+            "phone": "043-423-3117",
+            "latitude": 37.06069296,
+            "longitude": 128.4673084,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/201910/508f5f1d-f8f6-43da-a42f-cb843b2b84da.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/290a85cc-7029-42e7-bdcd-d5f6a33e8407.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/ecd9e526-0bbb-4299-ab82-9ac2c927d92d.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/cc0d3f11-d62a-4c1a-b1be-994f7e46073c.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/bc5c636a-7c91-4919-acc9-c1ce32e11890.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/21989037-cab8-44ac-8be9-ab254099553e.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/98900e2e-d866-4be8-ae2c-0a627fcc7e95.jpg",
+                "https://image.foresttrip.go.kr/bb/201910/413419e6-8135-4875-a1bf-8e527ac5cb7c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "조령산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집 복합휴양관 백두대간 생태교육장 옛길 물놀이장 숲속놀이터 산책로 등",
+            "address": "충청북도 괴산군 연풍면 새재로 1795",
+            "phone": "043-833-7994",
+            "latitude": 36.81234006,
+            "longitude": 128.0462438,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202102/44be6107-86d8-488a-9b72-429f38ab0a0e.jpg",
+                "https://image.foresttrip.go.kr/bb/202102/983d14d0-189f-48e5-ba70-e42350bcf916.jpg",
+                "https://image.foresttrip.go.kr/bb/1369339e-b32e-4054-8024-5ef0af478aec.png",
+                "https://image.foresttrip.go.kr/bb/44bee32c-5a7f-434a-8122-0723c3671126.jpg",
+                "https://image.foresttrip.go.kr/bb/d03c6461-93ba-457b-8343-cdfdedd586db.jpg",
+                "https://image.foresttrip.go.kr/bb/4915e834-2532-4609-9c7c-7387c57ec52b.jpg",
+                "https://image.foresttrip.go.kr/bb/cc9e06a0-7a75-4399-92ea-893717ae893c.jpg",
+                "https://image.foresttrip.go.kr/bb/8e56ffa2-1cde-485b-a415-5e5ef167441c.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "용문산자연휴양림",
+            "possession": "공유림",
+            "facility": "행복마루, 솔마루, 하늘마루, 산림휴양관,숲속의집,생태행복관,야영데크 등",
+            "address": "경기도 양평군 양평읍 약수사길 78-14",
+            "phone": "031-775-4005",
+            "latitude": 37.516048,
+            "longitude": 127.519421,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/a1a8686b-03a1-447b-92c6-bde8066992a5.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "양평쉬자파크",
+            "possession": "공유림",
+            "facility": "치유의숲,치유의집,초가원,산림교육센터, 치유센터,공원관리소, 유아숲체험원,까페동 등",
+            "address": "경기도 양평군 양평읍 쉬자파크길 193",
+            "phone": "031-770-1009",
+            "latitude": 37.511222,
+            "longitude": 127.533196,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/e839caa7-47ec-4863-b939-11a7b89f2308.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "양평설매재자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의집,산림휴양관,이벤트홀, 데크야영 등",
+            "address": "경기도 양평군 옥천면 용천로 510",
+            "phone": "031-772-5955",
+            "latitude": 37.556802,
+            "longitude": 127.509356,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/6d627aa4-c2ee-4b05-98c5-550478f2dcf7.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "축령산",
+            "possession": "국유림",
+            "facility": "치유의숲 안내센터, 전망대 등",
+            "address": "전라남도 장성군 북이면 추암로 555",
+            "phone": "061-393-1777",
+            "latitude": 35.360934,
+            "longitude": 126.728553,
+            "image": [
+                "https://mblogthumb-phinf.pstatic.net/MjAyMDA4MDRfOTIg/MDAxNTk2NTAyMjY4NzM1.b9Vj5CvbX3ONuXtdBe0OVJtJ8VLkBRwMfnCf681Ybrgg.pQm0Zt1SM3FPlhtl3N5x3j33jaGVOqwjhghOxEb29bMg.JPEG.aatnb/%EC%B6%95%EB%A0%B9%EC%82%B0%EC%9E%90%EC%97%B0%ED%9C%B4%EC%96%91%EB%A6%BC_(1).jpg?type=w800"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "방장산자연휴양림",
+            "possession": "국유림",
+            "facility": "숲속의 집, 산림문화휴양관, 세미나실, 숲속공예마을(체험) 등",
+            "address": "전라남도 장성군 북이면 방장로 353",
+            "phone": "061-394-5523",
+            "latitude": 35.44405218,
+            "longitude": 126.7514053,
+            "image": [
+                "https://image.foresttrip.go.kr/scene/2017_01_17_19_35_200.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_17_19_03_570.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_10_09_54_090.jpg",
+                "https://image.foresttrip.go.kr/scene/2017_01_06_15_08_370.jpg",
+                "https://image.foresttrip.go.kr/scene/2018_11_28_15_17_240.gif",
+                "https://image.foresttrip.go.kr/scene/2018_11_28_15_16_420.gif",
+                "https://image.foresttrip.go.kr/scene/2018_11_28_15_16_140.gif",
+                "https://image.foresttrip.go.kr/scene/2018_11_28_15_15_280.gif"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "성주산자연휴양림",
+            "possession": "공유림",
+            "facility": "성주산자연휴양림",
+            "address": "충청남도 보령시 성주면 화장골길 57-228",
+            "phone": "041-934-7133",
+            "latitude": 36.33256882,
+            "longitude": 126.6639659,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/bc899f17-f3bd-4667-891a-f445a7b66f12.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "횡성자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의집, 산림문화휴양관",
+            "address": "강원도 횡성군 갑천면 정포로 430번길 113",
+            "phone": "033-343-3392",
+            "latitude": 37.53904383,
+            "longitude": 128.1118525,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202007/f1d63aed-d1d1-4778-96b2-3cce99d4ef3b.jpg",
+                "https://image.foresttrip.go.kr/bb/201909/661c9a4d-6f54-447d-ab67-968f21a1f47f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "주천강자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속마을, 산골마을, 강변마을, 숲속학교, 황토별장",
+            "address": "강원도 횡성군 둔내면 강변로 영랑6길 115",
+            "phone": "033-345-7575",
+            "latitude": 37.4606019,
+            "longitude": 128.2034233,
+            "image": [
+                "https://tong.visitkorea.or.kr/cms/resource/20/608020_image2_1.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "대봉산자연휴양림",
+            "possession": "공유림",
+            "facility": "산림문화휴양관, 숲속의집, 관리사무실, 해피쿠킹장 등",
+            "address": "경상남도 함양군 병곡면 병곡지곡로 333",
+            "phone": "055-964-1090",
+            "latitude": 35.57794141,
+            "longitude": 127.7150294,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/b2b06568-6c9a-4a51-ba85-b4a6f8f5a2c8.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "문성자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 단체숙소",
+            "address": "충청북도 충주시 노은면 우성1길 191",
+            "phone": "043-870-7910",
+            "latitude": 37.02832486,
+            "longitude": 127.7525206,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/bf816120-03c0-4cf0-92cf-30f039b19960.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "봉황자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 단체숙소",
+            "address": "충청북도 충주시 중앙탑면 수룡봉황길540",
+            "phone": "043-870-7920",
+            "latitude": 37.05652102,
+            "longitude": 127.8297473,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/3f5efd5e-ebd5-482b-96f9-193631b867c3.png"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "계명산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집, 단체숙소",
+            "address": "충청북도 충주시 충주호수로 1170",
+            "phone": "043-840-7930",
+            "latitude": 36.9793629,
+            "longitude": 127.9950872,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202104/3a0056ce-0468-4fd1-b08e-a826e8586bea.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/e8cc6d24-0dd0-4c62-8c27-c8b3128205c7.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/fbd555bc-48f3-4f9d-9ae2-b21625bbb3e5.jpg",
+                "https://image.foresttrip.go.kr/bb/202104/23383e46-062b-4e41-a9b5-046bd771d46f.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "석모도자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집, 산림문화휴양관, 족구장 등",
+            "address": "인천광역시 강화군 삼산면 삼산서로 39-75",
+            "phone": "032-932-1100",
+            "latitude": 37.69963904,
+            "longitude": 126.3154373,
+            "image": [
+                "https://image.foresttrip.go.kr/ino/instt/9bf53201-bcc9-4a1c-ae8c-902443007bae.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "강화군 티앤림 자연휴양림",
+            "possession": "사유림",
+            "facility": "숲속의집, 집라인, 어드벤쳐",
+            "address": "인천광역시 강화군 불은면 중앙로 546-34",
+            "phone": "032-937-7481",
+            "latitude": 37.71482742,
+            "longitude": 126.453839,
+            "image": [
+                "https://www.ganghwa.go.kr/images/tour/images/full/ganghwa_repochupakeu_(1).jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "칠갑산자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의 집+산림문화 휴양관+원두막+기타시설 등",
+            "address": "충청남도 청양군 대치면 칠갑산로 668-103",
+            "phone": "041-940-2429",
+            "latitude": 36.431589,
+            "longitude": 126.8438227,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202106/51f60903-920b-49c0-8d4f-5d3ddab860fd.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/bebd395a-df51-4927-a86a-22c5f82817b5.jpeg",
+                "https://image.foresttrip.go.kr/bb/202106/7c2d2404-a6a6-41dd-84cb-657c2a125fc7.jpeg",
+                "https://image.foresttrip.go.kr/bb/202104/f7fdfdef-ad05-4116-a6da-2165bc29e451.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/893afc94-c982-4335-b838-5eec514aa8ef.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/ee629ad5-70a0-4b1f-bd4a-7af2cd016927.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/d0a2564e-d649-4b0c-85e9-88b8faff05bf.jpg",
+                "https://image.foresttrip.go.kr/bb/202103/657aebd4-32e1-4abc-999e-1cea2ea53797.jpg"
+            ]
+        }
+    },
+    {
+        "model": "forests.forest",
+        "fields": {
+            "name": "거제자연휴양림",
+            "possession": "공유림",
+            "facility": "숲속의집+ 산림문화휴양관",
+            "address": "경상남도 거제시 동부면 거제중앙로 325",
+            "phone": "055-639-8115",
+            "latitude": 34.78569918,
+            "longitude": 128.6259431,
+            "image": [
+                "https://image.foresttrip.go.kr/bb/202205/148e74b4-80cb-4eeb-b7b8-290570fa1c93.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/6f6a8e3c-a7ba-42d5-b3dd-18f61bfc0cfc.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/5b8d1c35-e394-455d-afd6-197f0dae1ff2.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/72df50fb-b700-4567-85da-092a2d549823.jpg",
+                "https://image.foresttrip.go.kr/bb/202205/3a4f404d-2659-4fd7-9db0-aaf57f784925.jpg",
+                "https://image.foresttrip.go.kr/bb/202110/5ae5a353-ded6-446e-8fa1-0ae975351160.jpg",
+                "https://image.foresttrip.go.kr/bb/202110/af12c787-2d22-416f-94c7-4e6541e5cf4e.jpg",
+                "https://image.foresttrip.go.kr/bb/202109/2cad3ff0-970c-4d26-b81a-e1de07686d22.jpg"
+            ]
+        }
+    }
+]

@@ -2,7 +2,8 @@
   <div>
     <!-- <h5>{{ forest.name }}</h5> -->
     <!-- <p>{{ forest.pk }}</p> -->
-    <p>{{ forest }}</p>
+    {{ forest.id }}
+    {{ forest.name }}
   </div>
 </template>
 
@@ -10,7 +11,7 @@
 export default {
   name: 'ForestCard',
   props: {
-    forest: Array,
+    forest: Object,
   },
   // computed: {
   //   cardContext: function() {
