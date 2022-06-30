@@ -10,6 +10,8 @@ import ProfileView from '@/views/accounts/ProfileView.vue'
 import SignupView from '@/views/accounts/SignupView.vue'
 import ProfileEditView from '@/views/accounts/ProfileEditView.vue'
 
+import DetailView from '@/views/community/DetailView.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -50,6 +52,13 @@ const routes = [
     component: SignupView
   },
   // accounts 끝
+  // forests 시작
+  {
+    path: '/:forest_id',
+    name: 'detail',
+    component: DetailView
+  },
+  // forests 끝
   // NotFound404 시작
   {
     path: '/404',
