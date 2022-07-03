@@ -9,7 +9,7 @@
         {{ forest.address }}
         <h5 style="color: rgb(0, 128, 0);">연락처</h5>
         {{ forest.address }}
-        <router-link to="/:forest_id">[ 디테일 ]</router-link>
+        <router-link :to="{ name : 'detail', params : { 'forest_id' : forest.id } }">[ 디테일 ]</router-link>
       </b-card-text>
     </b-card> |
     <b>forest 속성들</b>
