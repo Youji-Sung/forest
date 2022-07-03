@@ -8,6 +8,7 @@ const REVIEW = 'review/'
 export default {
   forests: {
     forestsList: () => HOST + FORESTS,
+    forestDetail: forest_id => HOST + FORESTS + `${forest_id}/`,
   },
   accounts: {
     login: () => HOST + ACCOUNTS + 'login/',

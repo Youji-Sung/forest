@@ -24,6 +24,17 @@ export default ({
         commit('FETCH_FORESTS', res.data)
       })
       .catch(err => console.log(err))
+    },
+    fetchDetail({commit},{forest_id}){
+      axios({
+        method: 'get',
+        url: drf.forests.forestDetail(forest_id),
+      })
+      .then(res =>{
+        console.log(res.data)
+        console.log('test_choi')
+        commit('FETCH_DETAIL', res.data)
+      })
     }
   },
   modules: {},
