@@ -13,14 +13,25 @@
 import DetailBoard from './DetailBoard.vue'
 import DetailSummary from './DetailSummary.vue'
 
+import {mapGetters, mapActions} from 'vuex'
+
 export default {
+
   name: 'DetailView',
   components:{
     DetailBoard,
     DetailSummary,
   },
-
-
+  computed:{
+    ...mapGetters([])
+  },
+  methods:{
+    ...mapActions([])
+  },
+  created() {
+    const payload = {forest_id: this.$route.params.forest_id}
+    this.fetchDetail(payload)
+    },
 }
 </script>
 
