@@ -6,6 +6,7 @@ import Vuex from 'vuex'
 import accounts from './modules/accounts'
 import communities from './modules/communities'
 import forests from './modules/forests'
+import bigcommunities from './modules/bigcommunities'
 // import home from './modules/home'
 
 Vue.use(Vuex)
@@ -33,6 +34,6 @@ export default new Vuex.Store({
   //     .catch(err => console.log(err))
   //   }
   // },
-  modules: { accounts, communities, forests
+  modules: { accounts, communities, forests,
   }
 })

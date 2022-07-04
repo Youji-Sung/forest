@@ -24,5 +24,8 @@ export default {
   forestreview: {
     reviews: forestId => HOST + FORESTS + `${forestId}/` + REVIEW,
     review: (forestId, reviewPk) => HOST + FORESTS + `${forestId}/` + REVIEW + `${reviewPk}`
-  }
+  },
+  community: {
+    articles: () => HOST + COMMUNITY
+  },
 }
