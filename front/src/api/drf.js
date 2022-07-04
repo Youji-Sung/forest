@@ -17,5 +17,8 @@ export default {
   },
   community: {
     detail: () => HOST + COMMUNITY,
+  },
+  bigcommunity: {
+    articles: () => HOST + COMMUNITY
   }
 }
