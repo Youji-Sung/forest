@@ -4,6 +4,7 @@ const FORESTS = 'forests/'
 const ACCOUNTS = 'accounts/'
 const COMMUNITY = 'community/'
 const REVIEW = 'review/'
+const COMMENTS = 'comments/'
 
 export default {
   forests: {
@@ -24,5 +25,11 @@ export default {
   forestreview: {
     reviews: forestId => HOST + FORESTS + `${forestId}/` + REVIEW,
     review: (forestId, reviewPk) => HOST + FORESTS + `${forestId}/` + REVIEW + `${reviewPk}`
-  }
+  },
+  community: {
+    articles: () => HOST + COMMUNITY,
+    article: articlePk => HOST + COMMUNITY + `${articlePk}/`,
+    articleComments: articlePk => HOST + COMMUNITY + `${articlePk}/` + COMMENTS,
+    articleComment: (articlePk, commentPk) => HOST + COMMUNITY + `${articlePk}/` + COMMENTS + `${commentPk}`
+  },
 }

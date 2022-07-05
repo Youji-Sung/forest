@@ -33,6 +33,6 @@ export default new Vuex.Store({
   //     .catch(err => console.log(err))
   //   }
   // },
-  modules: { accounts, communities, forests
+  modules: { accounts, communities, forests,
   }
 })
