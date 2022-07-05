@@ -11,6 +11,9 @@
         <li class="nav-item m-md-3" >
           <router-link :to="{ name: 'forests' }" class="nav-link" style="color: gray;">휴양림</router-link>
         </li>
+        <li class="nav-item m-md-3" >
+          <router-link :to="{ name: 'articles' }" class="nav-link" style="color: gray;">커뮤니티</router-link>
+        </li>
         <li class="nav-item m-md-3">
           <router-link v-if="isLoggedIn" :to="{ name: 'logout' }" class="nav-link " style="color: gray;">Logout</router-link>
         </li>
