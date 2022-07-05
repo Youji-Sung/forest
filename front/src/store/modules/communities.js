@@ -66,11 +66,11 @@ export default {
         })
     },
 
-    updateArticle({ commit, getters}, { pk, title, content, article_img}) {
+    updateArticle({ commit, getters}, { articlePk, title, content, article_image}) {
       axios({
-        url: drf.communities.article(pk),
+        url: drf.communities.article(articlePk),
         method: 'put',
-        data: { title, content, article_img },
+        data: { title, content, article_image },
         headers: getters.authHeader,
       })
         .then(res => {
