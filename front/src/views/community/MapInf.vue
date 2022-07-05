@@ -21,17 +21,27 @@ export default {
     document.head.appendChild(script);
   }
 },
+  computed:{
+    lat(){
+      return this.$store.state.forests.forest.latitude
+    },
+    lon(){
+      return this.$store.state.forests.forest.longitude
+    }
+  },
   methods: {
+    
     initMap() {
+      setTimeout(() => {console.log("첫 번째 메시지")}, 5000);
       var mapContainer = document.getElementById('map'), // 지도를 표시할 div
           mapOption = {
-            center: new kakao.maps.LatLng(37.564343, 126.947613), // 지도의 중심좌표
+            center: new kakao.maps.LatLng(this.lat, this.lon), // 지도의 중심좌표
             level: 8, // 지도의 확대 레벨
           };
       var map = new kakao.maps.Map(mapContainer, mapOption);
       var positions = [
         {
-          latlng: new kakao.maps.LatLng(36.5683, 126.9778),
+          latlng: new kakao.maps.LatLng(this.lat, this.lon),
         },
       ];
 
@@ -42,6 +52,9 @@ export default {
         marker.setMap(map);
       });
     },
+    created() {
+      this.initMap()
+    }
   },
 };
 </script>
