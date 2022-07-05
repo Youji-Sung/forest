@@ -10,6 +10,11 @@ import ProfileView from '@/views/accounts/ProfileView.vue'
 import SignupView from '@/views/accounts/SignupView.vue'
 import ProfileEditView from '@/views/accounts/ProfileEditView.vue'
 
+import ArticleDetailView from '@/views/communities/ArticleDetailView.vue'
+import ArticleEditView from '@/views/communities/ArticleEditView.vue'
+import ArticleListView from '@/views/communities/ArticleListView.vue'
+import ArticleNewView from '@/views/communities/ArticleNewView.vue'
+
 import DetailView from '@/views/community/DetailView.vue'
 
 Vue.use(VueRouter)
@@ -59,6 +64,28 @@ const routes = [
     component: DetailView
   },
   // forests 끝
+  // community 시작
+  {
+    path: '/article/:articlePk',
+    name: 'article',
+    component: ArticleDetailView
+  },
+  {
+    path: '/article/:articlePk/edit',
+    name: 'articleEdit',
+    component: ArticleEditView
+  },
+  {
+    path: '/article',
+    name: 'articles',
+    component: ArticleListView
+  },
+  {
+    path: '/article/new',
+    name: 'articleNew',
+    component: ArticleNewView
+  },
+  // community 끝
   // NotFound404 시작
   {
     path: '/404',
