@@ -83,13 +83,12 @@ def review_update_or_delete(request, forest_id, review_pk):
 
 @api_view(['POST'])
 def community_create(request, forest_id):
-    user = request.user
     forest = get_object_or_404(Forest,pk=forest_id)
     serializer = CommunitySerializer(data=request.data)
     if serializer.is_valid(raise_exception=True):
-        serializer.save(forest=forest, user=user)
-        communitys = forest.communitys.all()
-        serializer = CommunitySerializer(communitys, many=True)
+        serializer.save(forest=forest, username=request.user)
+        # communitys = forest.communitys.all()
+        # serializer = CommunitySerializer(communitys, many=True)
         return Response(serializer.data, status=status.HTTP_201_CREATED) 
 
 @api_view(['PUT', 'DELETE'])
@@ -102,15 +101,15 @@ def community_update_or_delete(request, forest_id, community_pk):
             serializer = CommunitySerializer(instance=community, data=request.data)
             if serializer.is_valid(raise_exception=True):
                 serializer.save()
-                communitys = forest.communitys.all()
-                serializer = CommunitySerializer(communitys, many=True)
+                communities = forest.communities.all()
+                serializer = CommunitySerializer(communities, many=True)
                 return Response(serializer.data)
 
     def delete_community():
         if request.user == community.user:
             community.delete()
-            communitys = forest.communitys.all()
-            serializer = CommunitySerializer(communitys, many=True)
+            communities = forest.communities.all()
+            serializer = CommunitySerializer(communities, many=True)
             return Response(serializer.data)
     
     if request.method == 'PUT':
