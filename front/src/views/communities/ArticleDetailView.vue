@@ -20,7 +20,7 @@
     </div>
 
     <!-- 댓글 -->
-    <article-comment-list :articleComments="article.comments"></article-comment-list>
+    <comment-list :articleComments="article.comments"></comment-list>
 
 
   </div>

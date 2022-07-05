@@ -61,7 +61,7 @@ export default {
           commit('SET_ARTICLE', res.data)
           router.push({ // object로 전달한다는 뜻
             name: 'article',
-            params: {articlePk: getters.article.id}
+            params: { articlePk: getters.article.id }
           })
         })
     },

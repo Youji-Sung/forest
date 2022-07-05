@@ -33,7 +33,7 @@ export default {
   
   methods: {
     ...mapActions(['createArticle', 'updateArticle']),
-    onsubmit() {
+    onSubmit() {
       const image = document.querySelector('#article_image').files[0]
       const payload = new FormData()
       payload.append('article_image', image)
@@ -43,7 +43,7 @@ export default {
       if (this.action === 'create') {
         this.createArticle(payload)
       } else if (this.action === 'update') {
-        this.updateArticle({ articlePk: this.article.pk, 
+        this.updateArticle({ articlePk: this.article.id, 
         // pk일까 id일까?
         content: this.newArticle.content,
         title: this.newArticle.title,

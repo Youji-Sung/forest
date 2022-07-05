@@ -1,7 +1,7 @@
 <template>
   <div>
+    <h1>새 글 쓰기</h1>
     <article-form :article="article" action='create'>
-      <button>새 글 쓰기</button>
     </article-form>
   </div>
 </template>
