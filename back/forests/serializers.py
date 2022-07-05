@@ -48,7 +48,7 @@ class CommunitySerializer(serializers.ModelSerializer):
 
 class ForestSerializer(serializers.ModelSerializer):
     reviews = ReviewSerializer(read_only=True, many=True)
-    communitys = CommunitySerializer(read_only=True, many=True)
+    communities = CommunitySerializer(read_only=True, many=True)
 
     class Meta :
         model = Forest
