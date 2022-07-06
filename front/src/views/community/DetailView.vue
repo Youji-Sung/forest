@@ -4,9 +4,10 @@
     <h2> 이름 : {{ $store.state.forests.forest.name }} </h2>
     {{ $store.state.forests.forest.image }}
     <h1> {{ $store.state }} </h1> -->
+    {{ $store.state.forests.forest }}
     <!-- <h1>{{ forest_images }}</h1> -->
     <!-- <img :src="forest_images" alt="">    -->
-    <img :src="forest_images">
+    <!-- <img :src="forest_images"> -->
     <detail-board></detail-board>
     <detail-summary></detail-summary>
 

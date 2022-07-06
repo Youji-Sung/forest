@@ -1,17 +1,13 @@
 <template>
-  <div>
-    <h3>휴양림 개요</h3>
-    <div>
+  <div class="container">
+    <div class="item">
       <!-- 휴양림 이미지 -->
-      {{ $store.state.forests.forest}}
-      {{ $store.state.forests.forest.image }}
-      <img v-bind:src="imgUrl" alt="">
-      {{imgUrl}}
+      <img :src="forest_images">
     </div>
-    <div>
+    <div class="item">
       <weather-inf></weather-inf>
     </div>
-    <div>
+    <div class="item">
       <map-inf></map-inf>
     </div>
   </div>
@@ -33,10 +29,26 @@ export default {
     imgUrl(){
       return `http://127.0.0.1:8000${this.$store.state.forests.forest.image}`
     },
+    forest_images () {
+      let imgs = this.$store.state.forests.forest.image
+      return imgs.slice(1,imgs.length-1).split(',')[0].replaceAll('\'','')
+      
+    }
   },
 }
 </script>
 
 <style>
-
+  .contaioner{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+  }
+  /* .item{
+    width: auto;
+    height: auto;
+  } */
+  .item img {
+    width: 100rem;
+    height: 100rem;
+  }
 </style>

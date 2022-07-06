@@ -1,7 +1,5 @@
 <template>
-  <div id="mapContainer">
     <div id="map"></div>
-  </div>
 </template>
 
 <script>
@@ -61,7 +59,7 @@ export default {
 
 <style>
 #map {
-    width: 400px;
-    height: 300px;
+    width: 20vh;
+    height: 30rem;
 }
 </style>

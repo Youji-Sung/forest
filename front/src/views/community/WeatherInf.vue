@@ -139,7 +139,7 @@ export default {
 <style>
 #weather {
     background-color: rgb(229, 241, 241);
-    width: 400px;
-    height: 300px;
+    width: 30rem;
+    height: 30rem;
 }
 </style>
