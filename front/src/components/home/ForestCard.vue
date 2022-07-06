@@ -2,8 +2,7 @@
   <div>
     <b-card class="col mb-3">
       <h4 class="mt-3" style="color: rgb(0, 128, 0);">{{ forest.id }}</h4>
-      <img src="https://image.foresttrip.go.kr/ino/tour/f1917803-8713-43a8-acde-6fac6f07a7ca.jpg" alt="공산성">
-      <img src="https%3A/image.foresttrip.go.kr/ino/instt/0eff7add-0131-4a9a-bc3f-e9e062e9d4a7.png" alt="test">
+      <img :src="forestImgURL" alt="휴양림 사진" img-left class="mb-3" style="height: 200px; width: 350px">
       <v-card-text>
         <h5 style="color: rgb(0, 128, 0);">이름</h5>
         <p>{{ forest.name }}</p>
@@ -17,8 +16,9 @@
         {{ forest.phone }}
         <h5 style="color: rgb(0, 128, 0);">위도 | 경도</h5>
         {{ forest.latitude }} | {{ forest.longitude }}
-        <b>좋아요{{ forest.like }} 도장{{ forest.stamp}}</b>
-        <b>{{ forest.image }}</b>
+        <div>
+          좋아요{{ forest.like }} 도장{{ forest.stamp}}
+        </div>
         <router-link :to="{ name : 'detail', params : { 'forest_id' : forest.id } }">[ 디테일 ]</router-link>
       </v-card-text>
     </b-card>
@@ -31,6 +31,13 @@ export default {
   props: {
     forest: Object,
   },
+  computed: {
+    forestImgURL() {
+      var imageUrl = `${this.forest.image}`
+      var slicedUrl = imageUrl.slice(2, -2)
+      return slicedUrl
+    }
+  }
 }
 </script>
 
