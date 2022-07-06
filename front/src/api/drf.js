@@ -20,16 +20,16 @@ export default {
   },
   forestcommunity: {
     communities: forestId => HOST + FORESTS + `${forestId}/` + COMMUNITY,
-    community: (forestId, communityPk) => HOST + FORESTS + `${forestId}/` + COMMUNITY + `${communityPk}`
+    community: (forestId, communityPk) => HOST + FORESTS + `${forestId}/` + COMMUNITY + `${communityPk}/`
   },
   forestreview: {
     reviews: forestId => HOST + FORESTS + `${forestId}/` + REVIEW,
-    review: (forestId, reviewPk) => HOST + FORESTS + `${forestId}/` + REVIEW + `${reviewPk}`
+    review: (forestId, reviewPk) => HOST + FORESTS + `${forestId}/` + REVIEW + `${reviewPk}/`
   },
   community: {
     articles: () => HOST + COMMUNITY,
     article: articlePk => HOST + COMMUNITY + `${articlePk}/`,
     articleComments: articlePk => HOST + COMMUNITY + `${articlePk}/` + COMMENTS,
-    articleComment: (articlePk, commentPk) => HOST + COMMUNITY + `${articlePk}/` + COMMENTS + `${commentPk}`
+    articleComment: (articlePk, commentPk) => HOST + COMMUNITY + `${articlePk}/` + COMMENTS + `${commentPk}/`
   },
 }

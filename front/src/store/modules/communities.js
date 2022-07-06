@@ -25,7 +25,7 @@ export default {
     // state의 articles 만들기
     fetchArticles({ commit, getters }) { 
       axios({
-        url: drf.communities.articles(),
+        url: drf.community.articles(),
         method: 'get',
         headers: getters.authHeader,
       })
@@ -36,7 +36,7 @@ export default {
     // state의 article 만들기
     fetchArticle({ commit, getters }, articlePk) {
       axios({
-        url: drf.communities.article(articlePk),
+        url: drf.community.article(articlePk),
         method: 'get',
         headers: getters.authHeader,
       })
@@ -52,23 +52,23 @@ export default {
     // article에 새로운 글 쓰기
     createArticle({ commit, getters }, article) {
       axios({
-        url: drf.communities.articles(),
+        url: drf.community.articles(),
         method: 'post',
         data: article,
-        headers: getters.articlesauthHeader,
+        headers: getters.authHeader,
       })
         .then(res=> {
           commit('SET_ARTICLE', res.data)
           router.push({ // object로 전달한다는 뜻
             name: 'article',
-            params: { articlePk: getters.article.id }
+            params: { articlePk: getters.article.pk }
           })
         })
     },
 
     updateArticle({ commit, getters}, { articlePk, title, content, article_image}) {
       axios({
-        url: drf.communities.article(articlePk),
+        url: drf.community.article(articlePk),
         method: 'put',
         data: { title, content, article_image },
         headers: getters.authHeader,
@@ -86,7 +86,7 @@ export default {
     deleteArticle({ commit, getters }, articlePk) {
       if (confirm('게시글을 삭제하시겠습니까?')) {
         axios({
-          url: drf.communities.article(articlePk),
+          url: drf.community.article(articlePk),
           method: 'delete',
           headers: getters.authHeader,
         })
@@ -103,7 +103,7 @@ export default {
       const comment = { content }
 
       axios({
-        url: drf.communities.articleComments(articlePk),
+        url: drf.community.articleComments(articlePk),
         method: 'post',
         data: comment,
         headers: getters.authHeader,
@@ -119,7 +119,7 @@ export default {
       const comment = { content }
 
       axios({
-        url: drf.communities.articleComment(articlePk, articleCommentPk),
+        url: drf.community.articleComment(articlePk, articleCommentPk),
         method: 'put',
         data: comment,
         headers: getters.authHeader,
@@ -134,7 +134,7 @@ export default {
     deleteArticleComment({ commit, getters }, { articlePk, articleCommentPk }) {
       if (confirm('댓글을 삭제하시겠습니까?')) {
         axios({
-          url: drf.communities.articleComment(articlePk, articleCommentPk),
+          url: drf.community.articleComment(articlePk, articleCommentPk),
           method: 'delete',
           data: {},
           headers: getters.authHeader,

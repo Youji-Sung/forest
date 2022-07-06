@@ -17,6 +17,7 @@ def article_list_or_create(request):
         return Response(serializer.data)
 
     def create_article():
+        print(request.user)
         serializer = ArticleSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
             serializer.save(user=request.user)
