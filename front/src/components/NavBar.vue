@@ -33,8 +33,17 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'NavBar',
+  computed: {
+    ...mapGetters(['isLoggedIn', 'currentUser']),
+      username() {
+        return this.currentUser.username ? this.currentUser.username: 'guest'
+      }
+
+  }
 }
 </script>
 

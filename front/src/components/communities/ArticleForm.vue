@@ -43,7 +43,7 @@ export default {
       if (this.action === 'create') {
         this.createArticle(payload)
       } else if (this.action === 'update') {
-        this.updateArticle({ articlePk: this.article.id, 
+        this.updateArticle({ articlePk: this.article.pk, 
         // pk일까 id일까?
         content: this.newArticle.content,
         title: this.newArticle.title,
