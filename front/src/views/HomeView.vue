@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <div class="container">
+    <div class="row">
       <forest-card
+        class="col-2 col-md-3"
         v-for="forest in forests.forests"
         :key="forest.id"
         :forest="forest"
