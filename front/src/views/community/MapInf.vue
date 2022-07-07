@@ -1,5 +1,5 @@
 <template>
-    <div id="map"></div>
+    <div><div id="map"></div></div>
 </template>
 
 <script>
@@ -34,7 +34,7 @@ export default {
       var mapContainer = document.getElementById('map'), // 지도를 표시할 div
           mapOption = {
             center: new kakao.maps.LatLng(this.lat, this.lon), // 지도의 중심좌표
-            level: 8, // 지도의 확대 레벨
+            level: 7, // 지도의 확대 레벨
           };
       var map = new kakao.maps.Map(mapContainer, mapOption);
       var positions = [
@@ -49,9 +49,6 @@ export default {
         });
         marker.setMap(map);
       });
-    },
-    created() {
-      this.initMap()
     }
   },
 };
@@ -59,7 +56,7 @@ export default {
 
 <style>
 #map {
-    width: 20vh;
+    width: 30rem;
     height: 30rem;
 }
 </style>

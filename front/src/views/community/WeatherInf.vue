@@ -1,6 +1,6 @@
 <template>
   <div id="weather">
-    
+    {{ temporaryData[0].title }}
   </div>
 </template>
 
